@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-002F-10-467A" ApplicationNumber="47" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TK300" LoadProcedureStyle="DefaultProcedure" PeiType="4" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="RnFz16jOSQ70ym9IoyVKeg==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-002F-10-467A_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkALxD/BAAAAP9gY+grRF6BgAH//xAA/////////////////////wYBAAEBAQIBAwEEAQUAAAAAAAAAAAAAAAAG0NPXANTXANXDANbDANfXANjXABQEFAQEfxLZEtoS2xLcpiGuUMwODAIBAQCuAc0NNV84U1k4U1nWAW2BxgFct1YAVgUYAgHXAhkCAlYFFAIB2AIVAqYFrdMHVgFEt1WmA63JBFYCSEi6Va5QzQxkt1S+W+bZt1rWAVi3WU8BVA8TWgBaJRBaBVkgCVkQIA0RWgJaFhJaB1kRC1kBTA1ZBObTqAHn05/NDZG+WzRUtlrn2TxbBVu6zAyCAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-002F-10-467A_PT-t.5FLED" Name="t_LED">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="allumé selon objet logique" Value="0" Id="M-0009_A-002F-10-467A_PT-t.5FLED_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="allumé permanent" Value="1" Id="M-0009_A-002F-10-467A_PT-t.5FLED_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode" Name="t__mode">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="appui : ON" Value="20" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-20" DisplayOrder="1" />
+                  <Enumeration Text="appui : OFF" Value="4" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-4" DisplayOrder="2" />
+                  <Enumeration Text="appui : INVERSE" Value="68" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-68" DisplayOrder="3" />
+                  <Enumeration Text="relâche : ON" Value="40" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-40" DisplayOrder="4" />
+                  <Enumeration Text="relâche : OFF" Value="8" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-8" DisplayOrder="5" />
+                  <Enumeration Text="relâche : INVERSE " Value="72" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-72" DisplayOrder="6" />
+                  <Enumeration Text="appui : ON, relâche : OFF" Value="28" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-28" DisplayOrder="7" />
+                  <Enumeration Text="appui : OFF, relâche : ON" Value="44" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-44" DisplayOrder="8" />
+                  <Enumeration Text="appui : ON, relâche : ON" Value="60" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-60" DisplayOrder="9" />
+                  <Enumeration Text="appui : OFF, relâche : OFF" Value="12" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-12" DisplayOrder="10" />
+                  <Enumeration Text="sans fonction" Value="0" Id="M-0009_A-002F-10-467A_PT-t.5F.5Fmode_EN-0" DisplayOrder="11" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-002F-10-467A_P-1" Name="Bouton-poussoir" ParameterType="M-0009_A-002F-10-467A_PT-t.5F.5Fmode" Text="Bouton-poussoir" Access="Read" Value="20" />
+              <Parameter Id="M-0009_A-002F-10-467A_P-4" Name="Visualisation" ParameterType="M-0009_A-002F-10-467A_PT-t.5FLED" Text="Visualisation" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-002F-10-467A_P-2" Name="Wippe_A.mode_Oben" ParameterType="M-0009_A-002F-10-467A_PT-t.5F.5Fmode" Text="Contact haut" Value="20">
+                <Memory CodeSegment="M-0009_A-002F-10-467A_AS-0100" Offset="88" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-002F-10-467A_P-3" Name="Wippe_A.mode_Unten" ParameterType="M-0009_A-002F-10-467A_PT-t.5F.5Fmode" Text="Contact bas" Value="4">
+                <Memory CodeSegment="M-0009_A-002F-10-467A_AS-0100" Offset="89" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-002F-10-467A_P-6" Name="cfg.LED_A" ParameterType="M-0009_A-002F-10-467A_PT-t.5FLED" Text="Voyant milieu" Value="0">
+                <Memory CodeSegment="M-0009_A-002F-10-467A_AS-0100" Offset="92" BitOffset="6" />
+              </Parameter>
+              <Parameter Id="M-0009_A-002F-10-467A_P-5" Name="cfg.LED_B" ParameterType="M-0009_A-002F-10-467A_PT-t.5FLED" Text="Voyant gauche" Value="0">
+                <Memory CodeSegment="M-0009_A-002F-10-467A_AS-0100" Offset="92" BitOffset="7" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-002F-10-467A_P-1_R-1" RefId="M-0009_A-002F-10-467A_P-1" Tag="1" DisplayOrder="100" />
+              <ParameterRef Id="M-0009_A-002F-10-467A_P-2_R-2" RefId="M-0009_A-002F-10-467A_P-2" Tag="2" DisplayOrder="200" />
+              <ParameterRef Id="M-0009_A-002F-10-467A_P-3_R-3" RefId="M-0009_A-002F-10-467A_P-3" Tag="3" DisplayOrder="300" />
+              <ParameterRef Id="M-0009_A-002F-10-467A_P-4_R-4" RefId="M-0009_A-002F-10-467A_P-4" Tag="4" DisplayOrder="400" />
+              <ParameterRef Id="M-0009_A-002F-10-467A_P-5_R-5" RefId="M-0009_A-002F-10-467A_P-5" Tag="5" DisplayOrder="500" />
+              <ParameterRef Id="M-0009_A-002F-10-467A_P-6_R-6" RefId="M-0009_A-002F-10-467A_P-6" Tag="6" DisplayOrder="600" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-002F-10-467A_AS-0100" Offset="68">
+              <ComObject Id="M-0009_A-002F-10-467A_O-0" Name="Contact haut" Text="Contact haut" Number="0" FunctionText="Bouton-poussoir" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-002F-10-467A_O-1" Name="Contact bas" Text="Contact bas" Number="1" FunctionText="Bouton-poussoir" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-002F-10-467A_O-2" Name="Non utilisé" Text="Non utilisé" Number="2" FunctionText="Non utilisé" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Disabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-002F-10-467A_O-3" Name="Non utilisé" Text="Non utilisé" Number="3" FunctionText="Non utilisé" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Disabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-002F-10-467A_O-4" Name="Voyant gauche" Text="Voyant gauche" Number="4" FunctionText="Visualisation" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-002F-10-467A_O-5" Name="Voyant milieu" Text="Voyant milieu" Number="5" FunctionText="Visualisation" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-002F-10-467A_O-0_R-0" RefId="M-0009_A-002F-10-467A_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-002F-10-467A_O-1_R-1" RefId="M-0009_A-002F-10-467A_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-002F-10-467A_O-2_R-2" RefId="M-0009_A-002F-10-467A_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-002F-10-467A_O-3_R-3" RefId="M-0009_A-002F-10-467A_O-3" Tag="3" />
+              <ComObjectRef Id="M-0009_A-002F-10-467A_O-4_R-4" RefId="M-0009_A-002F-10-467A_O-4" Tag="4" />
+              <ComObjectRef Id="M-0009_A-002F-10-467A_O-5_R-5" RefId="M-0009_A-002F-10-467A_O-5" Tag="5" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-002F-10-467A_AS-0100" Offset="22" MaxEntries="9" />
+            <AssociationTable CodeSegment="M-0009_A-002F-10-467A_AS-0100" Offset="43" MaxEntries="12" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FLoad" CodeSegment="M-0009_A-002F-10-467A_AS-0100">
+                <Offset>107</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5Fdebounce" CodeSegment="M-0009_A-002F-10-467A_AS-0100">
+                <Offset>178</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-002F-10-467A_AS-0100">
+                <Offset>253</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FreadAD" CodeSegment="M-0009_A-002F-10-467A_AS-0100">
+                <Offset>116</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-002F-10-467A_AS-0100">
+                <Offset>237</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-002F-10-467A_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-002F-10-467A_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-002F-10-467A_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-002F-10-467A_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-002F-10-467A_O-3_R-3" />
+              <ComObjectRefRef RefId="M-0009_A-002F-10-467A_O-4_R-4" />
+              <ComObjectRefRef RefId="M-0009_A-002F-10-467A_O-5_R-5" />
+              <ParameterBlock Id="M-0009_A-002F-10-467A_PB-1" Name="Bouton-poussoir" Access="Read" ParamRefId="M-0009_A-002F-10-467A_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-002F-10-467A_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-002F-10-467A_P-3_R-3" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-002F-10-467A_PB-4" Name="Visualisation" Access="Read" ParamRefId="M-0009_A-002F-10-467A_P-4_R-4">
+                <ParameterRefRef RefId="M-0009_A-002F-10-467A_P-5_R-5" />
+                <ParameterRefRef RefId="M-0009_A-002F-10-467A_P-6_R-6" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

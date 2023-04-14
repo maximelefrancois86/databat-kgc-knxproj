@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <Catalog>
+        <CatalogSection Id="M-0009_CS-HE" Name="Chauffage,clim.,ventil." Number="HE" VisibleDescription="" DefaultLanguage="fr-FR">
+          <CatalogSection Id="M-0009_CS-HE-RE" Name="Régulateur" Number="RE" VisibleDescription="" DefaultLanguage="fr-FR">
+            <CatalogItem Id="M-0009_H-9.20.2F.2F.20TX320-1_HP-2051-12-143C_CI-TX320-1" Name="Régulateur" Number="1" VisibleDescription="TX320" ProductRefId="M-0009_H-9.20.2F.2F.20TX320-1_P-TX320" Hardware2ProgramRefId="M-0009_H-9.20.2F.2F.20TX320-1_HP-2051-12-143C" DefaultLanguage="fr-FR" />
+          </CatalogSection>
+        </CatalogSection>
+        <CatalogSection Id="M-0009_CS-OU" Name="Sorties" Number="OU" VisibleDescription="" DefaultLanguage="fr-FR">
+          <CatalogSection Id="M-0009_CS-OU-B8" Name="8 sorties binaires" Number="B8" VisibleDescription="" DefaultLanguage="fr-FR">
+            <CatalogItem Id="M-0009_H-9.20.2F.2F.20TYA608C-1_HP-500B-01-D868_CI-TYA608C-1" Name="8 sorties ON/OFF 16A 230V AC" Number="1" VisibleDescription="TYA608C" ProductRefId="M-0009_H-9.20.2F.2F.20TYA608C-1_P-TYA608C" Hardware2ProgramRefId="M-0009_H-9.20.2F.2F.20TYA608C-1_HP-500B-01-D868" DefaultLanguage="fr-FR" />
+          </CatalogSection>
+        </CatalogSection>
+      </Catalog>
+      <Languages>
+        <Language Identifier="fr-FR">
+          <TranslationUnit RefId="M-0009_CS-HE">
+            <TranslationElement RefId="M-0009_CS-HE">
+              <Translation AttributeName="Name" Text="Chauffage,clim.,ventil." />
+            </TranslationElement>
+          </TranslationUnit>
+          <TranslationUnit RefId="M-0009_CS-HE-RE">
+            <TranslationElement RefId="M-0009_CS-HE-RE">
+              <Translation AttributeName="Name" Text="Régulateur" />
+            </TranslationElement>
+          </TranslationUnit>
+          <TranslationUnit RefId="M-0009_H-9.20.2F.2F.20TX320-1_HP-2051-12-143C_CI-TX320-1">
+            <TranslationElement RefId="M-0009_H-9.20.2F.2F.20TX320-1_HP-2051-12-143C_CI-TX320-1">
+              <Translation AttributeName="Name" Text="Régulateur" />
+              <Translation AttributeName="VisibleDescription" Text="TX320" />
+            </TranslationElement>
+          </TranslationUnit>
+          <TranslationUnit RefId="M-0009_CS-OU">
+            <TranslationElement RefId="M-0009_CS-OU">
+              <Translation AttributeName="Name" Text="Sorties" />
+            </TranslationElement>
+          </TranslationUnit>
+          <TranslationUnit RefId="M-0009_CS-OU-B8">
+            <TranslationElement RefId="M-0009_CS-OU-B8">
+              <Translation AttributeName="Name" Text="8 sorties binaires" />
+            </TranslationElement>
+          </TranslationUnit>
+          <TranslationUnit RefId="M-0009_H-9.20.2F.2F.20TYA608C-1_HP-500B-01-D868_CI-TYA608C-1">
+            <TranslationElement RefId="M-0009_H-9.20.2F.2F.20TYA608C-1_HP-500B-01-D868_CI-TYA608C-1">
+              <Translation AttributeName="Name" Text="8 sorties ON/OFF 16A 230V AC" />
+              <Translation AttributeName="VisibleDescription" Text="TYA608C" />
+            </TranslationElement>
+          </TranslationUnit>
+        </Language>
+      </Languages>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

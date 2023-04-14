@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0013-10-4143" ApplicationNumber="19" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TB305" LoadProcedureStyle="DefaultProcedure" PeiType="19" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="Qfqc9yAk7Mw2WNuy/al5Qw==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0013-10-4143_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAExD/E0AAAP9gY+4tQltiXwH//wEAAQEBAgEDAQQBBQEGAAAAAAAACAEAAgEDAgQDBQQGBQcCBwMAAAAABs7R1wDS1wDT1wDU1wDVzwDWzwBubgDZmTrVOtaBNNe2Vc0MnQdQBxdQtlXNDLO2VasCzQydB1ASF1C2VasCzQyzvlVv29YBVufZvlXm2yYOn65ZzQ1xJga+VWzbb9O+VebTQ+TR4dUnDufVGdcnAhjXn6sEzQ25PFUDVaE416YCzQ5JJCGu1wHYAXT2pBQnD6EUJwv2qAT3rhGmIs0OKwHYAjjXPNi210REqvy3ULbXpAy4UM0NzxoCzAyTAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0013-10-4143_PT-tempo" Name="tempo">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="15 mn" Value="14" Id="M-0009_A-0013-10-4143_PT-tempo_EN-14" DisplayOrder="1" />
+                  <Enumeration Text="30 mn" Value="28" Id="M-0009_A-0013-10-4143_PT-tempo_EN-28" DisplayOrder="2" />
+                  <Enumeration Text="45 mn" Value="41" Id="M-0009_A-0013-10-4143_PT-tempo_EN-41" DisplayOrder="3" />
+                  <Enumeration Text="1 h" Value="55" Id="M-0009_A-0013-10-4143_PT-tempo_EN-55" DisplayOrder="4" />
+                  <Enumeration Text="1 h 15 mn" Value="69" Id="M-0009_A-0013-10-4143_PT-tempo_EN-69" DisplayOrder="5" />
+                  <Enumeration Text="1 h 30 mn" Value="82" Id="M-0009_A-0013-10-4143_PT-tempo_EN-82" DisplayOrder="6" />
+                  <Enumeration Text="1 h 45 mn" Value="96" Id="M-0009_A-0013-10-4143_PT-tempo_EN-96" DisplayOrder="7" />
+                  <Enumeration Text="2 h" Value="110" Id="M-0009_A-0013-10-4143_PT-tempo_EN-110" DisplayOrder="8" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0013-10-4143_P-1" Name="Sortie S1" ParameterType="M-0009_A-0013-10-4143_PT-tempo" Text="Sortie S1" Access="Read" Value="14" />
+              <Parameter Id="M-0009_A-0013-10-4143_P-3" Name="Sortie S2" ParameterType="M-0009_A-0013-10-4143_PT-tempo" Text="Sortie S2" Access="Read" Value="14" />
+              <Parameter Id="M-0009_A-0013-10-4143_P-2" Name="Tempo_delest1" ParameterType="M-0009_A-0013-10-4143_PT-tempo" Text="Durée maxi. délestage " Value="110">
+                <Memory CodeSegment="M-0009_A-0013-10-4143_AS-0100" Offset="86" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0013-10-4143_P-4" Name="Tempo_delest2" ParameterType="M-0009_A-0013-10-4143_PT-tempo" Text="Durée maxi. délestage " Value="110">
+                <Memory CodeSegment="M-0009_A-0013-10-4143_AS-0100" Offset="87" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0013-10-4143_P-1_R-1" RefId="M-0009_A-0013-10-4143_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0013-10-4143_P-2_R-2" RefId="M-0009_A-0013-10-4143_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-0013-10-4143_P-3_R-3" RefId="M-0009_A-0013-10-4143_P-3" Tag="3" DisplayOrder="3" />
+              <ParameterRef Id="M-0009_A-0013-10-4143_P-4_R-4" RefId="M-0009_A-0013-10-4143_P-4" Tag="4" DisplayOrder="4" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0013-10-4143_AS-0100" Offset="66">
+              <ComObject Id="M-0009_A-0013-10-4143_O-0" Name="S1" Text="S1" Number="0" FunctionText="Commande sortie 1" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0013-10-4143_O-1" Name="S2" Text="S2" Number="1" FunctionText="Commande sortie 2" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0013-10-4143_O-2" Name="S1" Text="S1" Number="2" FunctionText="Délestage sortie 1" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0013-10-4143_O-3" Name="S2" Text="S2" Number="3" FunctionText="Délestage sortie 2" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0013-10-4143_O-4" Name="S1" Text="S1" Number="4" FunctionText="Indication état sortie 1" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0013-10-4143_O-5" Name="S2" Text="S2" Number="5" FunctionText="Indication état sortie 2" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0013-10-4143_O-0_R-0" RefId="M-0009_A-0013-10-4143_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-0013-10-4143_O-1_R-1" RefId="M-0009_A-0013-10-4143_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-0013-10-4143_O-2_R-2" RefId="M-0009_A-0013-10-4143_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-0013-10-4143_O-3_R-3" RefId="M-0009_A-0013-10-4143_O-3" Tag="3" />
+              <ComObjectRef Id="M-0009_A-0013-10-4143_O-4_R-4" RefId="M-0009_A-0013-10-4143_O-4" Tag="4" />
+              <ComObjectRef Id="M-0009_A-0013-10-4143_O-5_R-5" RefId="M-0009_A-0013-10-4143_O-5" Tag="5" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0013-10-4143_AS-0100" Offset="22" MaxEntries="10" />
+            <AssociationTable CodeSegment="M-0009_A-0013-10-4143_AS-0100" Offset="45" MaxEntries="10" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FGetFlg" CodeSegment="M-0009_A-0013-10-4143_AS-0100">
+                <Offset>196</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FLoad" CodeSegment="M-0009_A-0013-10-4143_AS-0100">
+                <Offset>224</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-0013-10-4143_AS-0100">
+                <Offset>253</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FflagsGet" CodeSegment="M-0009_A-0013-10-4143_AS-0100">
+                <Offset>101</Offset>
+                <Offset>118</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FflagsSet" CodeSegment="M-0009_A-0013-10-4143_AS-0100">
+                <Offset>111</Offset>
+                <Offset>130</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FGetTM" CodeSegment="M-0009_A-0013-10-4143_AS-0100">
+                <Offset>151</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FioAST" CodeSegment="M-0009_A-0013-10-4143_AS-0100">
+                <Offset>248</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-0013-10-4143_AS-0100">
+                <Offset>184</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0013-10-4143_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0013-10-4143_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-0013-10-4143_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-0013-10-4143_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-0013-10-4143_O-3_R-3" />
+              <ComObjectRefRef RefId="M-0009_A-0013-10-4143_O-4_R-4" />
+              <ComObjectRefRef RefId="M-0009_A-0013-10-4143_O-5_R-5" />
+              <ParameterBlock Id="M-0009_A-0013-10-4143_PB-1" Name="Sortie S1" Access="Read" ParamRefId="M-0009_A-0013-10-4143_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0013-10-4143_P-2_R-2" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0013-10-4143_PB-3" Name="Sortie S2" Access="Read" ParamRefId="M-0009_A-0013-10-4143_P-3_R-3">
+                <ParameterRefRef RefId="M-0009_A-0013-10-4143_P-4_R-4" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

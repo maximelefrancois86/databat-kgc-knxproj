@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-006F-10-DD19" ApplicationNumber="111" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TF312" LoadProcedureStyle="DefaultProcedure" PeiType="16" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="3d1e+bfpRo04n4sgedxFGQ==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-006F-10-DD19_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAbxAMEEAAAP9gY79RksDD0wH//wD/AQABAQECAQMBBAEFAQYBBwEIAQkBCgELAQwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgEAAgEDAgQDBQQGBQcGCAcJCAoJCwoMCw0MDg0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOzg3/B9XPANbXANfXANjXANnfB9rPB9vPB9zPCN7XCPj3CPr3CPz/COLXAAAAP+GBptDNEcAkCOYBqnCkz+cBgbbhJ/uu9swMOAAAAAACAwQBBA4QGAAYDR4ZURhkGBkUASwAAAAYyBjtGPoAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-base" Name="base">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text=" 40 sec " Value="40" Id="M-0009_A-006F-10-DD19_PT-base_EN-40" DisplayOrder="1" />
+                  <Enumeration Text=" 1 mn " Value="60" Id="M-0009_A-006F-10-DD19_PT-base_EN-60" DisplayOrder="2" />
+                  <Enumeration Text=" 2 mn " Value="120" Id="M-0009_A-006F-10-DD19_PT-base_EN-120" DisplayOrder="3" />
+                  <Enumeration Text=" 3 mn " Value="180" Id="M-0009_A-006F-10-DD19_PT-base_EN-180" DisplayOrder="4" />
+                  <Enumeration Text=" 4 mn " Value="240" Id="M-0009_A-006F-10-DD19_PT-base_EN-240" DisplayOrder="5" />
+                  <Enumeration Text=" 5 mn " Value="300" Id="M-0009_A-006F-10-DD19_PT-base_EN-300" DisplayOrder="6" />
+                  <Enumeration Text=" 6 mn " Value="360" Id="M-0009_A-006F-10-DD19_PT-base_EN-360" DisplayOrder="7" />
+                  <Enumeration Text=" 7 mn " Value="420" Id="M-0009_A-006F-10-DD19_PT-base_EN-420" DisplayOrder="8" />
+                  <Enumeration Text=" 8 mn " Value="480" Id="M-0009_A-006F-10-DD19_PT-base_EN-480" DisplayOrder="9" />
+                  <Enumeration Text=" 9 mn " Value="540" Id="M-0009_A-006F-10-DD19_PT-base_EN-540" DisplayOrder="10" />
+                  <Enumeration Text=" 10 mn " Value="600" Id="M-0009_A-006F-10-DD19_PT-base_EN-600" DisplayOrder="11" />
+                  <Enumeration Text=" 11 mn " Value="660" Id="M-0009_A-006F-10-DD19_PT-base_EN-660" DisplayOrder="12" />
+                  <Enumeration Text=" 12 mn " Value="720" Id="M-0009_A-006F-10-DD19_PT-base_EN-720" DisplayOrder="13" />
+                  <Enumeration Text=" 13 mn " Value="780" Id="M-0009_A-006F-10-DD19_PT-base_EN-780" DisplayOrder="14" />
+                  <Enumeration Text=" 14 mn " Value="840" Id="M-0009_A-006F-10-DD19_PT-base_EN-840" DisplayOrder="15" />
+                  <Enumeration Text=" 15 mn " Value="900" Id="M-0009_A-006F-10-DD19_PT-base_EN-900" DisplayOrder="16" />
+                  <Enumeration Text=" 16 mn " Value="960" Id="M-0009_A-006F-10-DD19_PT-base_EN-960" DisplayOrder="17" />
+                  <Enumeration Text=" 17 mn " Value="1020" Id="M-0009_A-006F-10-DD19_PT-base_EN-1020" DisplayOrder="18" />
+                  <Enumeration Text=" 18 mn " Value="1080" Id="M-0009_A-006F-10-DD19_PT-base_EN-1080" DisplayOrder="19" />
+                  <Enumeration Text=" 19 mn " Value="1140" Id="M-0009_A-006F-10-DD19_PT-base_EN-1140" DisplayOrder="20" />
+                  <Enumeration Text=" 20 mn " Value="1200" Id="M-0009_A-006F-10-DD19_PT-base_EN-1200" DisplayOrder="21" />
+                  <Enumeration Text=" 21 mn " Value="1260" Id="M-0009_A-006F-10-DD19_PT-base_EN-1260" DisplayOrder="22" />
+                  <Enumeration Text=" 22 mn " Value="1320" Id="M-0009_A-006F-10-DD19_PT-base_EN-1320" DisplayOrder="23" />
+                  <Enumeration Text=" 23 mn " Value="1380" Id="M-0009_A-006F-10-DD19_PT-base_EN-1380" DisplayOrder="24" />
+                  <Enumeration Text=" 24 mn " Value="1440" Id="M-0009_A-006F-10-DD19_PT-base_EN-1440" DisplayOrder="25" />
+                  <Enumeration Text=" 25 mn " Value="1500" Id="M-0009_A-006F-10-DD19_PT-base_EN-1500" DisplayOrder="26" />
+                  <Enumeration Text=" 26 mn " Value="1560" Id="M-0009_A-006F-10-DD19_PT-base_EN-1560" DisplayOrder="27" />
+                  <Enumeration Text=" 27 mn " Value="1620" Id="M-0009_A-006F-10-DD19_PT-base_EN-1620" DisplayOrder="28" />
+                  <Enumeration Text=" 28 mn " Value="1680" Id="M-0009_A-006F-10-DD19_PT-base_EN-1680" DisplayOrder="29" />
+                  <Enumeration Text=" 29 mn " Value="1740" Id="M-0009_A-006F-10-DD19_PT-base_EN-1740" DisplayOrder="30" />
+                  <Enumeration Text=" 30 mn " Value="1800" Id="M-0009_A-006F-10-DD19_PT-base_EN-1800" DisplayOrder="31" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-consigne1" Name="consigne1">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text="0.0 °C" Value="6144" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6144" DisplayOrder="1" />
+                  <Enumeration Text="+/-1.0 °C" Value="6157" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6157" DisplayOrder="2" />
+                  <Enumeration Text="+/-2.0 °C" Value="6169" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6169" DisplayOrder="3" />
+                  <Enumeration Text="+/-3.0 °C" Value="6182" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6182" DisplayOrder="4" />
+                  <Enumeration Text="+/-4.0 °C" Value="6194" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6194" DisplayOrder="5" />
+                  <Enumeration Text="+/-5.0 °C" Value="6207" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6207" DisplayOrder="6" />
+                  <Enumeration Text="+/-6.0 °C" Value="6219" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6219" DisplayOrder="7" />
+                  <Enumeration Text="+/-7.0 °C" Value="6232" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6232" DisplayOrder="8" />
+                  <Enumeration Text="+/-8.0 °C" Value="6244" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6244" DisplayOrder="9" />
+                  <Enumeration Text="+/-9.0 °C" Value="6257" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6257" DisplayOrder="10" />
+                  <Enumeration Text="+/-10.0 °C" Value="6269" Id="M-0009_A-006F-10-DD19_PT-consigne1_EN-6269" DisplayOrder="11" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-consignelimit" Name="consignelimit">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text="1.0 °C" Value="6156" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6156" DisplayOrder="1" />
+                  <Enumeration Text="1.5 °C" Value="6162" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6162" DisplayOrder="2" />
+                  <Enumeration Text="2.0 °C" Value="6169" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6169" DisplayOrder="3" />
+                  <Enumeration Text="2.5 °C" Value="6175" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6175" DisplayOrder="4" />
+                  <Enumeration Text="3.0 °C" Value="6181" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6181" DisplayOrder="5" />
+                  <Enumeration Text="3.5 °C" Value="6187" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6187" DisplayOrder="6" />
+                  <Enumeration Text="4.0 °C" Value="6194" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6194" DisplayOrder="7" />
+                  <Enumeration Text="4.5 °C" Value="6200" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6200" DisplayOrder="8" />
+                  <Enumeration Text="5.0 °C" Value="6206" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6206" DisplayOrder="9" />
+                  <Enumeration Text="5.5 °C" Value="6212" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6212" DisplayOrder="10" />
+                  <Enumeration Text="6.0 °C" Value="6219" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6219" DisplayOrder="11" />
+                  <Enumeration Text="6.5 °C" Value="6225" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6225" DisplayOrder="12" />
+                  <Enumeration Text="7.0 °C" Value="6231" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6231" DisplayOrder="13" />
+                  <Enumeration Text="7.5 °C" Value="6237" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6237" DisplayOrder="14" />
+                  <Enumeration Text="8.0 °C" Value="6244" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6244" DisplayOrder="15" />
+                  <Enumeration Text="8.5 °C" Value="6250" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6250" DisplayOrder="16" />
+                  <Enumeration Text="9.0 °C" Value="6256" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6256" DisplayOrder="17" />
+                  <Enumeration Text="9.5 °C" Value="6262" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6262" DisplayOrder="18" />
+                  <Enumeration Text="10.0 °C" Value="6269" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6269" DisplayOrder="19" />
+                  <Enumeration Text="10.5 °C" Value="6275" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6275" DisplayOrder="20" />
+                  <Enumeration Text="11.0 °C" Value="6281" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6281" DisplayOrder="21" />
+                  <Enumeration Text="11.5 °C" Value="6287" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6287" DisplayOrder="22" />
+                  <Enumeration Text="12.0 °C" Value="6294" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6294" DisplayOrder="23" />
+                  <Enumeration Text="12.5 °C" Value="6300" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6300" DisplayOrder="24" />
+                  <Enumeration Text="13.0 °C" Value="6306" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6306" DisplayOrder="25" />
+                  <Enumeration Text="13.5 °C" Value="6312" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6312" DisplayOrder="26" />
+                  <Enumeration Text="14.0 °C" Value="6319" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6319" DisplayOrder="27" />
+                  <Enumeration Text="14.5 °C" Value="6325" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6325" DisplayOrder="28" />
+                  <Enumeration Text="15.0 °C" Value="6331" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6331" DisplayOrder="29" />
+                  <Enumeration Text="15.5 °C" Value="6337" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6337" DisplayOrder="30" />
+                  <Enumeration Text="16.0 °C" Value="6344" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6344" DisplayOrder="31" />
+                  <Enumeration Text="16.5 °C" Value="6350" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6350" DisplayOrder="32" />
+                  <Enumeration Text="17.0 °C" Value="6356" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6356" DisplayOrder="33" />
+                  <Enumeration Text="17.5 °C" Value="6362" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6362" DisplayOrder="34" />
+                  <Enumeration Text="18.0 °C" Value="6369" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6369" DisplayOrder="35" />
+                  <Enumeration Text="18.5 °C" Value="6375" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6375" DisplayOrder="36" />
+                  <Enumeration Text="19.0 °C" Value="6381" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6381" DisplayOrder="37" />
+                  <Enumeration Text="19.5 °C" Value="6387" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6387" DisplayOrder="38" />
+                  <Enumeration Text="20.0 °C" Value="6394" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6394" DisplayOrder="39" />
+                  <Enumeration Text="20.5 °C" Value="6400" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6400" DisplayOrder="40" />
+                  <Enumeration Text="21.0 °C" Value="6406" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6406" DisplayOrder="41" />
+                  <Enumeration Text="21.5 °C" Value="6412" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6412" DisplayOrder="42" />
+                  <Enumeration Text="22.0 °C" Value="6419" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6419" DisplayOrder="43" />
+                  <Enumeration Text="22.5 °C" Value="6425" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6425" DisplayOrder="44" />
+                  <Enumeration Text="23.0 °C" Value="6431" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6431" DisplayOrder="45" />
+                  <Enumeration Text="23.5 °C" Value="6437" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6437" DisplayOrder="46" />
+                  <Enumeration Text="24.0 °C" Value="6444" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6444" DisplayOrder="47" />
+                  <Enumeration Text="24.5 °C" Value="6450" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6450" DisplayOrder="48" />
+                  <Enumeration Text="25.0 °C" Value="6456" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6456" DisplayOrder="49" />
+                  <Enumeration Text="25.5 °C" Value="6462" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6462" DisplayOrder="50" />
+                  <Enumeration Text="26.0 °C" Value="6469" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6469" DisplayOrder="51" />
+                  <Enumeration Text="26.5 °C" Value="6475" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6475" DisplayOrder="52" />
+                  <Enumeration Text="27.0 °C" Value="6481" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6481" DisplayOrder="53" />
+                  <Enumeration Text="27.5 °C" Value="6487" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6487" DisplayOrder="54" />
+                  <Enumeration Text="28.0 °C" Value="6494" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6494" DisplayOrder="55" />
+                  <Enumeration Text="28.5 °C" Value="6500" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6500" DisplayOrder="56" />
+                  <Enumeration Text="29.0 °C" Value="6506" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6506" DisplayOrder="57" />
+                  <Enumeration Text="29.5 °C" Value="6512" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6512" DisplayOrder="58" />
+                  <Enumeration Text="30.0 °C" Value="6519" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6519" DisplayOrder="59" />
+                  <Enumeration Text="30.5 °C" Value="6525" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6525" DisplayOrder="60" />
+                  <Enumeration Text="31.0 °C" Value="6531" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6531" DisplayOrder="61" />
+                  <Enumeration Text="31.5 °C" Value="6537" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6537" DisplayOrder="62" />
+                  <Enumeration Text="32.0 °C" Value="6544" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6544" DisplayOrder="63" />
+                  <Enumeration Text="32.5 °C" Value="6550" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6550" DisplayOrder="64" />
+                  <Enumeration Text="33.0 °C" Value="6556" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6556" DisplayOrder="65" />
+                  <Enumeration Text="33.5 °C" Value="6562" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6562" DisplayOrder="66" />
+                  <Enumeration Text="34.0 °C" Value="6569" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6569" DisplayOrder="67" />
+                  <Enumeration Text="34.5 °C" Value="6575" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6575" DisplayOrder="68" />
+                  <Enumeration Text="35.0 °C" Value="6581" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6581" DisplayOrder="69" />
+                  <Enumeration Text="35.5 °C" Value="6587" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6587" DisplayOrder="70" />
+                  <Enumeration Text="36.0 °C" Value="6594" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6594" DisplayOrder="71" />
+                  <Enumeration Text="36.5 °C" Value="6600" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6600" DisplayOrder="72" />
+                  <Enumeration Text="37.0 °C" Value="6606" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6606" DisplayOrder="73" />
+                  <Enumeration Text="37.5 °C" Value="6612" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6612" DisplayOrder="74" />
+                  <Enumeration Text="38.0 °C" Value="6619" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6619" DisplayOrder="75" />
+                  <Enumeration Text="38.5 °C" Value="6625" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6625" DisplayOrder="76" />
+                  <Enumeration Text="39.0 °C" Value="6631" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6631" DisplayOrder="77" />
+                  <Enumeration Text="39.5 °C" Value="6637" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6637" DisplayOrder="78" />
+                  <Enumeration Text="40.0 °C" Value="6644" Id="M-0009_A-006F-10-DD19_PT-consignelimit_EN-6644" DisplayOrder="79" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-consigneprop" Name="consigneprop">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text="+/-1.0 °C" Value="6157" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6157" DisplayOrder="1" />
+                  <Enumeration Text="+/-1.5 °C" Value="6163" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6163" DisplayOrder="2" />
+                  <Enumeration Text="+/-2.0 °C" Value="6169" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6169" DisplayOrder="3" />
+                  <Enumeration Text="+/-2.5 °C" Value="6176" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6176" DisplayOrder="4" />
+                  <Enumeration Text="+/-3.0 °C" Value="6182" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6182" DisplayOrder="5" />
+                  <Enumeration Text="+/-3.5 °C" Value="6188" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6188" DisplayOrder="6" />
+                  <Enumeration Text="+/-4.0 °C" Value="6194" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6194" DisplayOrder="7" />
+                  <Enumeration Text="+/-4.5 °C" Value="6201" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6201" DisplayOrder="8" />
+                  <Enumeration Text="+/-5.0 °C" Value="6207" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6207" DisplayOrder="9" />
+                  <Enumeration Text="+/-5.5 °C" Value="6213" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6213" DisplayOrder="10" />
+                  <Enumeration Text="+/-6.0 °C" Value="6219" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6219" DisplayOrder="11" />
+                  <Enumeration Text="+/-6.5 °C" Value="6226" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6226" DisplayOrder="12" />
+                  <Enumeration Text="+/-7.0 °C" Value="6232" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6232" DisplayOrder="13" />
+                  <Enumeration Text="+/-7.5 °C" Value="6238" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6238" DisplayOrder="14" />
+                  <Enumeration Text="+/-8.0 °C" Value="6244" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6244" DisplayOrder="15" />
+                  <Enumeration Text="+/-8.5 °C" Value="6251" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6251" DisplayOrder="16" />
+                  <Enumeration Text="+/-9.0 °C" Value="6257" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6257" DisplayOrder="17" />
+                  <Enumeration Text="+/-9.5 °C" Value="6263" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6263" DisplayOrder="18" />
+                  <Enumeration Text="+/-10.0 °C" Value="6269" Id="M-0009_A-006F-10-DD19_PT-consigneprop_EN-6269" DisplayOrder="19" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-cons.5Fniveau" Name="cons_niveau">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="Hors gel" Value="1" Id="M-0009_A-006F-10-DD19_PT-cons.5Fniveau_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="Réduit" Value="2" Id="M-0009_A-006F-10-DD19_PT-cons.5Fniveau_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="Eco" Value="3" Id="M-0009_A-006F-10-DD19_PT-cons.5Fniveau_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="Confort" Value="4" Id="M-0009_A-006F-10-DD19_PT-cons.5Fniveau_EN-4" DisplayOrder="4" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-ti" Name="ti">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text=" 5 mn" Value="5" Id="M-0009_A-006F-10-DD19_PT-ti_EN-5" DisplayOrder="1" />
+                  <Enumeration Text=" 10 mn" Value="10" Id="M-0009_A-006F-10-DD19_PT-ti_EN-10" DisplayOrder="2" />
+                  <Enumeration Text=" 15 mn" Value="15" Id="M-0009_A-006F-10-DD19_PT-ti_EN-15" DisplayOrder="3" />
+                  <Enumeration Text=" 20 mn" Value="20" Id="M-0009_A-006F-10-DD19_PT-ti_EN-20" DisplayOrder="4" />
+                  <Enumeration Text=" 25 mn" Value="25" Id="M-0009_A-006F-10-DD19_PT-ti_EN-25" DisplayOrder="5" />
+                  <Enumeration Text=" 30 mn" Value="30" Id="M-0009_A-006F-10-DD19_PT-ti_EN-30" DisplayOrder="6" />
+                  <Enumeration Text=" 35 mn" Value="35" Id="M-0009_A-006F-10-DD19_PT-ti_EN-35" DisplayOrder="7" />
+                  <Enumeration Text=" 40 mn" Value="40" Id="M-0009_A-006F-10-DD19_PT-ti_EN-40" DisplayOrder="8" />
+                  <Enumeration Text=" 45 mn" Value="45" Id="M-0009_A-006F-10-DD19_PT-ti_EN-45" DisplayOrder="9" />
+                  <Enumeration Text=" 50 mn" Value="50" Id="M-0009_A-006F-10-DD19_PT-ti_EN-50" DisplayOrder="10" />
+                  <Enumeration Text=" 55 mn" Value="55" Id="M-0009_A-006F-10-DD19_PT-ti_EN-55" DisplayOrder="11" />
+                  <Enumeration Text=" 60 mn" Value="60" Id="M-0009_A-006F-10-DD19_PT-ti_EN-60" DisplayOrder="12" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-mod" Name="mod">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="Pas de transmission" Value="0" Id="M-0009_A-006F-10-DD19_PT-mod_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="A chaque régulation" Value="1" Id="M-0009_A-006F-10-DD19_PT-mod_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog" Name="tempo_derog">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text=" Pas de dérogation" Value="0" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-0" DisplayOrder="1" />
+                  <Enumeration Text=" 15 mn" Value="900" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-900" DisplayOrder="2" />
+                  <Enumeration Text=" 30 mn " Value="1800" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-1800" DisplayOrder="3" />
+                  <Enumeration Text=" 1 heure " Value="3600" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-3600" DisplayOrder="4" />
+                  <Enumeration Text=" 1 heure 30 mn" Value="5400" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-5400" DisplayOrder="5" />
+                  <Enumeration Text="2 heures" Value="7200" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-7200" DisplayOrder="6" />
+                  <Enumeration Text="2 heures 30 mn" Value="9000" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-9000" DisplayOrder="7" />
+                  <Enumeration Text="3 heures" Value="10800" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-10800" DisplayOrder="8" />
+                  <Enumeration Text="3 heures 30 mn" Value="12600" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-12600" DisplayOrder="9" />
+                  <Enumeration Text="4 heures" Value="14400" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-14400" DisplayOrder="10" />
+                  <Enumeration Text="5 heures" Value="18000" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-18000" DisplayOrder="11" />
+                  <Enumeration Text="6 heures" Value="21600" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-21600" DisplayOrder="12" />
+                  <Enumeration Text="7 heures" Value="25200" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-25200" DisplayOrder="13" />
+                  <Enumeration Text="8 heures" Value="28800" Id="M-0009_A-006F-10-DD19_PT-tempo.5Fderog_EN-28800" DisplayOrder="14" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-tempo.5Famb" Name="tempo_amb">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text=" Pas de transmission " Value="0" Id="M-0009_A-006F-10-DD19_PT-tempo.5Famb_EN-0" DisplayOrder="1" />
+                  <Enumeration Text=" 1 mn " Value="1" Id="M-0009_A-006F-10-DD19_PT-tempo.5Famb_EN-1" DisplayOrder="2" />
+                  <Enumeration Text=" 15 mn " Value="15" Id="M-0009_A-006F-10-DD19_PT-tempo.5Famb_EN-15" DisplayOrder="3" />
+                  <Enumeration Text=" 30 mn" Value="30" Id="M-0009_A-006F-10-DD19_PT-tempo.5Famb_EN-30" DisplayOrder="4" />
+                  <Enumeration Text=" 60 mn" Value="60" Id="M-0009_A-006F-10-DD19_PT-tempo.5Famb_EN-60" DisplayOrder="5" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-ecarttrans" Name="ecarttrans">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text="Pas de transmission" Value="6144" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6144" DisplayOrder="1" />
+                  <Enumeration Text="0.5 °C" Value="6151" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6151" DisplayOrder="2" />
+                  <Enumeration Text="1.0 °C" Value="6157" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6157" DisplayOrder="3" />
+                  <Enumeration Text="1.5 °C" Value="6163" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6163" DisplayOrder="4" />
+                  <Enumeration Text="2.0 °C" Value="6169" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6169" DisplayOrder="5" />
+                  <Enumeration Text="2.5 °C" Value="6176" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6176" DisplayOrder="6" />
+                  <Enumeration Text="3.0 °C" Value="6182" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6182" DisplayOrder="7" />
+                  <Enumeration Text="3.5 °C" Value="6188" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6188" DisplayOrder="8" />
+                  <Enumeration Text="4.0 °C" Value="6194" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6194" DisplayOrder="9" />
+                  <Enumeration Text="4.5 °C" Value="6201" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6201" DisplayOrder="10" />
+                  <Enumeration Text="5.0 °C" Value="6207" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6207" DisplayOrder="11" />
+                  <Enumeration Text="5.5 °C" Value="6213" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6213" DisplayOrder="12" />
+                  <Enumeration Text="6.0 °C" Value="6219" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6219" DisplayOrder="13" />
+                  <Enumeration Text="6.5 °C" Value="6226" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6226" DisplayOrder="14" />
+                  <Enumeration Text="7.0 °C" Value="6232" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6232" DisplayOrder="15" />
+                  <Enumeration Text="7.5 °C" Value="6238" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6238" DisplayOrder="16" />
+                  <Enumeration Text="8.0 °C" Value="6244" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6244" DisplayOrder="17" />
+                  <Enumeration Text="8.5 °C" Value="6251" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6251" DisplayOrder="18" />
+                  <Enumeration Text="9.0 °C" Value="6257" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6257" DisplayOrder="19" />
+                  <Enumeration Text="9.5 °C" Value="6263" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6263" DisplayOrder="20" />
+                  <Enumeration Text="10.0 °C" Value="6269" Id="M-0009_A-006F-10-DD19_PT-ecarttrans_EN-6269" DisplayOrder="21" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-006F-10-DD19_PT-temperature" Name="temperature">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text="7.0 °C" Value="6231" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6231" DisplayOrder="1" />
+                  <Enumeration Text="7.5 °C" Value="6237" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6237" DisplayOrder="2" />
+                  <Enumeration Text="8.0 °C" Value="6244" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6244" DisplayOrder="3" />
+                  <Enumeration Text="8.5 °C" Value="6250" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6250" DisplayOrder="4" />
+                  <Enumeration Text="9.0 °C" Value="6256" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6256" DisplayOrder="5" />
+                  <Enumeration Text="9.5 °C" Value="6262" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6262" DisplayOrder="6" />
+                  <Enumeration Text="10.0 °C" Value="6269" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6269" DisplayOrder="7" />
+                  <Enumeration Text="10.5 °C" Value="6275" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6275" DisplayOrder="8" />
+                  <Enumeration Text="11.0 °C" Value="6281" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6281" DisplayOrder="9" />
+                  <Enumeration Text="11.5 °C" Value="6287" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6287" DisplayOrder="10" />
+                  <Enumeration Text="12.0 °C" Value="6294" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6294" DisplayOrder="11" />
+                  <Enumeration Text="12.5 °C" Value="6300" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6300" DisplayOrder="12" />
+                  <Enumeration Text="13.0 °C" Value="6306" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6306" DisplayOrder="13" />
+                  <Enumeration Text="13.5 °C" Value="6312" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6312" DisplayOrder="14" />
+                  <Enumeration Text="14.0 °C" Value="6319" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6319" DisplayOrder="15" />
+                  <Enumeration Text="14.5 °C" Value="6325" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6325" DisplayOrder="16" />
+                  <Enumeration Text="15.0 °C" Value="6331" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6331" DisplayOrder="17" />
+                  <Enumeration Text="15.5 °C" Value="6337" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6337" DisplayOrder="18" />
+                  <Enumeration Text="16.0 °C" Value="6344" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6344" DisplayOrder="19" />
+                  <Enumeration Text="16.5 °C" Value="6350" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6350" DisplayOrder="20" />
+                  <Enumeration Text="17.0 °C" Value="6356" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6356" DisplayOrder="21" />
+                  <Enumeration Text="17.5 °C" Value="6362" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6362" DisplayOrder="22" />
+                  <Enumeration Text="18.0 °C" Value="6369" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6369" DisplayOrder="23" />
+                  <Enumeration Text="18.5 °C" Value="6375" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6375" DisplayOrder="24" />
+                  <Enumeration Text="19.0 °C" Value="6381" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6381" DisplayOrder="25" />
+                  <Enumeration Text="19.5 °C" Value="6387" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6387" DisplayOrder="26" />
+                  <Enumeration Text="20.0 °C" Value="6394" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6394" DisplayOrder="27" />
+                  <Enumeration Text="20.5 °C" Value="6400" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6400" DisplayOrder="28" />
+                  <Enumeration Text="21.0 °C" Value="6406" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6406" DisplayOrder="29" />
+                  <Enumeration Text="21.5 °C" Value="6412" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6412" DisplayOrder="30" />
+                  <Enumeration Text="22.0 °C" Value="6419" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6419" DisplayOrder="31" />
+                  <Enumeration Text="22.5 °C" Value="6425" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6425" DisplayOrder="32" />
+                  <Enumeration Text="23.0 °C" Value="6431" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6431" DisplayOrder="33" />
+                  <Enumeration Text="23.5 °C" Value="6437" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6437" DisplayOrder="34" />
+                  <Enumeration Text="24.0 °C" Value="6444" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6444" DisplayOrder="35" />
+                  <Enumeration Text="24.5 °C" Value="6450" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6450" DisplayOrder="36" />
+                  <Enumeration Text="25.0 °C" Value="6456" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6456" DisplayOrder="37" />
+                  <Enumeration Text="25.5 °C" Value="6462" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6462" DisplayOrder="38" />
+                  <Enumeration Text="26.0 °C" Value="6469" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6469" DisplayOrder="39" />
+                  <Enumeration Text="26.5 °C" Value="6475" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6475" DisplayOrder="40" />
+                  <Enumeration Text="27.0 °C" Value="6481" Id="M-0009_A-006F-10-DD19_PT-temperature_EN-6481" DisplayOrder="41" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-1" Name="Sélection consigne" ParameterType="M-0009_A-006F-10-DD19_PT-cons.5Fniveau" Text="Sélection consigne" Access="Read" Value="1" />
+              <Parameter Id="M-0009_A-006F-10-DD19_P-7" Name="Bouton de présence" ParameterType="M-0009_A-006F-10-DD19_PT-tempo.5Fderog" Text="Bouton de présence" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-006F-10-DD19_P-9" Name="Correction de consigne" ParameterType="M-0009_A-006F-10-DD19_PT-consigne1" Text="Correction de consigne" Access="Read" Value="6144" />
+              <Parameter Id="M-0009_A-006F-10-DD19_P-11" Name="Température ambiante" ParameterType="M-0009_A-006F-10-DD19_PT-ecarttrans" Text="Température ambiante" Access="Read" Value="6144" />
+              <Parameter Id="M-0009_A-006F-10-DD19_P-14" Name="Température extérieure" ParameterType="M-0009_A-006F-10-DD19_PT-consignelimit" Text="Température extérieure" Access="Read" Value="6156" />
+              <Parameter Id="M-0009_A-006F-10-DD19_P-16" Name="Consigne" ParameterType="M-0009_A-006F-10-DD19_PT-temperature" Text="Consigne" Access="Read" Value="6231" />
+              <Parameter Id="M-0009_A-006F-10-DD19_P-21" Name="Régulation" ParameterType="M-0009_A-006F-10-DD19_PT-consigneprop" Text="Régulation" Access="Read" Value="6157" />
+              <Parameter Id="M-0009_A-006F-10-DD19_P-25" Name="Taux de fonctionnement" ParameterType="M-0009_A-006F-10-DD19_PT-mod" Text="Taux de fonctionnement" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-006F-10-DD19_P-2" Name="cons_base0" ParameterType="M-0009_A-006F-10-DD19_PT-cons.5Fniveau" Text="Consigne de base (OFF)" Value="2">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="224" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-3" Name="cons_base1" ParameterType="M-0009_A-006F-10-DD19_PT-cons.5Fniveau" Text="Consigne de base (ON)" Value="3">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="225" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-4" Name="cons_auto" ParameterType="M-0009_A-006F-10-DD19_PT-cons.5Fniveau" Text="Consigne d'autorisation" Value="4">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="226" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-5" Name="cons_forc" ParameterType="M-0009_A-006F-10-DD19_PT-cons.5Fniveau" Text="Consigne de forçage" Value="1">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="227" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-6" Name="cons_derog" ParameterType="M-0009_A-006F-10-DD19_PT-cons.5Fniveau" Text="Consigne de dérogation" Value="4">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="228" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-8" Name="temp_cons_derog" ParameterType="M-0009_A-006F-10-DD19_PT-tempo.5Fderog" Text="Temporisation de dérogation" Value="3600">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="229" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-10" Name="corr_cons_derog" ParameterType="M-0009_A-006F-10-DD19_PT-consigne1" Text="Amplitude de réglage" Value="6144">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="231" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-12" Name="Ecart_transmis" ParameterType="M-0009_A-006F-10-DD19_PT-ecarttrans" Text="Ecart de transmission" Value="6157">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="233" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-13" Name="Tempo_tempamb" ParameterType="M-0009_A-006F-10-DD19_PT-tempo.5Famb" Text="Fréquence de transmission" Value="30">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="235" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-15" Name="Ecart_limiteur" ParameterType="M-0009_A-006F-10-DD19_PT-consignelimit" Text="Ecart limiteur" Value="6481">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="236" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-17" Name="Temp_cons_HG" ParameterType="M-0009_A-006F-10-DD19_PT-temperature" Text="Température de Hors gel" Value="6244">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="238" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-22" Name="bande_proport" ParameterType="M-0009_A-006F-10-DD19_PT-consigneprop" Text="Bande proportionnelle" Value="6169">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="240" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-23" Name="Terme_integral" ParameterType="M-0009_A-006F-10-DD19_PT-ti" Text="Terme intégral" Value="20">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="242" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-24" Name="Base_temps" ParameterType="M-0009_A-006F-10-DD19_PT-base" Text="Base de temps" Value="300">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="243" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-26" Name="Transmit_taux" ParameterType="M-0009_A-006F-10-DD19_PT-mod" Text="Transmission périodique" Value="0">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="245" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-18" Name="Temp_cons_red" ParameterType="M-0009_A-006F-10-DD19_PT-temperature" Text="Température de Réduit" Value="6344">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="248" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-19" Name="Temp_cons_eco" ParameterType="M-0009_A-006F-10-DD19_PT-temperature" Text="Température de Eco " Value="6381">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="250" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-006F-10-DD19_P-20" Name="Temp_cons_conf" ParameterType="M-0009_A-006F-10-DD19_PT-temperature" Text="Température de Confort " Value="6394">
+                <Memory CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="252" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-1_R-1" RefId="M-0009_A-006F-10-DD19_P-1" Tag="1" DisplayOrder="100" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-2_R-2" RefId="M-0009_A-006F-10-DD19_P-2" Tag="2" DisplayOrder="200" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-3_R-3" RefId="M-0009_A-006F-10-DD19_P-3" Tag="3" DisplayOrder="300" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-4_R-4" RefId="M-0009_A-006F-10-DD19_P-4" Tag="4" DisplayOrder="400" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-5_R-5" RefId="M-0009_A-006F-10-DD19_P-5" Tag="5" DisplayOrder="500" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-6_R-6" RefId="M-0009_A-006F-10-DD19_P-6" Tag="6" DisplayOrder="600" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-7_R-7" RefId="M-0009_A-006F-10-DD19_P-7" Tag="7" DisplayOrder="700" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-8_R-8" RefId="M-0009_A-006F-10-DD19_P-8" Tag="8" DisplayOrder="800" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-9_R-9" RefId="M-0009_A-006F-10-DD19_P-9" Tag="9" DisplayOrder="900" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-10_R-10" RefId="M-0009_A-006F-10-DD19_P-10" Tag="10" DisplayOrder="1000" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-11_R-11" RefId="M-0009_A-006F-10-DD19_P-11" Tag="11" DisplayOrder="1100" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-12_R-12" RefId="M-0009_A-006F-10-DD19_P-12" Tag="12" DisplayOrder="1200" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-13_R-13" RefId="M-0009_A-006F-10-DD19_P-13" Tag="13" DisplayOrder="1300" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-14_R-14" RefId="M-0009_A-006F-10-DD19_P-14" Tag="14" DisplayOrder="1400" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-15_R-15" RefId="M-0009_A-006F-10-DD19_P-15" Tag="15" DisplayOrder="1500" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-16_R-16" RefId="M-0009_A-006F-10-DD19_P-16" Tag="16" DisplayOrder="1600" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-17_R-17" RefId="M-0009_A-006F-10-DD19_P-17" Tag="17" DisplayOrder="1700" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-18_R-18" RefId="M-0009_A-006F-10-DD19_P-18" Tag="18" DisplayOrder="1800" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-19_R-19" RefId="M-0009_A-006F-10-DD19_P-19" Tag="19" DisplayOrder="1900" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-20_R-20" RefId="M-0009_A-006F-10-DD19_P-20" Tag="20" DisplayOrder="2000" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-21_R-21" RefId="M-0009_A-006F-10-DD19_P-21" Tag="21" DisplayOrder="2100" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-22_R-22" RefId="M-0009_A-006F-10-DD19_P-22" Tag="22" DisplayOrder="2200" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-23_R-23" RefId="M-0009_A-006F-10-DD19_P-23" Tag="23" DisplayOrder="2300" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-24_R-24" RefId="M-0009_A-006F-10-DD19_P-24" Tag="24" DisplayOrder="2400" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-25_R-25" RefId="M-0009_A-006F-10-DD19_P-25" Tag="25" DisplayOrder="2500" />
+              <ParameterRef Id="M-0009_A-006F-10-DD19_P-26_R-26" RefId="M-0009_A-006F-10-DD19_P-26" Tag="26" DisplayOrder="2600" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="146">
+              <ComObject Id="M-0009_A-006F-10-DD19_O-0" Name="Erreur" Text="Erreur" Number="0" FunctionText="Erreur" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-1" Name="Sortie" Text="Sortie" Number="1" FunctionText="Commande" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-2" Name="Base" Text="Base" Number="2" FunctionText="Sélection consigne" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-3" Name="Autorisation" Text="Autorisation" Number="3" FunctionText="Sélection consigne" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-4" Name="Forçage" Text="Forçage" Number="4" FunctionText="Sélection consigne" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-5" Name="Programmation annuelle" Text="Programmation annuelle" Number="5" FunctionText="Sélection consigne" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-6" Name="Consigne en cours" Text="Consigne en cours" Number="6" FunctionText="Indication état" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-7" Name="Taux de fonctionnement" Text="Taux de fonctionnement" Number="7" FunctionText="Indication état" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-8" Name="Ambiante" Text="Ambiante" Number="8" FunctionText="Température" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-9" Name="Extérieure" Text="Extérieure" Number="9" FunctionText="Température" ObjectSize="2 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-10" Name="T° Réduit" Text="T° Réduit" Number="10" FunctionText="Consigne" ObjectSize="2 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-11" Name="T° Eco" Text="T° Eco" Number="11" FunctionText="Consigne" ObjectSize="2 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-12" Name="T° Confort" Text="T° Confort" Number="12" FunctionText="Consigne" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-006F-10-DD19_O-13" Name="Appui BP" Text="Appui BP" Number="13" FunctionText="Confirmation/Dérogation" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-0_R-0" RefId="M-0009_A-006F-10-DD19_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-1_R-1" RefId="M-0009_A-006F-10-DD19_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-2_R-2" RefId="M-0009_A-006F-10-DD19_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-3_R-3" RefId="M-0009_A-006F-10-DD19_O-3" Tag="3" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-4_R-4" RefId="M-0009_A-006F-10-DD19_O-4" Tag="4" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-5_R-5" RefId="M-0009_A-006F-10-DD19_O-5" Tag="5" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-6_R-6" RefId="M-0009_A-006F-10-DD19_O-6" Tag="6" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-7_R-7" RefId="M-0009_A-006F-10-DD19_O-7" Tag="7" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-8_R-8" RefId="M-0009_A-006F-10-DD19_O-8" Tag="8" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-9_R-9" RefId="M-0009_A-006F-10-DD19_O-9" Tag="9" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-10_R-10" RefId="M-0009_A-006F-10-DD19_O-10" Tag="10" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-11_R-11" RefId="M-0009_A-006F-10-DD19_O-11" Tag="11" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-12_R-12" RefId="M-0009_A-006F-10-DD19_O-12" Tag="12" />
+              <ComObjectRef Id="M-0009_A-006F-10-DD19_O-13_R-13" RefId="M-0009_A-006F-10-DD19_O-13" Tag="13" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="22" MaxEntries="28" />
+            <AssociationTable CodeSegment="M-0009_A-006F-10-DD19_AS-0100" Offset="81" MaxEntries="32" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-EEwrite" CodeSegment="M-0009_A-006F-10-DD19_AS-0100">
+                <Offset>218</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-PopBuf" CodeSegment="M-0009_A-006F-10-DD19_AS-0100">
+                <Offset>198</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-006F-10-DD19_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-3_R-3" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-4_R-4" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-5_R-5" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-6_R-6" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-7_R-7" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-8_R-8" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-9_R-9" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-10_R-10" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-11_R-11" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-12_R-12" />
+              <ComObjectRefRef RefId="M-0009_A-006F-10-DD19_O-13_R-13" />
+              <ParameterBlock Id="M-0009_A-006F-10-DD19_PB-1" Name="Sélection consigne" Access="Read" ParamRefId="M-0009_A-006F-10-DD19_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-3_R-3" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-4_R-4" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-5_R-5" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-6_R-6" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-006F-10-DD19_PB-7" Name="Bouton de présence" Access="Read" ParamRefId="M-0009_A-006F-10-DD19_P-7_R-7">
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-8_R-8" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-006F-10-DD19_PB-9" Name="Correction de consigne" Access="Read" ParamRefId="M-0009_A-006F-10-DD19_P-9_R-9">
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-10_R-10" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-006F-10-DD19_PB-11" Name="Température ambiante" Access="Read" ParamRefId="M-0009_A-006F-10-DD19_P-11_R-11">
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-12_R-12" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-13_R-13" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-006F-10-DD19_PB-14" Name="Température extérieure" Access="Read" ParamRefId="M-0009_A-006F-10-DD19_P-14_R-14">
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-15_R-15" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-006F-10-DD19_PB-16" Name="Consigne" Access="Read" ParamRefId="M-0009_A-006F-10-DD19_P-16_R-16">
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-17_R-17" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-18_R-18" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-19_R-19" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-20_R-20" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-006F-10-DD19_PB-21" Name="Régulation" Access="Read" ParamRefId="M-0009_A-006F-10-DD19_P-21_R-21">
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-22_R-22" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-23_R-23" />
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-24_R-24" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-006F-10-DD19_PB-25" Name="Taux de fonctionnement" Access="Read" ParamRefId="M-0009_A-006F-10-DD19_P-25_R-25">
+                <ParameterRefRef RefId="M-0009_A-006F-10-DD19_P-26_R-26" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

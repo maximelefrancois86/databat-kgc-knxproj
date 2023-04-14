@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0005-10-E06A" ApplicationNumber="5" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TB309" LoadProcedureStyle="DefaultProcedure" PeiType="2" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="4GXeqQrBxdzZ++T1Vd5Lag==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0005-10-E06A_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkABRD4AkAAAP9gY+8pOk50aAH//xEQESARMBFAEVARYAAAAAAFAQACAQMCBAMFBAAAAAAAAAXQ088A1M8A1c8A+OcA1tcAECgAENYW0hDXpiXOAUzNDitPzQ3PtlCkD1/NDHWB59Oft1rNDbm+WoHNDJMaAk/NDc+2UKQPzgFMzQx1t1xf5tqkA7dbAFwNAFsIEFsTW6YArcsgCwJbCBJbEVumAa2+tlvn2jRcXKMDJdQB1igH0iYX0hLXxgFLt9gB1wSmAyACpgK32c0NuTrZttmh/yb1pjVfzQ4rgQPX/KYDzQ5JJPWt1zrYJu8T1xHXIOkBAAAAAAAAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0005-10-E06A_PT-repeat.5Fcommand" Name="repeat_command">
+                <TypeNumber SizeInBit="8" Type="unsignedInt" minInclusive="1" maxInclusive="32" />
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0005-10-E06A_P-1" Name="Envoi ordres tarif." ParameterType="M-0009_A-0005-10-E06A_PT-repeat.5Fcommand" Text="Envoi ordres tarif." Access="Read" Value="1" />
+              <Parameter Id="M-0009_A-0005-10-E06A_P-2" Name="repeat_com" ParameterType="M-0009_A-0005-10-E06A_PT-repeat.5Fcommand" Text="Nombre de répétitions " Value="16">
+                <Memory CodeSegment="M-0009_A-0005-10-E06A_AS-0100" Offset="75" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0005-10-E06A_P-1_R-1" RefId="M-0009_A-0005-10-E06A_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0005-10-E06A_P-2_R-2" RefId="M-0009_A-0005-10-E06A_P-2" Tag="2" DisplayOrder="2" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0005-10-E06A_AS-0100" Offset="58">
+              <ComObject Id="M-0009_A-0005-10-E06A_O-0" Name="Eté/Hiver " Text="Eté/Hiver " Number="0" FunctionText="Ordre tarifaire" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0005-10-E06A_O-1" Name="HCreuse/HPleine" Text="HCreuse/HPleine" Number="1" FunctionText="Ordre tarifaire" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0005-10-E06A_O-2" Name="Pointe/hors pointe" Text="Pointe/hors pointe" Number="2" FunctionText="Ordre tarifaire" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0005-10-E06A_O-3" Name="Délestage général" Text="Délestage général" Number="3" FunctionText="Init. délestage" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0005-10-E06A_O-4" Name="Envoi ordres tarif. " Text="Envoi ordres tarif. " Number="4" FunctionText="Synchro. délesteur" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0005-10-E06A_O-0_R-0" RefId="M-0009_A-0005-10-E06A_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-0005-10-E06A_O-1_R-1" RefId="M-0009_A-0005-10-E06A_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-0005-10-E06A_O-2_R-2" RefId="M-0009_A-0005-10-E06A_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-0005-10-E06A_O-3_R-3" RefId="M-0009_A-0005-10-E06A_O-3" Tag="3" />
+              <ComObjectRef Id="M-0009_A-0005-10-E06A_O-4_R-4" RefId="M-0009_A-0005-10-E06A_O-4" Tag="4" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0005-10-E06A_AS-0100" Offset="22" MaxEntries="8" />
+            <AssociationTable CodeSegment="M-0009_A-0005-10-E06A_AS-0100" Offset="41" MaxEntries="8" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FGetFlg" CodeSegment="M-0009_A-0005-10-E06A_AS-0100">
+                <Offset>232</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FLoad" CodeSegment="M-0009_A-0005-10-E06A_AS-0100">
+                <Offset>90</Offset>
+                <Offset>223</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5Fdebounce" CodeSegment="M-0009_A-0005-10-E06A_AS-0100">
+                <Offset>102</Offset>
+                <Offset>133</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-0005-10-E06A_AS-0100">
+                <Offset>117</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FioAST" CodeSegment="M-0009_A-0005-10-E06A_AS-0100">
+                <Offset>94</Offset>
+                <Offset>123</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-0005-10-E06A_AS-0100">
+                <Offset>111</Offset>
+                <Offset>209</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0005-10-E06A_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0005-10-E06A_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-0005-10-E06A_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-0005-10-E06A_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-0005-10-E06A_O-3_R-3" />
+              <ComObjectRefRef RefId="M-0009_A-0005-10-E06A_O-4_R-4" />
+              <ParameterBlock Id="M-0009_A-0005-10-E06A_PB-1" Name="Envoi ordres tarif." Access="Read" ParamRefId="M-0009_A-0005-10-E06A_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0005-10-E06A_P-2_R-2" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

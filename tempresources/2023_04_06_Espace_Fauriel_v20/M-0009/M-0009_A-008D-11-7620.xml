@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-008D-11-7620" ApplicationNumber="141" ApplicationVersion="17" ProgramType="ApplicationProgram" MaskVersion="MV-0011" Name="TB344" LoadProcedureStyle="DefaultProcedure" PeiType="1" DefaultLanguage="fr-FR" DynamicTableManagement="true" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="diJWZI1jvQY6rLsvTeERIA==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-008D-11-7620_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAjREJAQAAAADgY7hrvv39/QH//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzO1JcA1ZcA1pcA15cA2JcA2ZcA2pcA288A3M8A3c8A3s8A++8I/wAAAAAGBgYGAAAAAAAAAAABAQEBAAAAAIEAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-008D-11-7620_PT-telechargement" Name="telechargement">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="téléchargement" Value="255" Id="M-0009_A-008D-11-7620_PT-telechargement_EN-255" DisplayOrder="0" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-008D-11-7620_PT-Titre" Name="Titre">
+                <TypeNone />
+              </ParameterType>
+              <ParameterType Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande" Name="Fonctionnement commande">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="marche / arrêt" Value="0" Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="retard à l'enclenchement" Value="1" Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="retard au déclenchement" Value="2" Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="retard à l'enclenchement et au déclench." Value="3" Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="minuterie" Value="4" Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande_EN-4" DisplayOrder="4" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-008D-11-7620_PT-Temporisation" Name="Temporisation">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="1 s (Sur TB040 et TB041 à partir de 02/2000)" Value="30" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-30" DisplayOrder="0" />
+                  <Enumeration Text="2 s (Sur TB040 et TB041 à partir de 02/2000)" Value="31" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-31" DisplayOrder="1" />
+                  <Enumeration Text="5 s (Sur TB040 et TB041 à partir de 02/2000)" Value="32" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-32" DisplayOrder="2" />
+                  <Enumeration Text="10 s" Value="0" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-0" DisplayOrder="3" />
+                  <Enumeration Text="20 s" Value="1" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-1" DisplayOrder="4" />
+                  <Enumeration Text="30 s" Value="2" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-2" DisplayOrder="5" />
+                  <Enumeration Text="45 s" Value="3" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-3" DisplayOrder="6" />
+                  <Enumeration Text="1 mn" Value="4" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-4" DisplayOrder="7" />
+                  <Enumeration Text="2 mn" Value="5" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-5" DisplayOrder="8" />
+                  <Enumeration Text="3 mn" Value="6" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-6" DisplayOrder="9" />
+                  <Enumeration Text="4 mn" Value="7" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-7" DisplayOrder="10" />
+                  <Enumeration Text="5 mn" Value="8" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-8" DisplayOrder="11" />
+                  <Enumeration Text="6 mn" Value="9" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-9" DisplayOrder="12" />
+                  <Enumeration Text="7 mn" Value="10" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-10" DisplayOrder="13" />
+                  <Enumeration Text="8 mn" Value="11" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-11" DisplayOrder="14" />
+                  <Enumeration Text="9 mn" Value="12" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-12" DisplayOrder="15" />
+                  <Enumeration Text="10 mn" Value="13" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-13" DisplayOrder="16" />
+                  <Enumeration Text="11 mn" Value="14" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-14" DisplayOrder="17" />
+                  <Enumeration Text="12 mn" Value="15" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-15" DisplayOrder="18" />
+                  <Enumeration Text="13 mn" Value="16" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-16" DisplayOrder="19" />
+                  <Enumeration Text="14 mn" Value="17" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-17" DisplayOrder="20" />
+                  <Enumeration Text="15 mn" Value="18" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-18" DisplayOrder="21" />
+                  <Enumeration Text="30 mn" Value="19" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-19" DisplayOrder="22" />
+                  <Enumeration Text="45 mn" Value="20" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-20" DisplayOrder="23" />
+                  <Enumeration Text="1 h" Value="21" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-21" DisplayOrder="24" />
+                  <Enumeration Text="1 h 15 mn" Value="22" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-22" DisplayOrder="25" />
+                  <Enumeration Text="1 h 30 mn" Value="23" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-23" DisplayOrder="26" />
+                  <Enumeration Text="1 h 45 mn" Value="24" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-24" DisplayOrder="27" />
+                  <Enumeration Text="2 h" Value="25" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-25" DisplayOrder="28" />
+                  <Enumeration Text="2 h 30 mn" Value="26" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-26" DisplayOrder="29" />
+                  <Enumeration Text="3 h" Value="27" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-27" DisplayOrder="30" />
+                  <Enumeration Text="3 h 30 mn" Value="28" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-28" DisplayOrder="31" />
+                  <Enumeration Text="4 h" Value="29" Id="M-0009_A-008D-11-7620_PT-Temporisation_EN-29" DisplayOrder="32" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-008D-11-7620_PT-Contact.20de.20sortie" Name="Contact de sortie">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="normalement ouvert" Value="0" Id="M-0009_A-008D-11-7620_PT-Contact.20de.20sortie_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="normalement fermé" Value="1" Id="M-0009_A-008D-11-7620_PT-Contact.20de.20sortie_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-008D-11-7620_PT-Etat.20après.20coupure" Name="Etat après coupure">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="mémorisation" Value="0" Id="M-0009_A-008D-11-7620_PT-Etat.20après.20coupure_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="On" Value="1" Id="M-0009_A-008D-11-7620_PT-Etat.20après.20coupure_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="Off" Value="2" Id="M-0009_A-008D-11-7620_PT-Etat.20après.20coupure_EN-2" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20automatisme" Name="Fonctionnement automatisme">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="pas utilisé" Value="0" Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20automatisme_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="autorisation" Value="1" Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20automatisme_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="ET" Value="2" Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20automatisme_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="OU" Value="3" Id="M-0009_A-008D-11-7620_PT-Fonctionnement.20automatisme_EN-3" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie" Name="Fonction active pour sortie">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="pas utilisé" Value="0" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="sortie 1" Value="1" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="sortie 2" Value="2" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="sortie 3" Value="4" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-4" DisplayOrder="3" />
+                  <Enumeration Text="sortie 4" Value="8" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-8" DisplayOrder="4" />
+                  <Enumeration Text="sorties 1 et 2" Value="3" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-3" DisplayOrder="5" />
+                  <Enumeration Text="sorties 1 et 3" Value="5" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-5" DisplayOrder="6" />
+                  <Enumeration Text="sorties 1 et 4" Value="9" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-9" DisplayOrder="7" />
+                  <Enumeration Text="sorties 2 et 3" Value="6" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-6" DisplayOrder="8" />
+                  <Enumeration Text="sorties 2 et 4" Value="10" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-10" DisplayOrder="9" />
+                  <Enumeration Text="sorties 3 et 4" Value="12" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-12" DisplayOrder="10" />
+                  <Enumeration Text="sorties 1, 2 et 3" Value="7" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-7" DisplayOrder="11" />
+                  <Enumeration Text="sorties 1, 2 et 4" Value="11" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-11" DisplayOrder="12" />
+                  <Enumeration Text="sorties 1, 3 et 4" Value="13" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-13" DisplayOrder="13" />
+                  <Enumeration Text="sorties 2, 3 et 4" Value="14" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-14" DisplayOrder="14" />
+                  <Enumeration Text="toutes" Value="15" Id="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie_EN-15" DisplayOrder="15" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-008D-11-7620_P-2" Name="Sortie 1" ParameterType="M-0009_A-008D-11-7620_PT-Titre" Text="Sortie 1" Value="" />
+              <Parameter Id="M-0009_A-008D-11-7620_P-3" Name="Sortie 2" ParameterType="M-0009_A-008D-11-7620_PT-Titre" Text="Sortie 2" Value="" />
+              <Parameter Id="M-0009_A-008D-11-7620_P-4" Name="Sortie 3" ParameterType="M-0009_A-008D-11-7620_PT-Titre" Text="Sortie 3" Value="" />
+              <Parameter Id="M-0009_A-008D-11-7620_P-5" Name="Sortie 4" ParameterType="M-0009_A-008D-11-7620_PT-Titre" Text="Sortie 4" Value="" />
+              <Parameter Id="M-0009_A-008D-11-7620_P-6" Name="Arrêt forcé" ParameterType="M-0009_A-008D-11-7620_PT-Titre" Text="Arrêt forcé" Value="" />
+              <Parameter Id="M-0009_A-008D-11-7620_P-28" Name="Telechargement" ParameterType="M-0009_A-008D-11-7620_PT-Titre" Text="Telechargement" Access="None" Value="" />
+              <Parameter Id="M-0009_A-008D-11-7620_P-10" Name="téléchagement" ParameterType="M-0009_A-008D-11-7620_PT-telechargement" Text="téléchagement" Access="None" Value="255">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="228" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-1" Name="Fonctionnement commande S1" ParameterType="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande" Text="Fonctionnement commande" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="229" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-7" Name="Fonctionnement commande" ParameterType="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande" Text="Fonctionnement commande" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="230" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-8" Name="Fonctionnement commande S3" ParameterType="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande" Text="Fonctionnement commande" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="231" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-9" Name="Fonctionnement commande" ParameterType="M-0009_A-008D-11-7620_PT-Fonctionnement.20commande" Text="Fonctionnement commande" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="232" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-31" Name="Temporisation" ParameterType="M-0009_A-008D-11-7620_PT-Temporisation" Text="Temporisation" Value="6">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="233" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-12" Name="Temporisation" ParameterType="M-0009_A-008D-11-7620_PT-Temporisation" Text="Temporisation" Value="6">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="234" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-13" Name="Temporisation Minuterie" ParameterType="M-0009_A-008D-11-7620_PT-Temporisation" Text="Temporisation" Value="6">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="235" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-14" Name="Temporisation" ParameterType="M-0009_A-008D-11-7620_PT-Temporisation" Text="Temporisation" Value="6">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="236" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-15" Name="Contact de sortie Sortie 1" ParameterType="M-0009_A-008D-11-7620_PT-Contact.20de.20sortie" Text="Contact de sortie" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="237" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-16" Name="Contact de sortie sortie 2" ParameterType="M-0009_A-008D-11-7620_PT-Contact.20de.20sortie" Text="Contact de sortie" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="238" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-17" Name="Contact de sortie sortie 3" ParameterType="M-0009_A-008D-11-7620_PT-Contact.20de.20sortie" Text="Contact de sortie&#xD;&#xA;" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="239" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-18" Name="Contact de sortie sortie 4" ParameterType="M-0009_A-008D-11-7620_PT-Contact.20de.20sortie" Text="Contact de sortie" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="240" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-19" Name="Etat après coupure bus ou secteur S1" ParameterType="M-0009_A-008D-11-7620_PT-Etat.20après.20coupure" Text="Etat après coupure bus ou secteur" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="241" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-20" Name="Etat après coupure bus ou secteur S2" ParameterType="M-0009_A-008D-11-7620_PT-Etat.20après.20coupure" Text="Etat après coupure bus ou secteur" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="242" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-21" Name="Etat après coupure bus ou secteur S3" ParameterType="M-0009_A-008D-11-7620_PT-Etat.20après.20coupure" Text="Etat après coupure bus ou secteur&#xD;&#xA;" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="243" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-22" Name="Etat après coupure bus ou secteur S4" ParameterType="M-0009_A-008D-11-7620_PT-Etat.20après.20coupure" Text="Etat après coupure bus ou secteur" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="244" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-23" Name="Fonctionnement automatisme S1" ParameterType="M-0009_A-008D-11-7620_PT-Fonctionnement.20automatisme" Text="Fonctionnement automatisme&#xD;&#xA;" Value="1">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="245" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-24" Name="Fonctionnement automatisme S2" ParameterType="M-0009_A-008D-11-7620_PT-Fonctionnement.20automatisme" Text="Fonctionnement automatisme" Value="1">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="246" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-25" Name="Fonctionnement automatisme S3" ParameterType="M-0009_A-008D-11-7620_PT-Fonctionnement.20automatisme" Text="Fonctionnement automatisme" Value="1">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="247" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-26" Name="Fonctionnement automatisme S4" ParameterType="M-0009_A-008D-11-7620_PT-Fonctionnement.20automatisme" Text="Fonctionnement automatisme" Value="1">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="248" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-008D-11-7620_P-27" Name="Fonction active pour sorties" ParameterType="M-0009_A-008D-11-7620_PT-Fonction.20active.20pour.20sortie" Text="Fonction active pour sorties" Value="0">
+                <Memory CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="249" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-2_R-2" RefId="M-0009_A-008D-11-7620_P-2" Tag="2" DisplayOrder="1000" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-23_R-23" RefId="M-0009_A-008D-11-7620_P-23" Tag="23" DisplayOrder="1100" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-1_R-30" RefId="M-0009_A-008D-11-7620_P-1" Tag="30" DisplayOrder="1110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-37" RefId="M-0009_A-008D-11-7620_P-31" Name="Temporisation minuterie" Tag="37" DisplayOrder="1111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-40" RefId="M-0009_A-008D-11-7620_P-31" Name="Temporisation enclenchement et declenche" Tag="40" DisplayOrder="1112" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-43" RefId="M-0009_A-008D-11-7620_P-31" Name="Temporisation declenchement" Tag="43" DisplayOrder="1113" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-46" RefId="M-0009_A-008D-11-7620_P-31" Name="Temporisation enclenchement" Tag="46" DisplayOrder="1114" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-1_R-1" RefId="M-0009_A-008D-11-7620_P-1" Tag="1" DisplayOrder="1120" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-31" RefId="M-0009_A-008D-11-7620_P-31" Tag="31" DisplayOrder="1121" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-32" RefId="M-0009_A-008D-11-7620_P-31" Tag="32" DisplayOrder="1122" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-33" RefId="M-0009_A-008D-11-7620_P-31" Tag="33" DisplayOrder="1123" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-34" RefId="M-0009_A-008D-11-7620_P-31" Tag="34" DisplayOrder="1124" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-1_R-29" RefId="M-0009_A-008D-11-7620_P-1" Tag="29" DisplayOrder="1130" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-36" RefId="M-0009_A-008D-11-7620_P-31" Tag="36" DisplayOrder="1131" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-39" RefId="M-0009_A-008D-11-7620_P-31" Tag="39" DisplayOrder="1132" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-42" RefId="M-0009_A-008D-11-7620_P-31" Tag="42" DisplayOrder="1133" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-45" RefId="M-0009_A-008D-11-7620_P-31" Tag="45" DisplayOrder="1134" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-31_R-35" RefId="M-0009_A-008D-11-7620_P-31" Name="Temporisation automatisme" Tag="35" DisplayOrder="1150" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-19_R-19" RefId="M-0009_A-008D-11-7620_P-19" Tag="19" DisplayOrder="1200" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-15_R-15" RefId="M-0009_A-008D-11-7620_P-15" Tag="15" DisplayOrder="1300" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-3_R-3" RefId="M-0009_A-008D-11-7620_P-3" Tag="3" DisplayOrder="2000" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-7_R-7" RefId="M-0009_A-008D-11-7620_P-7" Tag="7" DisplayOrder="2100" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-24_R-24" RefId="M-0009_A-008D-11-7620_P-24" Tag="24" DisplayOrder="2100" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-7_R-51" RefId="M-0009_A-008D-11-7620_P-7" Tag="51" DisplayOrder="2100" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-7_R-56" RefId="M-0009_A-008D-11-7620_P-7" Tag="56" DisplayOrder="2100" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-48" RefId="M-0009_A-008D-11-7620_P-12" Tag="48" DisplayOrder="2110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-52" RefId="M-0009_A-008D-11-7620_P-12" Tag="52" DisplayOrder="2110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-57" RefId="M-0009_A-008D-11-7620_P-12" Tag="57" DisplayOrder="2110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-12" RefId="M-0009_A-008D-11-7620_P-12" Tag="12" DisplayOrder="2120" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-55" RefId="M-0009_A-008D-11-7620_P-12" Tag="55" DisplayOrder="2120" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-60" RefId="M-0009_A-008D-11-7620_P-12" Tag="60" DisplayOrder="2120" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-49" RefId="M-0009_A-008D-11-7620_P-12" Tag="49" DisplayOrder="2130" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-53" RefId="M-0009_A-008D-11-7620_P-12" Tag="53" DisplayOrder="2130" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-58" RefId="M-0009_A-008D-11-7620_P-12" Tag="58" DisplayOrder="2130" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-50" RefId="M-0009_A-008D-11-7620_P-12" Tag="50" DisplayOrder="2140" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-54" RefId="M-0009_A-008D-11-7620_P-12" Tag="54" DisplayOrder="2140" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-59" RefId="M-0009_A-008D-11-7620_P-12" Tag="59" DisplayOrder="2140" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-12_R-61" RefId="M-0009_A-008D-11-7620_P-12" Tag="61" DisplayOrder="2150" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-20_R-20" RefId="M-0009_A-008D-11-7620_P-20" Tag="20" DisplayOrder="2200" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-16_R-16" RefId="M-0009_A-008D-11-7620_P-16" Tag="16" DisplayOrder="2300" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-4_R-4" RefId="M-0009_A-008D-11-7620_P-4" Tag="4" DisplayOrder="3000" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-25_R-25" RefId="M-0009_A-008D-11-7620_P-25" Tag="25" DisplayOrder="3100" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-8_R-8" RefId="M-0009_A-008D-11-7620_P-8" Tag="8" DisplayOrder="3110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-8_R-65" RefId="M-0009_A-008D-11-7620_P-8" Tag="65" DisplayOrder="3110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-8_R-70" RefId="M-0009_A-008D-11-7620_P-8" Name="Copy of Fonctionnement commande S3" Tag="70" DisplayOrder="3110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-64" RefId="M-0009_A-008D-11-7620_P-13" Name="temporisation Retard a l'enclenchement" Tag="64" DisplayOrder="3111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-69" RefId="M-0009_A-008D-11-7620_P-13" Name="Copy of temporisation Retard a l'enclenchement" Tag="69" DisplayOrder="3111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-74" RefId="M-0009_A-008D-11-7620_P-13" Name="Copy of temporisation Retard a l'enclenchement" Tag="74" DisplayOrder="3111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-63" RefId="M-0009_A-008D-11-7620_P-13" Name="temporisation Retard au declenchement" Tag="63" DisplayOrder="3112" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-68" RefId="M-0009_A-008D-11-7620_P-13" Name="Copy of temporisation Retard au declenchement" Tag="68" DisplayOrder="3112" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-73" RefId="M-0009_A-008D-11-7620_P-13" Name="Copy of temporisation Retard au declenchement" Tag="73" DisplayOrder="3112" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-62" RefId="M-0009_A-008D-11-7620_P-13" Name="temporisation retard enclenchement et de" Tag="62" DisplayOrder="3113" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-67" RefId="M-0009_A-008D-11-7620_P-13" Name="Copy of temporisation retard enclenchement et de" Tag="67" DisplayOrder="3113" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-72" RefId="M-0009_A-008D-11-7620_P-13" Name="Copy of temporisation retard enclenchement et de" Tag="72" DisplayOrder="3113" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-13" RefId="M-0009_A-008D-11-7620_P-13" Tag="13" DisplayOrder="3114" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-66" RefId="M-0009_A-008D-11-7620_P-13" Name="Copy of Temporisation Minuterie" Tag="66" DisplayOrder="3114" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-71" RefId="M-0009_A-008D-11-7620_P-13" Name="Copy of Temporisation Minuterie" Tag="71" DisplayOrder="3114" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-13_R-75" RefId="M-0009_A-008D-11-7620_P-13" Name="temporisation autorisation" Tag="75" DisplayOrder="3150" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-21_R-21" RefId="M-0009_A-008D-11-7620_P-21" Tag="21" DisplayOrder="3300" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-17_R-17" RefId="M-0009_A-008D-11-7620_P-17" Tag="17" DisplayOrder="3400" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-5_R-5" RefId="M-0009_A-008D-11-7620_P-5" Tag="5" DisplayOrder="4000" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-26_R-26" RefId="M-0009_A-008D-11-7620_P-26" Tag="26" DisplayOrder="4100" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-9_R-9" RefId="M-0009_A-008D-11-7620_P-9" Tag="9" DisplayOrder="4110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-9_R-80" RefId="M-0009_A-008D-11-7620_P-9" Name="Copy of Fonctionnement commande" Tag="80" DisplayOrder="4110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-9_R-85" RefId="M-0009_A-008D-11-7620_P-9" Name="Copy of Fonctionnement commande" Tag="85" DisplayOrder="4110" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-14" RefId="M-0009_A-008D-11-7620_P-14" Tag="14" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-76" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="76" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-77" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="77" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-78" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="78" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-81" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="81" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-82" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="82" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-83" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="83" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-84" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="84" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-86" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="86" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-87" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="87" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-88" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="88" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-89" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="89" DisplayOrder="4111" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-14_R-79" RefId="M-0009_A-008D-11-7620_P-14" Name="Copy of Temporisation" Tag="79" DisplayOrder="4150" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-22_R-22" RefId="M-0009_A-008D-11-7620_P-22" Tag="22" DisplayOrder="4200" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-18_R-18" RefId="M-0009_A-008D-11-7620_P-18" Tag="18" DisplayOrder="4300" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-6_R-6" RefId="M-0009_A-008D-11-7620_P-6" Tag="6" DisplayOrder="5000" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-27_R-27" RefId="M-0009_A-008D-11-7620_P-27" Tag="27" DisplayOrder="5100" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-28_R-28" RefId="M-0009_A-008D-11-7620_P-28" Tag="28" DisplayOrder="6000" />
+              <ParameterRef Id="M-0009_A-008D-11-7620_P-10_R-10" RefId="M-0009_A-008D-11-7620_P-10" Tag="10" DisplayOrder="6100" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="190">
+              <ComObject Id="M-0009_A-008D-11-7620_O-0" Name="S1" Text="S1" Number="0" FunctionText="Commande sortie 1" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-1" Name="S2" Text="S2" Number="1" FunctionText="Commande sortie 2" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-2" Name="S3" Text="S3" Number="2" FunctionText="Commande sortie 3" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-3" Name="S4" Text="S4" Number="3" FunctionText="Commande sortie 4" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-4" Name="S1-S2" Text="S1-S2" Number="4" FunctionText="Automatisme sorties 1+2" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-5" Name="S3-S4" Text="S3-S4" Number="5" FunctionText="Automatisme sorties 3+4" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-6" Name="S1-S4" Text="S1-S4" Number="6" FunctionText="Arrêt forcé" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Disabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-7" Name="S1" Text="S1" Number="7" FunctionText="Indication état sortie 1" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-8" Name="S2" Text="S2" Number="8" FunctionText="Indication état sortie 2" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-9" Name="S3" Text="S3" Number="9" FunctionText="Indication état sortie 3" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-10" Name="S4" Text="S4" Number="10" FunctionText="Indication état sortie 4" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-008D-11-7620_O-11" Name="  " Text="  " Number="11" FunctionText="Maintenance" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-0_R-1" RefId="M-0009_A-008D-11-7620_O-0" Tag="1" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-1_R-2" RefId="M-0009_A-008D-11-7620_O-1" Tag="2" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-2_R-3" RefId="M-0009_A-008D-11-7620_O-2" Tag="3" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-3_R-4" RefId="M-0009_A-008D-11-7620_O-3" Tag="4" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-4_R-19" RefId="M-0009_A-008D-11-7620_O-4" Tag="19" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-5_R-15" RefId="M-0009_A-008D-11-7620_O-5" Tag="15" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-7" RefId="M-0009_A-008D-11-7620_O-6" Tag="7" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-23" RefId="M-0009_A-008D-11-7620_O-6" Text="S2-S4" Tag="23" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-24" RefId="M-0009_A-008D-11-7620_O-6" Text="S1, S3, S4" Tag="24" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-25" RefId="M-0009_A-008D-11-7620_O-6" Text="S1, S2, S4" Tag="25" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-26" RefId="M-0009_A-008D-11-7620_O-6" Text="S1-S3" Tag="26" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-27" RefId="M-0009_A-008D-11-7620_O-6" Text="S3-S4" Tag="27" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-28" RefId="M-0009_A-008D-11-7620_O-6" Text="S2, S4" Tag="28" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-29" RefId="M-0009_A-008D-11-7620_O-6" Text="S2-S3" Tag="29" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-30" RefId="M-0009_A-008D-11-7620_O-6" Text="S1, S4" Tag="30" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-31" RefId="M-0009_A-008D-11-7620_O-6" Text="S1, S3" Tag="31" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-32" RefId="M-0009_A-008D-11-7620_O-6" Text="S1-S2" Tag="32" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-33" RefId="M-0009_A-008D-11-7620_O-6" Text="S4" Tag="33" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-34" RefId="M-0009_A-008D-11-7620_O-6" Text="S3" Tag="34" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-35" RefId="M-0009_A-008D-11-7620_O-6" Text="S2" Tag="35" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-6_R-36" RefId="M-0009_A-008D-11-7620_O-6" Text="S1" Tag="36" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-7_R-8" RefId="M-0009_A-008D-11-7620_O-7" Tag="8" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-8_R-9" RefId="M-0009_A-008D-11-7620_O-8" Tag="9" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-9_R-10" RefId="M-0009_A-008D-11-7620_O-9" Tag="10" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-10_R-11" RefId="M-0009_A-008D-11-7620_O-10" Tag="11" />
+              <ComObjectRef Id="M-0009_A-008D-11-7620_O-11_R-12" RefId="M-0009_A-008D-11-7620_O-11" Tag="12" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="22" MaxEntries="41" />
+            <AssociationTable CodeSegment="M-0009_A-008D-11-7620_AS-0100" Offset="107" MaxEntries="41" />
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-008D-11-7620_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-0_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-1_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-2_R-3" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-3_R-4" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-4_R-19" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-5_R-15" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-7_R-8" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-8_R-9" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-9_R-10" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-10_R-11" />
+              <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-11_R-12" />
+              <ParameterBlock Id="M-0009_A-008D-11-7620_PB-2" Name="Sortie 1" ParamRefId="M-0009_A-008D-11-7620_P-2_R-2">
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-23_R-23" />
+                <choose ParamRefId="M-0009_A-008D-11-7620_P-23_R-23">
+                  <when test="2">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-1_R-30" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-1_R-30">
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-37" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-40" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-43" />
+                      </when>
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-46" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="0">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-1_R-1" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-1_R-1">
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-31" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-32" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-33" />
+                      </when>
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-34" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="3">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-1_R-29" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-1_R-29">
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-36" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-39" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-42" />
+                      </when>
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-45" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="1">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-31_R-35" />
+                  </when>
+                </choose>
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-19_R-19" />
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-15_R-15" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-008D-11-7620_PB-3" Name="Sortie 2" ParamRefId="M-0009_A-008D-11-7620_P-3_R-3">
+                <choose ParamRefId="M-0009_A-008D-11-7620_P-24_R-24">
+                  <when test="0">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-7_R-7" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-7_R-7">
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-48" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-12" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-49" />
+                      </when>
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-50" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="2">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-7_R-51" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-7_R-51">
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-52" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-55" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-53" />
+                      </when>
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-54" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="3">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-7_R-56" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-7_R-56">
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-57" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-60" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-58" />
+                      </when>
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-59" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="1">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-12_R-61" />
+                  </when>
+                </choose>
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-24_R-24" />
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-20_R-20" />
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-16_R-16" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-008D-11-7620_PB-4" Name="Sortie 3" ParamRefId="M-0009_A-008D-11-7620_P-4_R-4">
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-25_R-25" />
+                <choose ParamRefId="M-0009_A-008D-11-7620_P-25_R-25">
+                  <when test="3">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-8_R-8" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-8_R-8">
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-64" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-63" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-62" />
+                      </when>
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-13" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="2">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-8_R-65" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-8_R-65">
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-69" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-68" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-67" />
+                      </when>
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-66" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="0">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-8_R-70" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-8_R-70">
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-74" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-73" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-72" />
+                      </when>
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-71" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="1">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-13_R-75" />
+                  </when>
+                </choose>
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-21_R-21" />
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-17_R-17" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-008D-11-7620_PB-5" Name="Sortie 4" ParamRefId="M-0009_A-008D-11-7620_P-5_R-5">
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-26_R-26" />
+                <choose ParamRefId="M-0009_A-008D-11-7620_P-26_R-26">
+                  <when test="3">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-9_R-9" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-9_R-9">
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-14" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-76" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-77" />
+                      </when>
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-78" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="2">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-9_R-80" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-9_R-80">
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-81" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-82" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-83" />
+                      </when>
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-84" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="0">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-9_R-85" />
+                    <choose ParamRefId="M-0009_A-008D-11-7620_P-9_R-85">
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-86" />
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-87" />
+                      </when>
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-88" />
+                      </when>
+                      <when test="4">
+                        <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-89" />
+                      </when>
+                    </choose>
+                  </when>
+                  <when test="1">
+                    <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-14_R-79" />
+                  </when>
+                </choose>
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-22_R-22" />
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-18_R-18" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-008D-11-7620_PB-6" Name="Arrêt forcé" ParamRefId="M-0009_A-008D-11-7620_P-6_R-6">
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-27_R-27" />
+                <choose ParamRefId="M-0009_A-008D-11-7620_P-27_R-27">
+                  <when test="15">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-7" />
+                  </when>
+                  <when test="14">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-23" />
+                  </when>
+                  <when test="13">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-24" />
+                  </when>
+                  <when test="11">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-25" />
+                  </when>
+                  <when test="7">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-26" />
+                  </when>
+                  <when test="12">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-27" />
+                  </when>
+                  <when test="10">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-28" />
+                  </when>
+                  <when test="6">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-29" />
+                  </when>
+                  <when test="9">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-30" />
+                  </when>
+                  <when test="5">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-31" />
+                  </when>
+                  <when test="3">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-32" />
+                  </when>
+                  <when test="8">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-33" />
+                  </when>
+                  <when test="4">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-34" />
+                  </when>
+                  <when test="2">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-35" />
+                  </when>
+                  <when test="1">
+                    <ComObjectRefRef RefId="M-0009_A-008D-11-7620_O-6_R-36" />
+                  </when>
+                </choose>
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-008D-11-7620_PB-28" Name="Telechargement" Access="None" ParamRefId="M-0009_A-008D-11-7620_P-28_R-28">
+                <ParameterRefRef RefId="M-0009_A-008D-11-7620_P-10_R-10" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0062-20-A556" ApplicationNumber="98" ApplicationVersion="32" ProgramType="ApplicationProgram" MaskVersion="MV-0011" Name="TB327" LoadProcedureStyle="DefaultProcedure" PeiType="2" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="pbI8MN6BwCucFcY3AzPAVg==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0062-20-A556_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAYiD7AkAAAP/gY+4lMkpdXAH//xABEAIQAxAEEAUQBgYBAAIBAwIEAwUEBgUG2NDPANHPAPv/APrnANLfANPPABAAAAAaAhDSFtqtBLfPEtRPzQ3PtlCBrfe+ZM0MdbdcTwJcCRbVBdUVFdUgCEwU1QfVCxfVyAFHt9OmBa1mtlykBaEFJy+x1Ccrt9TEAUi30bbURES30MoBSCYRTLTUwQH7Jwmu+80MOKYCrTemAa05pgOtLxjVAdIcB9ocF9oT1cYBRrfWpgKtIDrWKwimNK4PzQ4rgRLVgQLV+aYDzQ5JJeOBCdUMzA25t9et9rbXSir3gQEBAAAAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0062-20-A556_PT-t.5Finvert" Name="t_invert">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text=" Actif à 1" Value="0" Id="M-0009_A-0062-20-A556_PT-t.5Finvert_EN-0" DisplayOrder="1" />
+                  <Enumeration Text=" Actif à 0" Value="1" Id="M-0009_A-0062-20-A556_PT-t.5Finvert_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0062-20-A556_PT-t.5Ftarif" Name="t_tarif">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text=" Version sans Pointe" Value="0" Id="M-0009_A-0062-20-A556_PT-t.5Ftarif_EN-0" DisplayOrder="1" />
+                  <Enumeration Text=" Version avec Pointe" Value="1" Id="M-0009_A-0062-20-A556_PT-t.5Ftarif_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0062-20-A556_PT-t.5Fnb.5Frepeat" Name="t_nb_repeat">
+                <TypeNumber SizeInBit="8" Type="unsignedInt" minInclusive="1" maxInclusive="32" />
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0062-20-A556_P-1" Name=" paramétrage" ParameterType="M-0009_A-0062-20-A556_PT-t.5Fnb.5Frepeat" Text=" paramétrage" Access="Read" Value="1" />
+              <Parameter Id="M-0009_A-0062-20-A556_P-2" Name="nb_repeat" ParameterType="M-0009_A-0062-20-A556_PT-t.5Fnb.5Frepeat" Text="Nombre de répétitions " Value="16">
+                <Memory CodeSegment="M-0009_A-0062-20-A556_AS-0100" Offset="70" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0062-20-A556_P-3" Name="etat_preavis" ParameterType="M-0009_A-0062-20-A556_PT-t.5Finvert" Text="Préavis de dépassement " Value="0">
+                <Memory CodeSegment="M-0009_A-0062-20-A556_AS-0100" Offset="71" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0062-20-A556_P-4" Name="gestion_pte" ParameterType="M-0009_A-0062-20-A556_PT-t.5Ftarif" Text="Version tarifaire " Value="0">
+                <Memory CodeSegment="M-0009_A-0062-20-A556_AS-0100" Offset="72" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0062-20-A556_P-1_R-1" RefId="M-0009_A-0062-20-A556_P-1" Tag="1" DisplayOrder="100" />
+              <ParameterRef Id="M-0009_A-0062-20-A556_P-2_R-2" RefId="M-0009_A-0062-20-A556_P-2" Tag="2" DisplayOrder="200" />
+              <ParameterRef Id="M-0009_A-0062-20-A556_P-3_R-3" RefId="M-0009_A-0062-20-A556_P-3" Tag="3" DisplayOrder="300" />
+              <ParameterRef Id="M-0009_A-0062-20-A556_P-4_R-4" RefId="M-0009_A-0062-20-A556_P-4" Tag="4" DisplayOrder="400" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0062-20-A556_AS-0100" Offset="50">
+              <ComObject Id="M-0009_A-0062-20-A556_O-0" Name="HC / HP" Text="HC / HP" Number="0" FunctionText="Ordre tarifaire" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0062-20-A556_O-1" Name="Pte / Hors Pte" Text="Pte / Hors Pte" Number="1" FunctionText="Ordre tarifaire" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0062-20-A556_O-2" Name="Eté / Hiver" Text="Eté / Hiver" Number="2" FunctionText="Ordre tarifaire" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0062-20-A556_O-3" Name="Top de synchronisation" Text="Top de synchronisation" Number="3" FunctionText="Top de synchronisation" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0062-20-A556_O-4" Name="Envoi ordres tarifaires" Text="Envoi ordres tarifaires" Number="4" FunctionText="Synchro délesteur" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0062-20-A556_O-5" Name="Préavis de dépassement" Text="Préavis de dépassement" Number="5" FunctionText="Préavis de dépassement" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0062-20-A556_O-0_R-0" RefId="M-0009_A-0062-20-A556_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-0062-20-A556_O-1_R-1" RefId="M-0009_A-0062-20-A556_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-0062-20-A556_O-2_R-2" RefId="M-0009_A-0062-20-A556_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-0062-20-A556_O-3_R-3" RefId="M-0009_A-0062-20-A556_O-3" Tag="3" />
+              <ComObjectRef Id="M-0009_A-0062-20-A556_O-4_R-4" RefId="M-0009_A-0062-20-A556_O-4" Tag="4" />
+              <ComObjectRef Id="M-0009_A-0062-20-A556_O-5_R-5" RefId="M-0009_A-0062-20-A556_O-5" Tag="5" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0062-20-A556_AS-0100" Offset="22" MaxEntries="6" />
+            <AssociationTable CodeSegment="M-0009_A-0062-20-A556_AS-0100" Offset="37" MaxEntries="6" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0011_ME-EEwrite" CodeSegment="M-0009_A-0062-20-A556_AS-0100">
+                <Offset>173</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0011_ME-TM.5FGetFlg" CodeSegment="M-0009_A-0062-20-A556_AS-0100">
+                <Offset>229</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0011_ME-TM.5FLoad" CodeSegment="M-0009_A-0062-20-A556_AS-0100">
+                <Offset>217</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0011_ME-U.5Fdebounce" CodeSegment="M-0009_A-0062-20-A556_AS-0100">
+                <Offset>98</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0011_ME-U.5FioAST" CodeSegment="M-0009_A-0062-20-A556_AS-0100">
+                <Offset>88</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0011_ME-U.5FtransRequest" CodeSegment="M-0009_A-0062-20-A556_AS-0100">
+                <Offset>238</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0062-20-A556_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0062-20-A556_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-0062-20-A556_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-0062-20-A556_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-0062-20-A556_O-3_R-3" />
+              <ComObjectRefRef RefId="M-0009_A-0062-20-A556_O-4_R-4" />
+              <ComObjectRefRef RefId="M-0009_A-0062-20-A556_O-5_R-5" />
+              <ParameterBlock Id="M-0009_A-0062-20-A556_PB-1" Name=" paramétrage" Access="Read" ParamRefId="M-0009_A-0062-20-A556_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0062-20-A556_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-0062-20-A556_P-3_R-3" />
+                <ParameterRefRef RefId="M-0009_A-0062-20-A556_P-4_R-4" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

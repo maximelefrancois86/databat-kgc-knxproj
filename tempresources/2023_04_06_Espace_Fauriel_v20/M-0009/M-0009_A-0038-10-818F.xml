@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0038-10-818F" ApplicationNumber="56" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TB313" LoadProcedureStyle="DefaultProcedure" PeiType="2" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="gQgDM57Dh2K++i4dnP2Kjw==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0038-10-818F_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAOBD/AgAAAP9gY+ArPlt1/gH//xAA/////////////////////wQBAAEBAQIBAwUABgAHAAgACQAE0NLfANPfANTfANXfAGQUQRRBFEEUQdZVVVVVf0/NDae2UKQPt863zxBVqA+3VK0Wts63VCAQT80Np7ZQpA/OAUzNDGS3VLZbRM0MjAJQYr5b5te3WtYBTbdZn65VzQ1NvltUTSYN5tJEJQUAWS8gAwJZKk8BVA8TWgBaLxBaBVkqCVkQIA0RWgJaIBJaB1kbC1kBTA1ZBObSqAHn0ljWAU7n1lSfAFUDzQ2Rvlu2WufXNFQ8WzxbB1uMGgLMDIKBAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0038-10-818F_PT-t.5FTM.5Ffaktor" Name="t_TM_faktor">
+                <TypeNumber SizeInBit="8" Type="unsignedInt" minInclusive="5" maxInclusive="127" />
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval" Name="t_X_objval">
+                <TypeRestriction Base="Value" SizeInBit="6">
+                  <Enumeration Text="montant : ON" Value="5" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-5" DisplayOrder="1" />
+                  <Enumeration Text="montant : OFF" Value="1" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-1" DisplayOrder="2" />
+                  <Enumeration Text="montant : INVERSE" Value="17" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-17" DisplayOrder="3" />
+                  <Enumeration Text="descendant : ON" Value="10" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-10" DisplayOrder="4" />
+                  <Enumeration Text="descendant : OFF" Value="2" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-2" DisplayOrder="5" />
+                  <Enumeration Text="descendant : INVERSE" Value="18" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-18" DisplayOrder="6" />
+                  <Enumeration Text="montant : ON, descendant : OFF" Value="7" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-7" DisplayOrder="7" />
+                  <Enumeration Text="montant : OFF, descendant : ON" Value="11" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-11" DisplayOrder="8" />
+                  <Enumeration Text="montant et descendant : INVERSE" Value="19" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-19" DisplayOrder="9" />
+                  <Enumeration Text="sans fonction" Value="0" Id="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval_EN-0" DisplayOrder="10" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0038-10-818F_PT-t.5FZ.5Fsend" Name="t_Z_send">
+                <TypeRestriction Base="Value" SizeInBit="2">
+                  <Enumeration Text="non utilisée" Value="0" Id="M-0009_A-0038-10-818F_PT-t.5FZ.5Fsend_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="si objet logique : ON" Value="2" Id="M-0009_A-0038-10-818F_PT-t.5FZ.5Fsend_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="si objet logique : OFF" Value="1" Id="M-0009_A-0038-10-818F_PT-t.5FZ.5Fsend_EN-1" DisplayOrder="3" />
+                  <Enumeration Text="utilisée" Value="3" Id="M-0009_A-0038-10-818F_PT-t.5FZ.5Fsend_EN-3" DisplayOrder="4" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0038-10-818F_PT-t.5FdebTime" Name="t_debTime">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="30 ms" Value="60" Id="M-0009_A-0038-10-818F_PT-t.5FdebTime_EN-60" DisplayOrder="1" />
+                  <Enumeration Text="50 ms" Value="100" Id="M-0009_A-0038-10-818F_PT-t.5FdebTime_EN-100" DisplayOrder="2" />
+                  <Enumeration Text="100 ms" Value="200" Id="M-0009_A-0038-10-818F_PT-t.5FdebTime_EN-200" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0038-10-818F_PT-t.5FconfigDes.244" Name="t_configDes$4" InternalDescription="Telegram rate limit">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="enabled" Value="0" Id="M-0009_A-0038-10-818F_PT-t.5FconfigDes.244_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="disabled" Value="1" Id="M-0009_A-0038-10-818F_PT-t.5FconfigDes.244_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen" Name="t_dualTimerBasen">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="timer base 130 ms" Value="0" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="timer base 260 ms" Value="17" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-17" DisplayOrder="2" />
+                  <Enumeration Text="timer base 520 ms" Value="34" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-34" DisplayOrder="3" />
+                  <Enumeration Text="timer base 1,0 sec" Value="51" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-51" DisplayOrder="4" />
+                  <Enumeration Text="timer base 2,1 sec" Value="68" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-68" DisplayOrder="5" />
+                  <Enumeration Text="timer base 4,2 sec" Value="85" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-85" DisplayOrder="6" />
+                  <Enumeration Text="timer base 8,4 sec" Value="102" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-102" DisplayOrder="7" />
+                  <Enumeration Text="timer base 17  sec" Value="119" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-119" DisplayOrder="8" />
+                  <Enumeration Text="timer base 34  sec" Value="136" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-136" DisplayOrder="9" />
+                  <Enumeration Text="timer base 1,1 min" Value="153" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-153" DisplayOrder="10" />
+                  <Enumeration Text="timer base 2,2 min" Value="170" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-170" DisplayOrder="11" />
+                  <Enumeration Text="timer base 4,5 min" Value="187" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-187" DisplayOrder="12" />
+                  <Enumeration Text="timer base 9,0 min" Value="204" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-204" DisplayOrder="13" />
+                  <Enumeration Text="timer base 18  min" Value="221" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-221" DisplayOrder="14" />
+                  <Enumeration Text="timer base 35  min" Value="238" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-238" DisplayOrder="15" />
+                  <Enumeration Text="timer base 1,2 hr" Value="255" Id="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen_EN-255" DisplayOrder="16" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0038-10-818F_PT-t.5FtelRate" Name="t_telRate">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="30 Telegrams per 17sec." Value="30" Id="M-0009_A-0038-10-818F_PT-t.5FtelRate_EN-30" DisplayOrder="1" />
+                  <Enumeration Text="60 Telegrams per 17sec." Value="60" Id="M-0009_A-0038-10-818F_PT-t.5FtelRate_EN-60" DisplayOrder="2" />
+                  <Enumeration Text="100 Telegrams per 17sec." Value="100" Id="M-0009_A-0038-10-818F_PT-t.5FtelRate_EN-100" DisplayOrder="3" />
+                  <Enumeration Text="127 Telegrams per 17sec." Value="127" Id="M-0009_A-0038-10-818F_PT-t.5FtelRate_EN-127" DisplayOrder="4" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0038-10-818F_P-1" Name="Entrées E1-E4" ParameterType="M-0009_A-0038-10-818F_PT-t.5FdebTime" Text="Entrées E1-E4" Access="Read" Value="60" />
+              <Parameter Id="M-0009_A-0038-10-818F_P-5" Name="Entrée 1" ParameterType="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval" Text="Entrée 1" Access="Read" Value="5" />
+              <Parameter Id="M-0009_A-0038-10-818F_P-10" Name="Entrée 2" ParameterType="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval" Text="Entrée 2" Access="Read" Value="5" />
+              <Parameter Id="M-0009_A-0038-10-818F_P-15" Name="Entrée 3" ParameterType="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval" Text="Entrée 3" Access="Read" Value="5" />
+              <Parameter Id="M-0009_A-0038-10-818F_P-20" Name="Entrée 4" ParameterType="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval" Text="Entrée 4" Access="Read" Value="5" />
+              <Parameter Id="M-0009_A-0038-10-818F_P-3" Name="configDes.telLim" ParameterType="M-0009_A-0038-10-818F_PT-t.5FconfigDes.244" Text="Telegram rate limit" Value="0">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="16" BitOffset="4" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-2" Name="debTime" ParameterType="M-0009_A-0038-10-818F_PT-t.5FdebTime" Text="Anti rebond" Value="100">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="76" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-6" Name="keyMode1.X_objval" ParameterType="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval" Text="Front actif" Value="5">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="77" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-7" Name="keyMode1.Z_send" ParameterType="M-0009_A-0038-10-818F_PT-t.5FZ.5Fsend" Text="Emission périodique" Value="0">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="77" BitOffset="6" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-8" Name="sendCykl1" ParameterType="M-0009_A-0038-10-818F_PT-t.5FTM.5Ffaktor" Text="Période d'émission : Multiplicateur (5-127)" Value="65">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="78" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-11" Name="keyMode2.X_objval" ParameterType="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval" Text="Front actif" Value="5">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="79" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-12" Name="keyMode2.Z_send" ParameterType="M-0009_A-0038-10-818F_PT-t.5FZ.5Fsend" Text="Emission périodique" Value="0">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="79" BitOffset="6" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-13" Name="sendCykl2" ParameterType="M-0009_A-0038-10-818F_PT-t.5FTM.5Ffaktor" Text="Période d'émission : Multiplicateur (5-127)" Value="65">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="80" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-16" Name="keyMode3.X_objval" ParameterType="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval" Text="Front actif" Value="5">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="81" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-17" Name="keyMode3.Z_send" ParameterType="M-0009_A-0038-10-818F_PT-t.5FZ.5Fsend" Text="Emission périodique" Value="0">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="81" BitOffset="6" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-18" Name="sendCykl3" ParameterType="M-0009_A-0038-10-818F_PT-t.5FTM.5Ffaktor" Text="Période d'émission : Multiplicateur (5-127)" Value="65">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="82" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-21" Name="keyMode4.X_objval" ParameterType="M-0009_A-0038-10-818F_PT-t.5FX.5Fobjval" Text="Front actif" Value="5">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="83" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-22" Name="keyMode4.Z_send" ParameterType="M-0009_A-0038-10-818F_PT-t.5FZ.5Fsend" Text="Emission périodique" Value="0">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="83" BitOffset="6" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-23" Name="sendCykl4" ParameterType="M-0009_A-0038-10-818F_PT-t.5FTM.5Ffaktor" Text="Période d'émission : Multiplicateur (5-127)" Value="65">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="84" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-9" Name="zyklBase1" ParameterType="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen" Text="Période d'émission : Base de temps" Value="85">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="86" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-14" Name="zyklBase2" ParameterType="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen" Text="Période d'émission : Base de temps" Value="85">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="87" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-19" Name="zyklBase3" ParameterType="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen" Text="Période d'émission : Base de temps" Value="85">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="88" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-24" Name="zyklBase4" ParameterType="M-0009_A-0038-10-818F_PT-t.5FdualTimerBasen" Text="Période d'émission : Base de temps" Value="85">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="89" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0038-10-818F_P-4" Name="telRate" ParameterType="M-0009_A-0038-10-818F_PT-t.5FtelRate" Text="Nb. maxi de messages" Value="127">
+                <Memory CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="90" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-1_R-1" RefId="M-0009_A-0038-10-818F_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-2_R-2" RefId="M-0009_A-0038-10-818F_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-3_R-3" RefId="M-0009_A-0038-10-818F_P-3" Tag="3" DisplayOrder="3" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-4_R-4" RefId="M-0009_A-0038-10-818F_P-4" Tag="4" DisplayOrder="4" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-5_R-5" RefId="M-0009_A-0038-10-818F_P-5" Tag="5" DisplayOrder="5" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-6_R-6" RefId="M-0009_A-0038-10-818F_P-6" Tag="6" DisplayOrder="6" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-7_R-7" RefId="M-0009_A-0038-10-818F_P-7" Tag="7" DisplayOrder="7" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-8_R-8" RefId="M-0009_A-0038-10-818F_P-8" Tag="8" DisplayOrder="8" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-9_R-9" RefId="M-0009_A-0038-10-818F_P-9" Tag="9" DisplayOrder="9" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-10_R-10" RefId="M-0009_A-0038-10-818F_P-10" Tag="10" DisplayOrder="10" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-11_R-11" RefId="M-0009_A-0038-10-818F_P-11" Tag="11" DisplayOrder="11" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-12_R-12" RefId="M-0009_A-0038-10-818F_P-12" Tag="12" DisplayOrder="12" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-13_R-13" RefId="M-0009_A-0038-10-818F_P-13" Tag="13" DisplayOrder="13" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-14_R-14" RefId="M-0009_A-0038-10-818F_P-14" Tag="14" DisplayOrder="14" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-15_R-15" RefId="M-0009_A-0038-10-818F_P-15" Tag="15" DisplayOrder="15" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-16_R-16" RefId="M-0009_A-0038-10-818F_P-16" Tag="16" DisplayOrder="16" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-17_R-17" RefId="M-0009_A-0038-10-818F_P-17" Tag="17" DisplayOrder="17" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-18_R-18" RefId="M-0009_A-0038-10-818F_P-18" Tag="18" DisplayOrder="18" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-19_R-19" RefId="M-0009_A-0038-10-818F_P-19" Tag="19" DisplayOrder="19" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-20_R-20" RefId="M-0009_A-0038-10-818F_P-20" Tag="20" DisplayOrder="20" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-21_R-21" RefId="M-0009_A-0038-10-818F_P-21" Tag="21" DisplayOrder="21" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-22_R-22" RefId="M-0009_A-0038-10-818F_P-22" Tag="22" DisplayOrder="22" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-23_R-23" RefId="M-0009_A-0038-10-818F_P-23" Tag="23" DisplayOrder="23" />
+              <ParameterRef Id="M-0009_A-0038-10-818F_P-24_R-24" RefId="M-0009_A-0038-10-818F_P-24" Tag="24" DisplayOrder="24" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="62">
+              <ComObject Id="M-0009_A-0038-10-818F_O-0" Name="E1" Text="E1" Number="0" FunctionText="Entrée 1" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0038-10-818F_O-1" Name="E2" Text="E2" Number="1" FunctionText="Entrée 2" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0038-10-818F_O-2" Name="E3" Text="E3" Number="2" FunctionText="Entrée 3" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0038-10-818F_O-3" Name="E4" Text="E4" Number="3" FunctionText="Entrée 4" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0038-10-818F_O-0_R-0" RefId="M-0009_A-0038-10-818F_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-0038-10-818F_O-1_R-1" RefId="M-0009_A-0038-10-818F_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-0038-10-818F_O-2_R-2" RefId="M-0009_A-0038-10-818F_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-0038-10-818F_O-3_R-3" RefId="M-0009_A-0038-10-818F_O-3" Tag="3" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="22" MaxEntries="9" />
+            <AssociationTable CodeSegment="M-0009_A-0038-10-818F_AS-0100" Offset="43" MaxEntries="9" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-U.5Fdebounce" CodeSegment="M-0009_A-0038-10-818F_AS-0100">
+                <Offset>129</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-0038-10-818F_AS-0100">
+                <Offset>252</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FflagsGet" CodeSegment="M-0009_A-0038-10-818F_AS-0100">
+                <Offset>137</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FGetTM" CodeSegment="M-0009_A-0038-10-818F_AS-0100">
+                <Offset>157</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FioAST" CodeSegment="M-0009_A-0038-10-818F_AS-0100">
+                <Offset>93</Offset>
+                <Offset>119</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-0038-10-818F_AS-0100">
+                <Offset>232</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0038-10-818F_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0038-10-818F_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-0038-10-818F_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-0038-10-818F_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-0038-10-818F_O-3_R-3" />
+              <ParameterBlock Id="M-0009_A-0038-10-818F_PB-1" Name="Entrées E1-E4" Access="Read" ParamRefId="M-0009_A-0038-10-818F_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-3_R-3" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-4_R-4" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0038-10-818F_PB-5" Name="Entrée 1" Access="Read" ParamRefId="M-0009_A-0038-10-818F_P-5_R-5">
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-6_R-6" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-7_R-7" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-8_R-8" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-9_R-9" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0038-10-818F_PB-10" Name="Entrée 2" Access="Read" ParamRefId="M-0009_A-0038-10-818F_P-10_R-10">
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-11_R-11" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-12_R-12" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-13_R-13" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-14_R-14" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0038-10-818F_PB-15" Name="Entrée 3" Access="Read" ParamRefId="M-0009_A-0038-10-818F_P-15_R-15">
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-16_R-16" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-17_R-17" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-18_R-18" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-19_R-19" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0038-10-818F_PB-20" Name="Entrée 4" Access="Read" ParamRefId="M-0009_A-0038-10-818F_P-20_R-20">
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-21_R-21" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-22_R-22" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-23_R-23" />
+                <ParameterRefRef RefId="M-0009_A-0038-10-818F_P-24_R-24" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

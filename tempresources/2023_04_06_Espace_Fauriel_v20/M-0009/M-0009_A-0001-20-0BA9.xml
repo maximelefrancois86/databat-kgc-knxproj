@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0001-20-0BA9" ApplicationNumber="1" ApplicationVersion="32" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TF309" LoadProcedureStyle="DefaultProcedure" PeiType="14" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="C2bIys/5Oz3fnQ7r5hd/qQ==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0001-20-0BA9_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAASD1DkAAAP9gY+8hKjlBWAH//wEAAQEBAgEDBAEAAgEDAgQDBM7QxwDRxwDS1wn19woAPNw60DrRIDy+3qMHJBLm1bfdrtzNERW+3rbd59U83oEC3ywB30sR37bXJ/Nf5tqhASLs4dAnBefQnyAyXKMBJ+yBEN+mubfVpv231j/egRPfttakH671zQw4ttdczQw4tthczQw4ttlczQw4pgPMDbkHzyEF3wYV3xfPIAIU31/m0ufXXKMDJvehASYEpkAgtaZZILEPz6ofz8YB9Zek4KGgJxOhQCaargLWAfbn11oq+MYB9SCPEt+fIIoAAAAAAAAAAAAAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ComObjectTable CodeSegment="M-0009_A-0001-20-0BA9_AS-0100" Offset="42">
+              <ComObject Id="M-0009_A-0001-20-0BA9_O-0" Name="  " Text="  " Number="0" FunctionText="Voie A" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0001-20-0BA9_O-1" Name="Voie B" Text="Voie B" Number="1" FunctionText="Voie B" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0001-20-0BA9_O-2" Name="Mise à l'heure" Text="Mise à l'heure" Number="2" FunctionText="Mise à l'heure" ObjectSize="3 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0001-20-0BA9_O-3" Name="Programmation" Text="Programmation" Number="3" FunctionText="Programmation" ObjectSize="4 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0001-20-0BA9_O-0_R-0" RefId="M-0009_A-0001-20-0BA9_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-0001-20-0BA9_O-1_R-1" RefId="M-0009_A-0001-20-0BA9_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-0001-20-0BA9_O-2_R-2" RefId="M-0009_A-0001-20-0BA9_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-0001-20-0BA9_O-3_R-3" RefId="M-0009_A-0001-20-0BA9_O-3" Tag="3" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0001-20-0BA9_AS-0100" Offset="22" MaxEntries="4" />
+            <AssociationTable CodeSegment="M-0009_A-0001-20-0BA9_AS-0100" Offset="33" MaxEntries="4" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-EEwrite" CodeSegment="M-0009_A-0001-20-0BA9_AS-0100">
+                <Offset>145</Offset>
+                <Offset>151</Offset>
+                <Offset>157</Offset>
+                <Offset>163</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-S.5FLAstShift" CodeSegment="M-0009_A-0001-20-0BA9_AS-0100">
+                <Offset>78</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-0001-20-0BA9_AS-0100">
+                <Offset>168</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0001-20-0BA9_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0001-20-0BA9_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-0001-20-0BA9_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-0001-20-0BA9_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-0001-20-0BA9_O-3_R-3" />
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

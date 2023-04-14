@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-005E-10-D445" ApplicationNumber="94" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TB331" LoadProcedureStyle="DefaultProcedure" PeiType="19" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="1J08NgzG4OycvzbJRSR2RQ==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-005E-10-D445_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAXhD/E0AAAP9gY/43WGt3dgH//wEAAQEBAgEDAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAUBAAIBAwIEAwUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATO0NcA0dcA0tcA088AbhwA1Zk60zzSEtfGAWe31oEHzgIXzg/OCR/OEdfGAWa31QfPCRfPEtfGAWe31gDXDE+uac0NTSYEENc/0QPXDaYBrmnNDU0mBBPXP9K20UO00rTQsdMnDbfTGdQnAhjUpgPNDZGmAs0OKiQWrtT2pBQnD6EUJwv2qAT3rhGmIs0ODLbURESq/LdQttSkDLhQzQ2nGgLMDIIAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-005E-10-D445_PT-tempo" Name="tempo">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text=" 15 mn" Value="14" Id="M-0009_A-005E-10-D445_PT-tempo_EN-14" DisplayOrder="1" />
+                  <Enumeration Text=" 30 mn" Value="28" Id="M-0009_A-005E-10-D445_PT-tempo_EN-28" DisplayOrder="2" />
+                  <Enumeration Text=" 45 mn" Value="41" Id="M-0009_A-005E-10-D445_PT-tempo_EN-41" DisplayOrder="3" />
+                  <Enumeration Text=" 1 h" Value="55" Id="M-0009_A-005E-10-D445_PT-tempo_EN-55" DisplayOrder="4" />
+                  <Enumeration Text=" 1 h 15 mn" Value="69" Id="M-0009_A-005E-10-D445_PT-tempo_EN-69" DisplayOrder="5" />
+                  <Enumeration Text=" 1 h 30 mn" Value="82" Id="M-0009_A-005E-10-D445_PT-tempo_EN-82" DisplayOrder="6" />
+                  <Enumeration Text=" 1 h 45 mn" Value="96" Id="M-0009_A-005E-10-D445_PT-tempo_EN-96" DisplayOrder="7" />
+                  <Enumeration Text=" 2 h" Value="110" Id="M-0009_A-005E-10-D445_PT-tempo_EN-110" DisplayOrder="8" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-005E-10-D445_P-1" Name="Sortie S1" ParameterType="M-0009_A-005E-10-D445_PT-tempo" Text="Sortie S1" Access="Read" Value="14" />
+              <Parameter Id="M-0009_A-005E-10-D445_P-3" Name="Sécurité" ParameterType="M-0009_A-005E-10-D445_PT-tempo" Text="Sécurité" Access="Read" Value="14" />
+              <Parameter Id="M-0009_A-005E-10-D445_P-2" Name="Tempo_delest" ParameterType="M-0009_A-005E-10-D445_PT-tempo" Text="Durée maxi. délestage" Value="110">
+                <Memory CodeSegment="M-0009_A-005E-10-D445_AS-0100" Offset="102" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-005E-10-D445_P-4" Name="Tempo_arret" ParameterType="M-0009_A-005E-10-D445_PT-tempo" Text="Fréquence surveillance" Value="28">
+                <Memory CodeSegment="M-0009_A-005E-10-D445_AS-0100" Offset="103" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-005E-10-D445_P-1_R-1" RefId="M-0009_A-005E-10-D445_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-005E-10-D445_P-2_R-2" RefId="M-0009_A-005E-10-D445_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-005E-10-D445_P-3_R-3" RefId="M-0009_A-005E-10-D445_P-3" Tag="3" DisplayOrder="3" />
+              <ParameterRef Id="M-0009_A-005E-10-D445_P-4_R-4" RefId="M-0009_A-005E-10-D445_P-4" Tag="4" DisplayOrder="4" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-005E-10-D445_AS-0100" Offset="88">
+              <ComObject Id="M-0009_A-005E-10-D445_O-0" Name="Commande sortie" Text="Commande sortie" Number="0" FunctionText="Commande sortie" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-005E-10-D445_O-1" Name="Délestage sortie" Text="Délestage sortie" Number="1" FunctionText="Délestage sortie" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-005E-10-D445_O-2" Name="Arrêt de sécurité" Text="Arrêt de sécurité" Number="2" FunctionText="Arrêt de sécurité" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-005E-10-D445_O-3" Name="Indication état sortie" Text="Indication état sortie" Number="3" FunctionText="Indication état sortie" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-005E-10-D445_O-0_R-0" RefId="M-0009_A-005E-10-D445_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-005E-10-D445_O-1_R-1" RefId="M-0009_A-005E-10-D445_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-005E-10-D445_O-2_R-2" RefId="M-0009_A-005E-10-D445_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-005E-10-D445_O-3_R-3" RefId="M-0009_A-005E-10-D445_O-3" Tag="3" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-005E-10-D445_AS-0100" Offset="22" MaxEntries="15" />
+            <AssociationTable CodeSegment="M-0009_A-005E-10-D445_AS-0100" Offset="55" MaxEntries="16" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FGetFlg" CodeSegment="M-0009_A-005E-10-D445_AS-0100">
+                <Offset>206</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FLoad" CodeSegment="M-0009_A-005E-10-D445_AS-0100">
+                <Offset>230</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-005E-10-D445_AS-0100">
+                <Offset>252</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FGetTM" CodeSegment="M-0009_A-005E-10-D445_AS-0100">
+                <Offset>155</Offset>
+                <Offset>171</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FioAST" CodeSegment="M-0009_A-005E-10-D445_AS-0100">
+                <Offset>247</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-005E-10-D445_AS-0100">
+                <Offset>201</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-005E-10-D445_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-005E-10-D445_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-005E-10-D445_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-005E-10-D445_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-005E-10-D445_O-3_R-3" />
+              <ParameterBlock Id="M-0009_A-005E-10-D445_PB-1" Name="Sortie S1" Access="Read" ParamRefId="M-0009_A-005E-10-D445_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-005E-10-D445_P-2_R-2" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-005E-10-D445_PB-3" Name="Sécurité" Access="Read" ParamRefId="M-0009_A-005E-10-D445_P-3_R-3">
+                <ParameterRefRef RefId="M-0009_A-005E-10-D445_P-4_R-4" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

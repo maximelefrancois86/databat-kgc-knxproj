@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0025-00-F2A7" ApplicationNumber="37" ApplicationVersion="0" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TB301" LoadProcedureStyle="DefaultProcedure" PeiType="19" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="8mx5fz2Fbky+eKkrFTB6pw==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0025-00-F2A7_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAJQD/EwAAAP9gY+gtQl5hXgH//xAA////////////////////////AgEAAQEDAAQABQAGAAcACAAJAAoABM7Q1wDR1wDS3wDT3wAAAAAA1gAAAAAAAAAADoE01L5V5tBEWb9WtlXNDIwHUB0XULZVzQyUvlZU1gFbJwckFhzUb9CYWdYBUFjn1rZWSK5UzQ1NJgcd1AFWAhzUGdQN1AIY1L5V1gFZJw1E5tIkBCcGGNQmAhnUPFUDVaA41KYCzQ4qJCGu1AHVAXT2pBQnD6EUJwv2qAT3rhGmIs0ODAHVAjjUPNW21EREqvy3ULbUpAy4UM0NpxoCzAyCAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0025-00-F2A7_PT-t.5FConfig" Name="t_Config">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="Non utilisée" Value="0" Id="M-0009_A-0025-00-F2A7_PT-t.5FConfig_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="Fonction OU" Value="1" Id="M-0009_A-0025-00-F2A7_PT-t.5FConfig_EN-1" DisplayOrder="2" />
+                  <Enumeration Text="Fonction ET" Value="2" Id="M-0009_A-0025-00-F2A7_PT-t.5FConfig_EN-2" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0025-00-F2A7_PT-t.5FZeitEn" Name="t_ZeitEn">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="Non" Value="0" Id="M-0009_A-0025-00-F2A7_PT-t.5FZeitEn_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="Oui" Value="1" Id="M-0009_A-0025-00-F2A7_PT-t.5FZeitEn_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase" Name="t_dualTimeBase">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="130 ms" Value="0" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="260 ms" Value="17" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-17" DisplayOrder="2" />
+                  <Enumeration Text="520 ms" Value="34" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-34" DisplayOrder="3" />
+                  <Enumeration Text="1,0 s" Value="51" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-51" DisplayOrder="4" />
+                  <Enumeration Text="2,1 s" Value="68" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-68" DisplayOrder="5" />
+                  <Enumeration Text="4,2 s" Value="85" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-85" DisplayOrder="6" />
+                  <Enumeration Text="8,4 s" Value="102" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-102" DisplayOrder="7" />
+                  <Enumeration Text="17  s" Value="119" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-119" DisplayOrder="8" />
+                  <Enumeration Text="34  s" Value="136" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-136" DisplayOrder="9" />
+                  <Enumeration Text="1,1 mn" Value="153" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-153" DisplayOrder="10" />
+                  <Enumeration Text="2,2 mn" Value="170" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-170" DisplayOrder="11" />
+                  <Enumeration Text="4,5 mn" Value="187" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-187" DisplayOrder="12" />
+                  <Enumeration Text="9,0 mn" Value="204" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-204" DisplayOrder="13" />
+                  <Enumeration Text="18  mn" Value="221" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-221" DisplayOrder="14" />
+                  <Enumeration Text="35  mn" Value="238" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-238" DisplayOrder="15" />
+                  <Enumeration Text="1 h 12mn" Value="255" Id="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase_EN-255" DisplayOrder="16" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0025-00-F2A7_PT-t.5FmaxDelay" Name="t_maxDelay">
+                <TypeNumber SizeInBit="8" Type="unsignedInt" minInclusive="0" maxInclusive="127" />
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-1" Name="Sortie S1" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase" Text="Sortie S1" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-8" Name="Sortie S2" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase" Text="Sortie S2" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-3" Name="TmAus0" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FmaxDelay" Text="Retard Off : Multiplicateur (0-127)" Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="80" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-5" Name="TmEin0" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FmaxDelay" Text="Retard On : Multiplicateur (0-127)" Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="81" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-10" Name="TmAus1" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FmaxDelay" Text="Retard Off : Multiplicateur (0-127)" Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="82" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-12" Name="TmEin1" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FmaxDelay" Text="Retard On : Multiplicateur (0-127)" Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="83" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-2" Name="TmBaseAus0" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase" Text="Retard Off : Base de temps " Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="85" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-4" Name="TmBaseEin0" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase" Text="Retard On : Base de temps" Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="86" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-9" Name="TmBaseAus1" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase" Text="Retard Off : Base de temps" Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="87" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-11" Name="TmBaseEin1" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FdualTimeBase" Text="Retard On : Base de temps" Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="88" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-7" Name="Config_0" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FConfig" Text="Choix fonction logique " Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="89" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-14" Name="Config_1" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FConfig" Text="Choix fonction logique " Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="90" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-6" Name="ZeitEn_0" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FZeitEn" Text="Minuterie" Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="91" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0025-00-F2A7_P-13" Name="ZeitEn_1" ParameterType="M-0009_A-0025-00-F2A7_PT-t.5FZeitEn" Text="Minuterie" Value="0">
+                <Memory CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="92" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-1_R-1" RefId="M-0009_A-0025-00-F2A7_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-2_R-2" RefId="M-0009_A-0025-00-F2A7_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-3_R-3" RefId="M-0009_A-0025-00-F2A7_P-3" Tag="3" DisplayOrder="3" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-4_R-4" RefId="M-0009_A-0025-00-F2A7_P-4" Tag="4" DisplayOrder="4" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-5_R-5" RefId="M-0009_A-0025-00-F2A7_P-5" Tag="5" DisplayOrder="5" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-6_R-6" RefId="M-0009_A-0025-00-F2A7_P-6" Tag="6" DisplayOrder="6" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-7_R-7" RefId="M-0009_A-0025-00-F2A7_P-7" Tag="7" DisplayOrder="7" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-8_R-8" RefId="M-0009_A-0025-00-F2A7_P-8" Tag="8" DisplayOrder="8" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-9_R-9" RefId="M-0009_A-0025-00-F2A7_P-9" Tag="9" DisplayOrder="9" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-10_R-10" RefId="M-0009_A-0025-00-F2A7_P-10" Tag="10" DisplayOrder="10" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-11_R-11" RefId="M-0009_A-0025-00-F2A7_P-11" Tag="11" DisplayOrder="11" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-12_R-12" RefId="M-0009_A-0025-00-F2A7_P-12" Tag="12" DisplayOrder="12" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-13_R-13" RefId="M-0009_A-0025-00-F2A7_P-13" Tag="13" DisplayOrder="13" />
+              <ParameterRef Id="M-0009_A-0025-00-F2A7_P-14_R-14" RefId="M-0009_A-0025-00-F2A7_P-14" Tag="14" DisplayOrder="14" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="66">
+              <ComObject Id="M-0009_A-0025-00-F2A7_O-0" Name="S1" Text="S1" Number="0" FunctionText="Commande sortie 1 " ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0025-00-F2A7_O-1" Name="S2" Text="S2" Number="1" FunctionText="Commande sortie 2 " ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0025-00-F2A7_O-2" Name="S1" Text="S1" Number="2" FunctionText="Condition sortie 1" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0025-00-F2A7_O-3" Name="S2" Text="S2" Number="3" FunctionText="Condition sortie 2" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0025-00-F2A7_O-0_R-0" RefId="M-0009_A-0025-00-F2A7_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-0025-00-F2A7_O-1_R-1" RefId="M-0009_A-0025-00-F2A7_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-0025-00-F2A7_O-2_R-2" RefId="M-0009_A-0025-00-F2A7_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-0025-00-F2A7_O-3_R-3" RefId="M-0009_A-0025-00-F2A7_O-3" Tag="3" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="22" MaxEntries="10" />
+            <AssociationTable CodeSegment="M-0009_A-0025-00-F2A7_AS-0100" Offset="45" MaxEntries="10" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FGetFlg" CodeSegment="M-0009_A-0025-00-F2A7_AS-0100">
+                <Offset>196</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FLoad" CodeSegment="M-0009_A-0025-00-F2A7_AS-0100">
+                <Offset>224</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-0025-00-F2A7_AS-0100">
+                <Offset>253</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FflagsGet" CodeSegment="M-0009_A-0025-00-F2A7_AS-0100">
+                <Offset>108</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FflagsSet" CodeSegment="M-0009_A-0025-00-F2A7_AS-0100">
+                <Offset>118</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FGetTM" CodeSegment="M-0009_A-0025-00-F2A7_AS-0100">
+                <Offset>148</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FioAST" CodeSegment="M-0009_A-0025-00-F2A7_AS-0100">
+                <Offset>248</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0025-00-F2A7_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0025-00-F2A7_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-0025-00-F2A7_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-0025-00-F2A7_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-0025-00-F2A7_O-3_R-3" />
+              <ParameterBlock Id="M-0009_A-0025-00-F2A7_PB-1" Name="Sortie S1" Access="Read" ParamRefId="M-0009_A-0025-00-F2A7_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-3_R-3" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-4_R-4" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-5_R-5" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-6_R-6" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-7_R-7" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0025-00-F2A7_PB-8" Name="Sortie S2" Access="Read" ParamRefId="M-0009_A-0025-00-F2A7_P-8_R-8">
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-9_R-9" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-10_R-10" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-11_R-11" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-12_R-12" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-13_R-13" />
+                <ParameterRefRef RefId="M-0009_A-0025-00-F2A7_P-14_R-14" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

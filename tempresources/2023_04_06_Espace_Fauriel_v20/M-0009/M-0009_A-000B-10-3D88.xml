@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-000B-10-3D88" ApplicationNumber="11" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TE300" LoadProcedureStyle="DefaultProcedure" PeiType="2" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="PTRD0AOOcmibBG9/kTqjiA==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-000B-10-3D88_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkACxD8AkAAAP9gY/clMmFwbwH//wD/AQoBCwEMAAAAAAQBAAIBAwIEAwAAAAAEzg3vB9DPCPz3CNLPABgZGgcAAAO6AGIB7wCMAV8AzgC0AVL/jAGE/vwB/v0PED/SpiXOAULNDisQ0x7Tgc0Mk6YHrgLNDVS2UrdQtlO3Ua5DzQy6rlD2pIeqGLfQXPa30cYB/KR4oRgmIMYB/K1ExgH99wDSGMYBQK04xgFB9608XK05KhGmASAJP9IgCa0tKwVPt9IQ06YCzQ5JJAKtkLbTJw4qBaYBzQ25pgPNDbk/04GkhyoCqnhc91yBWlr24AL3WvbiAveBGTgAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst" Name="temp_hyst">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text="0.0 °C" Value="6144" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6144" DisplayOrder="1" />
+                  <Enumeration Text="-0.5 °C" Value="6150" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6150" DisplayOrder="2" />
+                  <Enumeration Text="-1.0 °C" Value="6156" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6156" DisplayOrder="3" />
+                  <Enumeration Text="-1.5 °C" Value="6162" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6162" DisplayOrder="4" />
+                  <Enumeration Text="-2.0 °C" Value="6169" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6169" DisplayOrder="5" />
+                  <Enumeration Text="-2.5 °C" Value="6175" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6175" DisplayOrder="6" />
+                  <Enumeration Text="-3.0 °C" Value="6181" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6181" DisplayOrder="7" />
+                  <Enumeration Text="-3.5 °C" Value="6187" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6187" DisplayOrder="8" />
+                  <Enumeration Text="-4.0 °C" Value="6194" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6194" DisplayOrder="9" />
+                  <Enumeration Text="-4.5 °C" Value="6200" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6200" DisplayOrder="10" />
+                  <Enumeration Text="-5.0 °C" Value="6206" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6206" DisplayOrder="11" />
+                  <Enumeration Text="-5.5 °C" Value="6212" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6212" DisplayOrder="12" />
+                  <Enumeration Text="-6.0 °C" Value="6219" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6219" DisplayOrder="13" />
+                  <Enumeration Text="-6.5 °C" Value="6225" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6225" DisplayOrder="14" />
+                  <Enumeration Text="-7.0 °C" Value="6231" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6231" DisplayOrder="15" />
+                  <Enumeration Text="-7.5 °C" Value="6237" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6237" DisplayOrder="16" />
+                  <Enumeration Text="-8.0 °C" Value="6244" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6244" DisplayOrder="17" />
+                  <Enumeration Text="-8.5 °C" Value="6250" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6250" DisplayOrder="18" />
+                  <Enumeration Text="-9.0 °C" Value="6256" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6256" DisplayOrder="19" />
+                  <Enumeration Text="-9.5 °C" Value="6262" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6262" DisplayOrder="20" />
+                  <Enumeration Text="-10.0 °C" Value="6269" Id="M-0009_A-000B-10-3D88_PT-temp.5Fhyst_EN-6269" DisplayOrder="21" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-000B-10-3D88_PT-temperature" Name="temperature">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text="-50.0 °C" Value="40335" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40335" DisplayOrder="1" />
+                  <Enumeration Text="-49.5 °C" Value="40342" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40342" DisplayOrder="2" />
+                  <Enumeration Text="-49.0 °C" Value="40348" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40348" DisplayOrder="3" />
+                  <Enumeration Text="-48.5 °C" Value="40354" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40354" DisplayOrder="4" />
+                  <Enumeration Text="-48.0 °C" Value="40360" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40360" DisplayOrder="5" />
+                  <Enumeration Text="-47.5 °C" Value="40367" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40367" DisplayOrder="6" />
+                  <Enumeration Text="-47.0 °C" Value="40373" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40373" DisplayOrder="7" />
+                  <Enumeration Text="-46.5 °C" Value="40379" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40379" DisplayOrder="8" />
+                  <Enumeration Text="-46.0 °C" Value="40385" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40385" DisplayOrder="9" />
+                  <Enumeration Text="-45.5 °C" Value="40392" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40392" DisplayOrder="10" />
+                  <Enumeration Text="-45.0 °C" Value="40398" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40398" DisplayOrder="11" />
+                  <Enumeration Text="-44.5 °C" Value="40404" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40404" DisplayOrder="12" />
+                  <Enumeration Text="-44.0 °C" Value="40410" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40410" DisplayOrder="13" />
+                  <Enumeration Text="-43.5 °C" Value="40417" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40417" DisplayOrder="14" />
+                  <Enumeration Text="-43.0 °C" Value="40423" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40423" DisplayOrder="15" />
+                  <Enumeration Text="-42.5 °C" Value="40429" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40429" DisplayOrder="16" />
+                  <Enumeration Text="-42.0 °C" Value="40435" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40435" DisplayOrder="17" />
+                  <Enumeration Text="-41.5 °C" Value="40442" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40442" DisplayOrder="18" />
+                  <Enumeration Text="-41.0 °C" Value="40448" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40448" DisplayOrder="19" />
+                  <Enumeration Text="-40.5 °C" Value="40454" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40454" DisplayOrder="20" />
+                  <Enumeration Text="-40.0 °C" Value="40460" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40460" DisplayOrder="21" />
+                  <Enumeration Text="-39.5 °C" Value="40467" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40467" DisplayOrder="22" />
+                  <Enumeration Text="-39.0 °C" Value="40473" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40473" DisplayOrder="23" />
+                  <Enumeration Text="-38.5 °C" Value="40479" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40479" DisplayOrder="24" />
+                  <Enumeration Text="-38.0 °C" Value="40485" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40485" DisplayOrder="25" />
+                  <Enumeration Text="-37.5 °C" Value="40492" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40492" DisplayOrder="26" />
+                  <Enumeration Text="-37.0 °C" Value="40498" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40498" DisplayOrder="27" />
+                  <Enumeration Text="-36.5 °C" Value="40504" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40504" DisplayOrder="28" />
+                  <Enumeration Text="-36.0 °C" Value="40510" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40510" DisplayOrder="29" />
+                  <Enumeration Text="-35.5 °C" Value="40517" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40517" DisplayOrder="30" />
+                  <Enumeration Text="-35.0 °C" Value="40523" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40523" DisplayOrder="31" />
+                  <Enumeration Text="-34.5 °C" Value="40529" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40529" DisplayOrder="32" />
+                  <Enumeration Text="-34.0 °C" Value="40535" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40535" DisplayOrder="33" />
+                  <Enumeration Text="-33.5 °C" Value="40542" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40542" DisplayOrder="34" />
+                  <Enumeration Text="-33.0 °C" Value="40548" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40548" DisplayOrder="35" />
+                  <Enumeration Text="-32.5 °C" Value="40554" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40554" DisplayOrder="36" />
+                  <Enumeration Text="-32.0 °C" Value="40560" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40560" DisplayOrder="37" />
+                  <Enumeration Text="-31.5 °C" Value="40567" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40567" DisplayOrder="38" />
+                  <Enumeration Text="-31.0 °C" Value="40573" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40573" DisplayOrder="39" />
+                  <Enumeration Text="-30.5 °C" Value="40579" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40579" DisplayOrder="40" />
+                  <Enumeration Text="-30.0 °C" Value="40585" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40585" DisplayOrder="41" />
+                  <Enumeration Text="-29.5 °C" Value="40592" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40592" DisplayOrder="42" />
+                  <Enumeration Text="-29.0 °C" Value="40598" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40598" DisplayOrder="43" />
+                  <Enumeration Text="-28.5 °C" Value="40604" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40604" DisplayOrder="44" />
+                  <Enumeration Text="-28.0 °C" Value="40610" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40610" DisplayOrder="45" />
+                  <Enumeration Text="-27.5 °C" Value="40617" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40617" DisplayOrder="46" />
+                  <Enumeration Text="-27.0 °C" Value="40623" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40623" DisplayOrder="47" />
+                  <Enumeration Text="-26.5 °C" Value="40629" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40629" DisplayOrder="48" />
+                  <Enumeration Text="-26.0 °C" Value="40635" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40635" DisplayOrder="49" />
+                  <Enumeration Text="-25.5 °C" Value="40642" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40642" DisplayOrder="50" />
+                  <Enumeration Text="-25.0 °C" Value="40648" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40648" DisplayOrder="51" />
+                  <Enumeration Text="-24.5 °C" Value="40654" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40654" DisplayOrder="52" />
+                  <Enumeration Text="-24.0 °C" Value="40660" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40660" DisplayOrder="53" />
+                  <Enumeration Text="-23.5 °C" Value="40667" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40667" DisplayOrder="54" />
+                  <Enumeration Text="-23.0 °C" Value="40673" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40673" DisplayOrder="55" />
+                  <Enumeration Text="-22.5 °C" Value="40679" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40679" DisplayOrder="56" />
+                  <Enumeration Text="-22.0 °C" Value="40685" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40685" DisplayOrder="57" />
+                  <Enumeration Text="-21.5 °C" Value="40692" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40692" DisplayOrder="58" />
+                  <Enumeration Text="-21.0 °C" Value="40698" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40698" DisplayOrder="59" />
+                  <Enumeration Text="-20.5 °C" Value="40704" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40704" DisplayOrder="60" />
+                  <Enumeration Text="-20.0 °C" Value="40710" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40710" DisplayOrder="61" />
+                  <Enumeration Text="-19.5 °C" Value="40717" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40717" DisplayOrder="62" />
+                  <Enumeration Text="-19.0 °C" Value="40723" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40723" DisplayOrder="63" />
+                  <Enumeration Text="-18.5 °C" Value="40729" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40729" DisplayOrder="64" />
+                  <Enumeration Text="-18.0 °C" Value="40735" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40735" DisplayOrder="65" />
+                  <Enumeration Text="-17.5 °C" Value="40742" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40742" DisplayOrder="66" />
+                  <Enumeration Text="-17.0 °C" Value="40748" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40748" DisplayOrder="67" />
+                  <Enumeration Text="-16.5 °C" Value="40754" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40754" DisplayOrder="68" />
+                  <Enumeration Text="-16.0 °C" Value="40760" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40760" DisplayOrder="69" />
+                  <Enumeration Text="-15.5 °C" Value="40767" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40767" DisplayOrder="70" />
+                  <Enumeration Text="-15.0 °C" Value="40773" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40773" DisplayOrder="71" />
+                  <Enumeration Text="-14.5 °C" Value="40779" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40779" DisplayOrder="72" />
+                  <Enumeration Text="-14.0 °C" Value="40785" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40785" DisplayOrder="73" />
+                  <Enumeration Text="-13.5 °C" Value="40792" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40792" DisplayOrder="74" />
+                  <Enumeration Text="-13.0 °C" Value="40798" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40798" DisplayOrder="75" />
+                  <Enumeration Text="-12.5 °C" Value="40804" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40804" DisplayOrder="76" />
+                  <Enumeration Text="-12.0 °C" Value="40810" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40810" DisplayOrder="77" />
+                  <Enumeration Text="-11.5 °C" Value="40817" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40817" DisplayOrder="78" />
+                  <Enumeration Text="-11.0 °C" Value="40823" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40823" DisplayOrder="79" />
+                  <Enumeration Text="-10.5 °C" Value="40829" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40829" DisplayOrder="80" />
+                  <Enumeration Text="-10.0 °C" Value="40835" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40835" DisplayOrder="81" />
+                  <Enumeration Text="-9.5 °C" Value="40842" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40842" DisplayOrder="82" />
+                  <Enumeration Text="-9.0 °C" Value="40848" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40848" DisplayOrder="83" />
+                  <Enumeration Text="-8.5 °C" Value="40854" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40854" DisplayOrder="84" />
+                  <Enumeration Text="-8.0 °C" Value="40860" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40860" DisplayOrder="85" />
+                  <Enumeration Text="-7.5 °C" Value="40867" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40867" DisplayOrder="86" />
+                  <Enumeration Text="-7.0 °C" Value="40873" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40873" DisplayOrder="87" />
+                  <Enumeration Text="-6.5 °C" Value="40879" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40879" DisplayOrder="88" />
+                  <Enumeration Text="-6.0 °C" Value="40885" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40885" DisplayOrder="89" />
+                  <Enumeration Text="-5.5 °C" Value="40892" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40892" DisplayOrder="90" />
+                  <Enumeration Text="-5.0 °C" Value="40898" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40898" DisplayOrder="91" />
+                  <Enumeration Text="-4.5 °C" Value="40904" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40904" DisplayOrder="92" />
+                  <Enumeration Text="-4.0 °C" Value="40910" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40910" DisplayOrder="93" />
+                  <Enumeration Text="-3.5 °C" Value="40917" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40917" DisplayOrder="94" />
+                  <Enumeration Text="-3.0 °C" Value="40923" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40923" DisplayOrder="95" />
+                  <Enumeration Text="-2.5 °C" Value="40929" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40929" DisplayOrder="96" />
+                  <Enumeration Text="-2.0 °C" Value="40935" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40935" DisplayOrder="97" />
+                  <Enumeration Text="-1.5 °C" Value="40942" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40942" DisplayOrder="98" />
+                  <Enumeration Text="-1.0 °C" Value="40948" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40948" DisplayOrder="99" />
+                  <Enumeration Text="-0.5 °C" Value="40954" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-40954" DisplayOrder="100" />
+                  <Enumeration Text="0.0 °C" Value="6144" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6144" DisplayOrder="101" />
+                  <Enumeration Text="0.5 °C" Value="6150" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6150" DisplayOrder="102" />
+                  <Enumeration Text="1.0 °C" Value="6156" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6156" DisplayOrder="103" />
+                  <Enumeration Text="1.5 °C" Value="6162" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6162" DisplayOrder="104" />
+                  <Enumeration Text="2.0 °C" Value="6169" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6169" DisplayOrder="105" />
+                  <Enumeration Text="2.5 °C" Value="6175" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6175" DisplayOrder="106" />
+                  <Enumeration Text="3.0 °C" Value="6181" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6181" DisplayOrder="107" />
+                  <Enumeration Text="3.5 °C" Value="6187" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6187" DisplayOrder="108" />
+                  <Enumeration Text="4.0 °C" Value="6194" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6194" DisplayOrder="109" />
+                  <Enumeration Text="4.5 °C" Value="6200" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6200" DisplayOrder="110" />
+                  <Enumeration Text="5.0 °C" Value="6206" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6206" DisplayOrder="111" />
+                  <Enumeration Text="5.5 °C" Value="6212" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6212" DisplayOrder="112" />
+                  <Enumeration Text="6.0 °C" Value="6219" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6219" DisplayOrder="113" />
+                  <Enumeration Text="6.5 °C" Value="6225" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6225" DisplayOrder="114" />
+                  <Enumeration Text="7.0 °C" Value="6231" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6231" DisplayOrder="115" />
+                  <Enumeration Text="7.5 °C" Value="6237" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6237" DisplayOrder="116" />
+                  <Enumeration Text="8.0 °C" Value="6244" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6244" DisplayOrder="117" />
+                  <Enumeration Text="8.5 °C" Value="6250" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6250" DisplayOrder="118" />
+                  <Enumeration Text="9.0 °C" Value="6256" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6256" DisplayOrder="119" />
+                  <Enumeration Text="9.5 °C" Value="6262" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6262" DisplayOrder="120" />
+                  <Enumeration Text="10.0 °C" Value="6269" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6269" DisplayOrder="121" />
+                  <Enumeration Text="10.5 °C" Value="6275" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6275" DisplayOrder="122" />
+                  <Enumeration Text="11.0 °C" Value="6281" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6281" DisplayOrder="123" />
+                  <Enumeration Text="11.5 °C" Value="6287" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6287" DisplayOrder="124" />
+                  <Enumeration Text="12.0 °C" Value="6294" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6294" DisplayOrder="125" />
+                  <Enumeration Text="12.5 °C" Value="6300" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6300" DisplayOrder="126" />
+                  <Enumeration Text="13.0 °C" Value="6306" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6306" DisplayOrder="127" />
+                  <Enumeration Text="13.5 °C" Value="6312" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6312" DisplayOrder="128" />
+                  <Enumeration Text="14.0 °C" Value="6319" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6319" DisplayOrder="129" />
+                  <Enumeration Text="14.5 °C" Value="6325" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6325" DisplayOrder="130" />
+                  <Enumeration Text="15.0 °C" Value="6331" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6331" DisplayOrder="131" />
+                  <Enumeration Text="15.5 °C" Value="6337" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6337" DisplayOrder="132" />
+                  <Enumeration Text="16.0 °C" Value="6344" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6344" DisplayOrder="133" />
+                  <Enumeration Text="16.5 °C" Value="6350" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6350" DisplayOrder="134" />
+                  <Enumeration Text="17.0 °C" Value="6356" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6356" DisplayOrder="135" />
+                  <Enumeration Text="17.5 °C" Value="6362" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6362" DisplayOrder="136" />
+                  <Enumeration Text="18.0 °C" Value="6369" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6369" DisplayOrder="137" />
+                  <Enumeration Text="18.5 °C" Value="6375" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6375" DisplayOrder="138" />
+                  <Enumeration Text="19.0 °C" Value="6381" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6381" DisplayOrder="139" />
+                  <Enumeration Text="19.5 °C" Value="6387" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6387" DisplayOrder="140" />
+                  <Enumeration Text="20.0 °C" Value="6394" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6394" DisplayOrder="141" />
+                  <Enumeration Text="20.5 °C" Value="6400" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6400" DisplayOrder="142" />
+                  <Enumeration Text="21.0 °C" Value="6406" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6406" DisplayOrder="143" />
+                  <Enumeration Text="21.5 °C" Value="6412" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6412" DisplayOrder="144" />
+                  <Enumeration Text="22.0 °C" Value="6419" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6419" DisplayOrder="145" />
+                  <Enumeration Text="22.5 °C" Value="6425" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6425" DisplayOrder="146" />
+                  <Enumeration Text="23.0 °C" Value="6431" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6431" DisplayOrder="147" />
+                  <Enumeration Text="23.5 °C" Value="6437" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6437" DisplayOrder="148" />
+                  <Enumeration Text="24.0 °C" Value="6444" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6444" DisplayOrder="149" />
+                  <Enumeration Text="24.5 °C" Value="6450" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6450" DisplayOrder="150" />
+                  <Enumeration Text="25.0 °C" Value="6456" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6456" DisplayOrder="151" />
+                  <Enumeration Text="25.5 °C" Value="6462" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6462" DisplayOrder="152" />
+                  <Enumeration Text="26.0 °C" Value="6469" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6469" DisplayOrder="153" />
+                  <Enumeration Text="26.5 °C" Value="6475" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6475" DisplayOrder="154" />
+                  <Enumeration Text="27.0 °C" Value="6481" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6481" DisplayOrder="155" />
+                  <Enumeration Text="27.5 °C" Value="6487" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6487" DisplayOrder="156" />
+                  <Enumeration Text="28.0 °C" Value="6494" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6494" DisplayOrder="157" />
+                  <Enumeration Text="28.5 °C" Value="6500" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6500" DisplayOrder="158" />
+                  <Enumeration Text="29.0 °C" Value="6506" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6506" DisplayOrder="159" />
+                  <Enumeration Text="29.5 °C" Value="6512" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6512" DisplayOrder="160" />
+                  <Enumeration Text="30.0 °C" Value="6519" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6519" DisplayOrder="161" />
+                  <Enumeration Text="30.5 °C" Value="6525" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6525" DisplayOrder="162" />
+                  <Enumeration Text="31.0 °C" Value="6531" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6531" DisplayOrder="163" />
+                  <Enumeration Text="31.5 °C" Value="6537" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6537" DisplayOrder="164" />
+                  <Enumeration Text="32.0 °C" Value="6544" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6544" DisplayOrder="165" />
+                  <Enumeration Text="32.5 °C" Value="6550" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6550" DisplayOrder="166" />
+                  <Enumeration Text="33.0 °C" Value="6556" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6556" DisplayOrder="167" />
+                  <Enumeration Text="33.5 °C" Value="6562" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6562" DisplayOrder="168" />
+                  <Enumeration Text="34.0 °C" Value="6569" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6569" DisplayOrder="169" />
+                  <Enumeration Text="34.5 °C" Value="6575" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6575" DisplayOrder="170" />
+                  <Enumeration Text="35.0 °C" Value="6581" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6581" DisplayOrder="171" />
+                  <Enumeration Text="35.5 °C" Value="6587" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6587" DisplayOrder="172" />
+                  <Enumeration Text="36.0 °C" Value="6594" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6594" DisplayOrder="173" />
+                  <Enumeration Text="36.5 °C" Value="6600" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6600" DisplayOrder="174" />
+                  <Enumeration Text="37.0 °C" Value="6606" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6606" DisplayOrder="175" />
+                  <Enumeration Text="37.5 °C" Value="6612" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6612" DisplayOrder="176" />
+                  <Enumeration Text="38.0 °C" Value="6619" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6619" DisplayOrder="177" />
+                  <Enumeration Text="38.5 °C" Value="6625" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6625" DisplayOrder="178" />
+                  <Enumeration Text="39.0 °C" Value="6631" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6631" DisplayOrder="179" />
+                  <Enumeration Text="39.5 °C" Value="6637" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6637" DisplayOrder="180" />
+                  <Enumeration Text="40.0 °C" Value="6644" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6644" DisplayOrder="181" />
+                  <Enumeration Text="40.5 °C" Value="6650" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6650" DisplayOrder="182" />
+                  <Enumeration Text="41.0 °C" Value="6656" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6656" DisplayOrder="183" />
+                  <Enumeration Text="41.5 °C" Value="6662" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6662" DisplayOrder="184" />
+                  <Enumeration Text="42.0 °C" Value="6669" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6669" DisplayOrder="185" />
+                  <Enumeration Text="42.5 °C" Value="6675" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6675" DisplayOrder="186" />
+                  <Enumeration Text="43.0 °C" Value="6681" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6681" DisplayOrder="187" />
+                  <Enumeration Text="43.5 °C" Value="6687" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6687" DisplayOrder="188" />
+                  <Enumeration Text="44.0 °C" Value="6694" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6694" DisplayOrder="189" />
+                  <Enumeration Text="44.5 °C" Value="6700" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6700" DisplayOrder="190" />
+                  <Enumeration Text="45.0 °C" Value="6706" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6706" DisplayOrder="191" />
+                  <Enumeration Text="45.5 °C" Value="6712" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6712" DisplayOrder="192" />
+                  <Enumeration Text="46.0 °C" Value="6719" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6719" DisplayOrder="193" />
+                  <Enumeration Text="46.5 °C" Value="6725" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6725" DisplayOrder="194" />
+                  <Enumeration Text="47.0 °C" Value="6731" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6731" DisplayOrder="195" />
+                  <Enumeration Text="47.5 °C" Value="6737" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6737" DisplayOrder="196" />
+                  <Enumeration Text="48.0 °C" Value="6744" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6744" DisplayOrder="197" />
+                  <Enumeration Text="48.5 °C" Value="6750" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6750" DisplayOrder="198" />
+                  <Enumeration Text="49.0 °C" Value="6756" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6756" DisplayOrder="199" />
+                  <Enumeration Text="49.5 °C" Value="6762" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6762" DisplayOrder="200" />
+                  <Enumeration Text="50.0 °C" Value="6769" Id="M-0009_A-000B-10-3D88_PT-temperature_EN-6769" DisplayOrder="201" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-000B-10-3D88_PT-freq" Name="freq">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="1 mn" Value="1" Id="M-0009_A-000B-10-3D88_PT-freq_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="15 mn" Value="26" Id="M-0009_A-000B-10-3D88_PT-freq_EN-26" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-000B-10-3D88_P-1" Name="Température" ParameterType="M-0009_A-000B-10-3D88_PT-freq" Text="Température" Access="Read" Value="1" />
+              <Parameter Id="M-0009_A-000B-10-3D88_P-3" Name="Consigne" ParameterType="M-0009_A-000B-10-3D88_PT-temperature" Text="Consigne" Access="Read" Value="40335" />
+              <Parameter Id="M-0009_A-000B-10-3D88_P-5" Name="hysteresis" ParameterType="M-0009_A-000B-10-3D88_PT-temp.5Fhyst" Text="Hystéresis" Value="6169">
+                <Memory CodeSegment="M-0009_A-000B-10-3D88_AS-0100" Offset="64" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-000B-10-3D88_P-2" Name="freq_rep" ParameterType="M-0009_A-000B-10-3D88_PT-freq" Text="Fréquence de transmission" Value="26">
+                <Memory CodeSegment="M-0009_A-000B-10-3D88_AS-0100" Offset="66" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-000B-10-3D88_P-4" Name="consigne" ParameterType="M-0009_A-000B-10-3D88_PT-temperature" Text="Valeur consigne " Value="6456">
+                <Memory CodeSegment="M-0009_A-000B-10-3D88_AS-0100" Offset="252" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-000B-10-3D88_P-1_R-1" RefId="M-0009_A-000B-10-3D88_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-000B-10-3D88_P-2_R-2" RefId="M-0009_A-000B-10-3D88_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-000B-10-3D88_P-3_R-3" RefId="M-0009_A-000B-10-3D88_P-3" Tag="3" DisplayOrder="3" />
+              <ParameterRef Id="M-0009_A-000B-10-3D88_P-4_R-4" RefId="M-0009_A-000B-10-3D88_P-4" Tag="4" DisplayOrder="4" />
+              <ParameterRef Id="M-0009_A-000B-10-3D88_P-5_R-5" RefId="M-0009_A-000B-10-3D88_P-5" Tag="5" DisplayOrder="5" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-000B-10-3D88_AS-0100" Offset="50">
+              <ComObject Id="M-0009_A-000B-10-3D88_O-0" Name="    " Text="    " Number="0" FunctionText="Erreur" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-000B-10-3D88_O-1" Name="Température" Text="Température" Number="1" FunctionText="Température" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-000B-10-3D88_O-2" Name="Consigne" Text="Consigne" Number="2" FunctionText="Consigne" ObjectSize="2 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-000B-10-3D88_O-3" Name="Dépassement de seuil" Text="Dépassement de seuil" Number="3" FunctionText="Dépassement de seuil" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-000B-10-3D88_O-0_R-0" RefId="M-0009_A-000B-10-3D88_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-000B-10-3D88_O-1_R-1" RefId="M-0009_A-000B-10-3D88_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-000B-10-3D88_O-2_R-2" RefId="M-0009_A-000B-10-3D88_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-000B-10-3D88_O-3_R-3" RefId="M-0009_A-000B-10-3D88_O-3" Tag="3" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-000B-10-3D88_AS-0100" Offset="22" MaxEntries="6" />
+            <AssociationTable CodeSegment="M-0009_A-000B-10-3D88_AS-0100" Offset="37" MaxEntries="6" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FGetFlg" CodeSegment="M-0009_A-000B-10-3D88_AS-0100">
+                <Offset>205</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FLoad" CodeSegment="M-0009_A-000B-10-3D88_AS-0100">
+                <Offset>105</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-000B-10-3D88_AS-0100">
+                <Offset>113</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5Fmap" CodeSegment="M-0009_A-000B-10-3D88_AS-0100">
+                <Offset>133</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FreadAD" CodeSegment="M-0009_A-000B-10-3D88_AS-0100">
+                <Offset>120</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-000B-10-3D88_AS-0100">
+                <Offset>220</Offset>
+                <Offset>225</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-000B-10-3D88_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-000B-10-3D88_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-000B-10-3D88_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-000B-10-3D88_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-000B-10-3D88_O-3_R-3" />
+              <ParameterBlock Id="M-0009_A-000B-10-3D88_PB-1" Name="Température" Access="Read" ParamRefId="M-0009_A-000B-10-3D88_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-000B-10-3D88_P-2_R-2" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-000B-10-3D88_PB-3" Name="Consigne" Access="Read" ParamRefId="M-0009_A-000B-10-3D88_P-3_R-3">
+                <ParameterRefRef RefId="M-0009_A-000B-10-3D88_P-4_R-4" />
+                <ParameterRefRef RefId="M-0009_A-000B-10-3D88_P-5_R-5" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

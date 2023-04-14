@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-004B-20-1AED" ApplicationNumber="75" ApplicationVersion="32" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TB326" LoadProcedureStyle="DefaultProcedure" PeiType="2" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="GtX1F30tnx3N80tyzw6G7Q==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-004B-20-1AED_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkASyD/AkAAAP/gY/8zTvp3/gH//xEAEQERAhEDEQQRBREGEQcRCBEJEQoRCxEMDQIAAwEEAgUDBgQHBQgGCQcKCA0JAQoLCAwIC9nOzwfSxwfPzwfTxwfQzwfUxwfRzwfVxwfW1wDW1wDXxwAK+vr6+gAaAhDXT80Nz7ZQt1yuA79Z5tm3W+bht1oqBwJbBB9ab84NWgcKWwQdWhNaD90GWFytTxxaB90QAloNElpv0g5aBubO59JvzgdcBBBaICUBWiIRWmzO5s7RAXImBVitIh5aXSYPPNi22MEBcSYGrgqtEG/Ytlrn4ThcWiqSH90X3YGfzQ25vlmBAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Name="t_setpoint">
+                <TypeNumber SizeInBit="8" Type="unsignedInt" minInclusive="1" maxInclusive="250" />
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-004B-20-1AED_P-1" Name="Entrée 1" ParameterType="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Text="Entrée 1" Access="Read" Value="1" />
+              <Parameter Id="M-0009_A-004B-20-1AED_P-4" Name="Entrée 2" ParameterType="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Text="Entrée 2" Access="Read" Value="1" />
+              <Parameter Id="M-0009_A-004B-20-1AED_P-6" Name="Entrée 3" ParameterType="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Text="Entrée 3" Access="Read" Value="1" />
+              <Parameter Id="M-0009_A-004B-20-1AED_P-8" Name="Entrée 4" ParameterType="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Text="Entrée 4" Access="Read" Value="1" />
+              <Parameter Id="M-0009_A-004B-20-1AED_P-3" Name="delestage" ParameterType="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Text="Consigne:impulsion calibrée" Value="10">
+                <Memory CodeSegment="M-0009_A-004B-20-1AED_AS-0100" Offset="113" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-004B-20-1AED_P-2" Name="setpoint1" ParameterType="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Text="Consigne:compteur 1" Value="250">
+                <Memory CodeSegment="M-0009_A-004B-20-1AED_AS-0100" Offset="114" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-004B-20-1AED_P-5" Name="setpoint2" ParameterType="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Text="Consigne:compteur 2" Value="250">
+                <Memory CodeSegment="M-0009_A-004B-20-1AED_AS-0100" Offset="115" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-004B-20-1AED_P-7" Name="setpoint3" ParameterType="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Text="Consigne:compteur 3" Value="250">
+                <Memory CodeSegment="M-0009_A-004B-20-1AED_AS-0100" Offset="116" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-004B-20-1AED_P-9" Name="setpoint4" ParameterType="M-0009_A-004B-20-1AED_PT-t.5Fsetpoint" Text="Consigne:compteur 4" Value="250">
+                <Memory CodeSegment="M-0009_A-004B-20-1AED_AS-0100" Offset="117" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-004B-20-1AED_P-1_R-1" RefId="M-0009_A-004B-20-1AED_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-004B-20-1AED_P-2_R-2" RefId="M-0009_A-004B-20-1AED_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-004B-20-1AED_P-3_R-3" RefId="M-0009_A-004B-20-1AED_P-3" Tag="3" DisplayOrder="3" />
+              <ParameterRef Id="M-0009_A-004B-20-1AED_P-4_R-4" RefId="M-0009_A-004B-20-1AED_P-4" Tag="4" DisplayOrder="4" />
+              <ParameterRef Id="M-0009_A-004B-20-1AED_P-5_R-5" RefId="M-0009_A-004B-20-1AED_P-5" Tag="5" DisplayOrder="5" />
+              <ParameterRef Id="M-0009_A-004B-20-1AED_P-6_R-6" RefId="M-0009_A-004B-20-1AED_P-6" Tag="6" DisplayOrder="6" />
+              <ParameterRef Id="M-0009_A-004B-20-1AED_P-7_R-7" RefId="M-0009_A-004B-20-1AED_P-7" Tag="7" DisplayOrder="7" />
+              <ParameterRef Id="M-0009_A-004B-20-1AED_P-8_R-8" RefId="M-0009_A-004B-20-1AED_P-8" Tag="8" DisplayOrder="8" />
+              <ParameterRef Id="M-0009_A-004B-20-1AED_P-9_R-9" RefId="M-0009_A-004B-20-1AED_P-9" Tag="9" DisplayOrder="9" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-004B-20-1AED_AS-0100" Offset="78">
+              <ComObject Id="M-0009_A-004B-20-1AED_O-0" Name="E1" Text="E1" Number="0" FunctionText="Compteur 1" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-1" Name="E1" Text="E1" Number="1" FunctionText="Sauvegarde 1" ObjectSize="1 Byte" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-2" Name="E2" Text="E2" Number="2" FunctionText="Compteur 2" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-3" Name="E2" Text="E2" Number="3" FunctionText="Sauvegarde 2" ObjectSize="1 Byte" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-4" Name="E3" Text="E3" Number="4" FunctionText="Compteur 3" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-5" Name="E3" Text="E3" Number="5" FunctionText="Sauvegarde 3" ObjectSize="1 Byte" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-6" Name="E4" Text="E4" Number="6" FunctionText="Compteur 4" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-7" Name="E4" Text="E4" Number="7" FunctionText="Sauvegarde 4" ObjectSize="1 Byte" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-8" Name="Ordres tarifaires" Text="Ordres tarifaires" Number="8" FunctionText="Synchro" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-9" Name="Demande d'émission" Text="Demande d'émission" Number="9" FunctionText="Demande d'émission" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004B-20-1AED_O-10" Name="E1" Text="E1" Number="10" FunctionText="Impulsion calibrée" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-0_R-0" RefId="M-0009_A-004B-20-1AED_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-1_R-1" RefId="M-0009_A-004B-20-1AED_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-2_R-2" RefId="M-0009_A-004B-20-1AED_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-3_R-3" RefId="M-0009_A-004B-20-1AED_O-3" Tag="3" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-4_R-4" RefId="M-0009_A-004B-20-1AED_O-4" Tag="4" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-5_R-5" RefId="M-0009_A-004B-20-1AED_O-5" Tag="5" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-6_R-6" RefId="M-0009_A-004B-20-1AED_O-6" Tag="6" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-7_R-7" RefId="M-0009_A-004B-20-1AED_O-7" Tag="7" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-8_R-8" RefId="M-0009_A-004B-20-1AED_O-8" Tag="8" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-9_R-9" RefId="M-0009_A-004B-20-1AED_O-9" Tag="9" />
+              <ComObjectRef Id="M-0009_A-004B-20-1AED_O-10_R-10" RefId="M-0009_A-004B-20-1AED_O-10" Tag="10" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-004B-20-1AED_AS-0100" Offset="22" MaxEntries="13" />
+            <AssociationTable CodeSegment="M-0009_A-004B-20-1AED_AS-0100" Offset="51" MaxEntries="13" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-U.5FioAST" CodeSegment="M-0009_A-004B-20-1AED_AS-0100">
+                <Offset>125</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-004B-20-1AED_AS-0100">
+                <Offset>250</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-004B-20-1AED_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-3_R-3" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-4_R-4" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-5_R-5" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-6_R-6" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-7_R-7" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-8_R-8" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-9_R-9" />
+              <ComObjectRefRef RefId="M-0009_A-004B-20-1AED_O-10_R-10" />
+              <ParameterBlock Id="M-0009_A-004B-20-1AED_PB-1" Name="Entrée 1" Access="Read" ParamRefId="M-0009_A-004B-20-1AED_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-004B-20-1AED_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-004B-20-1AED_P-3_R-3" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-004B-20-1AED_PB-4" Name="Entrée 2" Access="Read" ParamRefId="M-0009_A-004B-20-1AED_P-4_R-4">
+                <ParameterRefRef RefId="M-0009_A-004B-20-1AED_P-5_R-5" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-004B-20-1AED_PB-6" Name="Entrée 3" Access="Read" ParamRefId="M-0009_A-004B-20-1AED_P-6_R-6">
+                <ParameterRefRef RefId="M-0009_A-004B-20-1AED_P-7_R-7" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-004B-20-1AED_PB-8" Name="Entrée 4" Access="Read" ParamRefId="M-0009_A-004B-20-1AED_P-8_R-8">
+                <ParameterRefRef RefId="M-0009_A-004B-20-1AED_P-9_R-9" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

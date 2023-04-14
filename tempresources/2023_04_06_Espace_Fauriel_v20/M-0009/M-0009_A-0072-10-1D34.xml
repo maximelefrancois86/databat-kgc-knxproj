@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0072-10-1D34" ApplicationNumber="114" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0911" Name="TA301" LoadProcedureStyle="DefaultProcedure" PeiType="0" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="HdMX6xhbuKh/rK6y5ECPNA==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0072-10-1D34_AS-0100" Address="256" Size="256" />
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0072-10-1D34_PT-t.5FLKackEn" Name="t_LKackEn">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="toujours" Value="0" Id="M-0009_A-0072-10-1D34_PT-t.5FLKackEn_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="seulement en passant" Value="1" Id="M-0009_A-0072-10-1D34_PT-t.5FLKackEn_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0072-10-1D34_PT-t.5FLKerrDef" Name="t_LKerrDef">
+                <TypeRestriction Base="Value" SizeInBit="2">
+                  <Enumeration Text="bloqué" Value="1" Id="M-0009_A-0072-10-1D34_PT-t.5FLKerrDef_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="passant" Value="2" Id="M-0009_A-0072-10-1D34_PT-t.5FLKerrDef_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="ignorer erreur" Value="3" Id="M-0009_A-0072-10-1D34_PT-t.5FLKerrDef_EN-3" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0072-10-1D34_PT-t.5FLKgrpDef" Name="t_LKgrpDef">
+                <TypeRestriction Base="Value" SizeInBit="2">
+                  <Enumeration Text="passant" Value="1" Id="M-0009_A-0072-10-1D34_PT-t.5FLKgrpDef_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="bloqué" Value="2" Id="M-0009_A-0072-10-1D34_PT-t.5FLKgrpDef_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="filtré" Value="3" Id="M-0009_A-0072-10-1D34_PT-t.5FLKgrpDef_EN-3" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0072-10-1D34_PT-t.5FLKgrpTabChk" Name="t_LKgrpTabChk">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="non" Value="0" Id="M-0009_A-0072-10-1D34_PT-t.5FLKgrpTabChk_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="oui" Value="1" Id="M-0009_A-0072-10-1D34_PT-t.5FLKgrpTabChk_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0072-10-1D34_PT-t.5FLKhiGrpDef" Name="t_LKhiGrpDef">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="bloqué" Value="0" Id="M-0009_A-0072-10-1D34_PT-t.5FLKhiGrpDef_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="passant" Value="1" Id="M-0009_A-0072-10-1D34_PT-t.5FLKhiGrpDef_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0072-10-1D34_PT-t.5FLKmxRstCnt" Name="t_LKmxRstCnt" InternalDescription="Wiederholungen bei šbertragungsfehler">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text="aucune" Value="0" Id="M-0009_A-0072-10-1D34_PT-t.5FLKmxRstCnt_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="1" Value="8481" Id="M-0009_A-0072-10-1D34_PT-t.5FLKmxRstCnt_EN-8481" DisplayOrder="2" />
+                  <Enumeration Text="2" Value="16962" Id="M-0009_A-0072-10-1D34_PT-t.5FLKmxRstCnt_EN-16962" DisplayOrder="3" />
+                  <Enumeration Text="3" Value="25443" Id="M-0009_A-0072-10-1D34_PT-t.5FLKmxRstCnt_EN-25443" DisplayOrder="4" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0072-10-1D34_PT-t.5Fenable" Name="t_enable">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="disabled" Value="0" Id="M-0009_A-0072-10-1D34_PT-t.5Fenable_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="enabled" Value="1" Id="M-0009_A-0072-10-1D34_PT-t.5Fenable_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-1" Name="Configuration" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKgrpDef" Text="Configuration" Access="Read" Value="1" />
+              <Parameter Id="M-0009_A-0072-10-1D34_P-9" Name="LKMRepeat" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKmxRstCnt" Text="Répétitions si erreurs de transm.&#xA;sur ligne principale" Value="25443">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="18" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-10" Name="LKSRepeat" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKmxRstCnt" Text="Répétitions si erreurs de transm.&#xA;sur ligne" Value="25443">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="20" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-5" Name="LKdef.mainPhysAddr" ParameterType="M-0009_A-0072-10-1D34_PT-t.5Fenable" Text="Filtre de l'addresse phys. sur ligne principale" Access="None" Value="1">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="27" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-6" Name="LKdef.subPhysAddr" ParameterType="M-0009_A-0072-10-1D34_PT-t.5Fenable" Text="Filtre de l'addresse phys. sur ligne" Access="None" Value="1">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="27" BitOffset="1" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-4" Name="LKdef.grpTabChk" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKgrpTabChk" Text="Contrôle table de filtrage" Value="1">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="27" BitOffset="2" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-7" Name="LKdef.hiGrpDef" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKhiGrpDef" Text="Groupe principal 14/15" Value="1">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="27" BitOffset="3" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-11" Name="LKdef.mainLnAck" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKackEn" Text="Confirmation de télégrammes sur ligne principale" Value="1">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="27" BitOffset="4" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-12" Name="LKdef.subLnAck" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKackEn" Text="Confirmation de télégrammes sur ligne" Value="1">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="27" BitOffset="5" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-8" Name="LKdef.errDef" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKerrDef" Text="Si erreur dans table de filtrage" Value="2">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="27" BitOffset="6" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-3" Name="LKgrpConf.SMgrpDef" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKgrpDef" Text="Ligne -&gt; Ligne principale" Value="3">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="28" BitOffset="2" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0072-10-1D34_P-2" Name="LKgrpConf.MSgrpDef" ParameterType="M-0009_A-0072-10-1D34_PT-t.5FLKgrpDef" Text="Ligne principale -&gt; Ligne" Value="3">
+                <Memory CodeSegment="M-0009_A-0072-10-1D34_AS-0100" Offset="28" BitOffset="6" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-1_R-1" RefId="M-0009_A-0072-10-1D34_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-2_R-2" RefId="M-0009_A-0072-10-1D34_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-3_R-3" RefId="M-0009_A-0072-10-1D34_P-3" Tag="3" DisplayOrder="3" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-4_R-4" RefId="M-0009_A-0072-10-1D34_P-4" Tag="4" DisplayOrder="4" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-5_R-5" RefId="M-0009_A-0072-10-1D34_P-5" Tag="5" DisplayOrder="5" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-6_R-6" RefId="M-0009_A-0072-10-1D34_P-6" Tag="6" DisplayOrder="6" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-7_R-7" RefId="M-0009_A-0072-10-1D34_P-7" Tag="7" DisplayOrder="7" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-8_R-8" RefId="M-0009_A-0072-10-1D34_P-8" Tag="8" DisplayOrder="8" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-9_R-9" RefId="M-0009_A-0072-10-1D34_P-9" Tag="9" DisplayOrder="9" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-10_R-10" RefId="M-0009_A-0072-10-1D34_P-10" Tag="10" DisplayOrder="10" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-11_R-11" RefId="M-0009_A-0072-10-1D34_P-11" Tag="11" DisplayOrder="11" />
+              <ParameterRef Id="M-0009_A-0072-10-1D34_P-12_R-12" RefId="M-0009_A-0072-10-1D34_P-12" Tag="12" DisplayOrder="12" />
+            </ParameterRefs>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0072-10-1D34_CH-0">
+              <ParameterBlock Id="M-0009_A-0072-10-1D34_PB-1" Name="Configuration" Access="Read" ParamRefId="M-0009_A-0072-10-1D34_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-3_R-3" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-4_R-4" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-5_R-5" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-6_R-6" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-7_R-7" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-8_R-8" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-9_R-9" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-10_R-10" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-11_R-11" />
+                <ParameterRefRef RefId="M-0009_A-0072-10-1D34_P-12_R-12" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

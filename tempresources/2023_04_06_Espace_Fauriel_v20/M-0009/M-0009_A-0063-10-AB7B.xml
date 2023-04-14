@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0063-10-AB7B" ApplicationNumber="99" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0011" Name="TB330" LoadProcedureStyle="DefaultProcedure" PeiType="19" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="q8W8qqyzT+hyk3KaDNN3ew==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0063-10-AB7B_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAYxD8E0AAAP/gY+gvTICbdgH//wEAAQEBAgEDAQQBBQEGAQcBCAAAAAAMAQACAQMCBAMFBAYFBwYIBwkBCQMJBQkHAAAAAAjO0tcA09cA1NcA1dcA1tcA19cA2NcA2dcAAAAAAAAAAAAAAAAAbtqZmT9TrRitIzpTJvo/U75T1gFmVETnzk9JWOfSPFM8UwdT6xjfHQK23yZTPN483hfett7NDKUmLLbeTM0MpScMvt5UbOHGAXLn2iAYvt5UbeEnNLbeRK5zzQ1xJiq+3m/TVG/hvt7m00Pk0qQBFN9U2AFuqv5ISEi63kbNDc+mFM0N+h0COt+BAAAAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0063-10-AB7B_PT-interval" Name="interval">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text=" 15 mn" Value="14" Id="M-0009_A-0063-10-AB7B_PT-interval_EN-14" DisplayOrder="1" />
+                  <Enumeration Text=" 30 mn" Value="28" Id="M-0009_A-0063-10-AB7B_PT-interval_EN-28" DisplayOrder="2" />
+                  <Enumeration Text=" 45 mn" Value="41" Id="M-0009_A-0063-10-AB7B_PT-interval_EN-41" DisplayOrder="3" />
+                  <Enumeration Text=" 1 h" Value="55" Id="M-0009_A-0063-10-AB7B_PT-interval_EN-55" DisplayOrder="4" />
+                  <Enumeration Text=" 1 h 15 mn" Value="69" Id="M-0009_A-0063-10-AB7B_PT-interval_EN-69" DisplayOrder="5" />
+                  <Enumeration Text=" 1 h 30 mn" Value="82" Id="M-0009_A-0063-10-AB7B_PT-interval_EN-82" DisplayOrder="6" />
+                  <Enumeration Text=" 1 h 45 mn" Value="96" Id="M-0009_A-0063-10-AB7B_PT-interval_EN-96" DisplayOrder="7" />
+                  <Enumeration Text=" 2 h" Value="110" Id="M-0009_A-0063-10-AB7B_PT-interval_EN-110" DisplayOrder="8" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0063-10-AB7B_PT-valeur.5Finit" Name="valeur_init">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text=" mémorisation" Value="0" Id="M-0009_A-0063-10-AB7B_PT-valeur.5Finit_EN-0" DisplayOrder="1" />
+                  <Enumeration Text=" OFF" Value="16" Id="M-0009_A-0063-10-AB7B_PT-valeur.5Finit_EN-16" DisplayOrder="2" />
+                  <Enumeration Text=" ON" Value="17" Id="M-0009_A-0063-10-AB7B_PT-valeur.5Finit_EN-17" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0063-10-AB7B_PT-valeur.5Fsave" Name="valeur_save">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text=" mémorisation" Value="0" Id="M-0009_A-0063-10-AB7B_PT-valeur.5Fsave_EN-0" DisplayOrder="1" />
+                  <Enumeration Text=" OFF" Value="16" Id="M-0009_A-0063-10-AB7B_PT-valeur.5Fsave_EN-16" DisplayOrder="2" />
+                  <Enumeration Text=" ON" Value="17" Id="M-0009_A-0063-10-AB7B_PT-valeur.5Fsave_EN-17" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-1" Name=" Sortie 1-4" ParameterType="M-0009_A-0063-10-AB7B_PT-interval" Text=" Sortie 1-4" Access="Read" Value="14" />
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-3" Name=" Sortie 1" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Finit" Text=" Sortie 1" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-6" Name=" Sortie 2" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Finit" Text=" Sortie 2" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-9" Name=" Sortie 3" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Finit" Text=" Sortie 3" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-12" Name=" Sortie 4" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Finit" Text=" Sortie 4" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-4" Name="valeur_init0" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Finit" Text="Etat après coupure bus" Value="0">
+                <Memory CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="102" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-5" Name="valeur_save0" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Fsave" Text="Etat pendant coupure bus" Value="0">
+                <Memory CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="103" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-7" Name="valeur_init1" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Finit" Text="Etat après coupure bus" Value="0">
+                <Memory CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="104" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-8" Name="valeur_save1" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Fsave" Text="Etat pendant coupure bus" Value="0">
+                <Memory CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="105" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-10" Name="valeur_init2" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Finit" Text="Etat après coupure bus" Value="0">
+                <Memory CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="106" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-11" Name="valeur_save2" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Fsave" Text="Etat pendant coupure bus" Value="0">
+                <Memory CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="107" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-13" Name="valeur_init3" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Finit" Text="Etat après coupure bus" Value="0">
+                <Memory CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="108" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-14" Name="valeur_save3" ParameterType="M-0009_A-0063-10-AB7B_PT-valeur.5Fsave" Text="Etat pendant coupure bus" Value="0">
+                <Memory CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="109" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0063-10-AB7B_P-2" Name="Tempo_delest" ParameterType="M-0009_A-0063-10-AB7B_PT-interval" Text="Durée maxi. délestage" Value="110">
+                <Memory CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="114" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-1_R-1" RefId="M-0009_A-0063-10-AB7B_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-2_R-2" RefId="M-0009_A-0063-10-AB7B_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-3_R-3" RefId="M-0009_A-0063-10-AB7B_P-3" Tag="3" DisplayOrder="3" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-4_R-4" RefId="M-0009_A-0063-10-AB7B_P-4" Tag="4" DisplayOrder="4" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-5_R-5" RefId="M-0009_A-0063-10-AB7B_P-5" Tag="5" DisplayOrder="5" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-6_R-6" RefId="M-0009_A-0063-10-AB7B_P-6" Tag="6" DisplayOrder="6" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-7_R-7" RefId="M-0009_A-0063-10-AB7B_P-7" Tag="7" DisplayOrder="7" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-8_R-8" RefId="M-0009_A-0063-10-AB7B_P-8" Tag="8" DisplayOrder="8" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-9_R-9" RefId="M-0009_A-0063-10-AB7B_P-9" Tag="9" DisplayOrder="9" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-10_R-10" RefId="M-0009_A-0063-10-AB7B_P-10" Tag="10" DisplayOrder="10" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-11_R-11" RefId="M-0009_A-0063-10-AB7B_P-11" Tag="11" DisplayOrder="11" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-12_R-12" RefId="M-0009_A-0063-10-AB7B_P-12" Tag="12" DisplayOrder="12" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-13_R-13" RefId="M-0009_A-0063-10-AB7B_P-13" Tag="13" DisplayOrder="13" />
+              <ParameterRef Id="M-0009_A-0063-10-AB7B_P-14_R-14" RefId="M-0009_A-0063-10-AB7B_P-14" Tag="14" DisplayOrder="14" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="76">
+              <ComObject Id="M-0009_A-0063-10-AB7B_O-0" Name="S1" Text="S1" Number="0" FunctionText="Commande sortie 1" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0063-10-AB7B_O-1" Name="S1" Text="S1" Number="1" FunctionText="Délestage sortie 1" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0063-10-AB7B_O-2" Name="S2" Text="S2" Number="2" FunctionText="Commande sortie 2" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0063-10-AB7B_O-3" Name="S2" Text="S2" Number="3" FunctionText="Délestage sortie 2" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0063-10-AB7B_O-4" Name="S3" Text="S3" Number="4" FunctionText="Commande sortie 3" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0063-10-AB7B_O-5" Name="S3" Text="S3" Number="5" FunctionText="Délestage sortie 3" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0063-10-AB7B_O-6" Name="S4" Text="S4" Number="6" FunctionText="Commande sortie 4" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0063-10-AB7B_O-7" Name="S4" Text="S4" Number="7" FunctionText="Délestage sortie 4" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0063-10-AB7B_O-0_R-0" RefId="M-0009_A-0063-10-AB7B_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-0063-10-AB7B_O-1_R-1" RefId="M-0009_A-0063-10-AB7B_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-0063-10-AB7B_O-2_R-2" RefId="M-0009_A-0063-10-AB7B_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-0063-10-AB7B_O-3_R-3" RefId="M-0009_A-0063-10-AB7B_O-3" Tag="3" />
+              <ComObjectRef Id="M-0009_A-0063-10-AB7B_O-4_R-4" RefId="M-0009_A-0063-10-AB7B_O-4" Tag="4" />
+              <ComObjectRef Id="M-0009_A-0063-10-AB7B_O-5_R-5" RefId="M-0009_A-0063-10-AB7B_O-5" Tag="5" />
+              <ComObjectRef Id="M-0009_A-0063-10-AB7B_O-6_R-6" RefId="M-0009_A-0063-10-AB7B_O-6" Tag="6" />
+              <ComObjectRef Id="M-0009_A-0063-10-AB7B_O-7_R-7" RefId="M-0009_A-0063-10-AB7B_O-7" Tag="7" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="22" MaxEntries="11" />
+            <AssociationTable CodeSegment="M-0009_A-0063-10-AB7B_AS-0100" Offset="47" MaxEntries="14" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0011_ME-U.5FDelay" CodeSegment="M-0009_A-0063-10-AB7B_AS-0100">
+                <Offset>245</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0011_ME-U.5FGetTM" CodeSegment="M-0009_A-0063-10-AB7B_AS-0100">
+                <Offset>205</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0011_ME-U.5FioAST" CodeSegment="M-0009_A-0063-10-AB7B_AS-0100">
+                <Offset>240</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0011_ME-U.5FtestObj" CodeSegment="M-0009_A-0063-10-AB7B_AS-0100">
+                <Offset>168</Offset>
+                <Offset>176</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0063-10-AB7B_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0063-10-AB7B_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-0063-10-AB7B_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-0063-10-AB7B_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-0063-10-AB7B_O-3_R-3" />
+              <ComObjectRefRef RefId="M-0009_A-0063-10-AB7B_O-4_R-4" />
+              <ComObjectRefRef RefId="M-0009_A-0063-10-AB7B_O-5_R-5" />
+              <ComObjectRefRef RefId="M-0009_A-0063-10-AB7B_O-6_R-6" />
+              <ComObjectRefRef RefId="M-0009_A-0063-10-AB7B_O-7_R-7" />
+              <ParameterBlock Id="M-0009_A-0063-10-AB7B_PB-1" Name=" Sortie 1-4" Access="Read" ParamRefId="M-0009_A-0063-10-AB7B_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0063-10-AB7B_P-2_R-2" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0063-10-AB7B_PB-3" Name=" Sortie 1" Access="Read" ParamRefId="M-0009_A-0063-10-AB7B_P-3_R-3">
+                <ParameterRefRef RefId="M-0009_A-0063-10-AB7B_P-4_R-4" />
+                <ParameterRefRef RefId="M-0009_A-0063-10-AB7B_P-5_R-5" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0063-10-AB7B_PB-6" Name=" Sortie 2" Access="Read" ParamRefId="M-0009_A-0063-10-AB7B_P-6_R-6">
+                <ParameterRefRef RefId="M-0009_A-0063-10-AB7B_P-7_R-7" />
+                <ParameterRefRef RefId="M-0009_A-0063-10-AB7B_P-8_R-8" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0063-10-AB7B_PB-9" Name=" Sortie 3" Access="Read" ParamRefId="M-0009_A-0063-10-AB7B_P-9_R-9">
+                <ParameterRefRef RefId="M-0009_A-0063-10-AB7B_P-10_R-10" />
+                <ParameterRefRef RefId="M-0009_A-0063-10-AB7B_P-11_R-11" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0063-10-AB7B_PB-12" Name=" Sortie 4" Access="Read" ParamRefId="M-0009_A-0063-10-AB7B_P-12_R-12">
+                <ParameterRefRef RefId="M-0009_A-0063-10-AB7B_P-13_R-13" />
+                <ParameterRefRef RefId="M-0009_A-0063-10-AB7B_P-14_R-14" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

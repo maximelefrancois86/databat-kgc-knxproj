@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <Project Id="P-0DCD">
+    <ProjectInformation Name="Ecole des Mines/Saint Etienne/MeS20010111PM" GroupAddressStyle="ThreeLevel" ProjectNumber="40352" ContractNumber="40352" LastModified="2023-04-05T12:06:22.2489301Z" ProjectStart="1999-06-14T00:00:00Z" ProjectPassword="" Comment="Ecole des Mines, Loire, Cours Fauriel, France, 42100, Saint Etienne" CodePage="iso-8859-1" LastUsedPuid="2216" Guid="fd865f1f-6ff9-4ae3-bea9-977d454e3914">
+      <HistoryEntries>
+        <HistoryEntry Date="2023-02-07T20:35:23.54Z" User="maxime.lefrancois" Text="Mise à jour nomenclature des salles" Detail="&#xD;&#xA;" />
+        <HistoryEntry Date="1999-06-14T12:28:02.2Z" Text="Récupération sur site pour mise à jour passage An 2000" />
+        <HistoryEntry Date="2000-03-16T09:49:05.81Z" Text="Ajout TB004 pour comptage" Detail="&#xD;&#xA;" />
+        <HistoryEntry Date="1999-07-08T12:14:59.78Z" Text="Utilisation des adresses standards, groupes 1, 2 et 3 non compris" />
+        <HistoryEntry Date="1999-10-06T15:27:55.88Z" Text="Débeugage de l'installation, bon fonctionnement global, qq pb avec des conv." />
+        <HistoryEntry Date="1999-10-06T15:27:05.46Z" Text="Mise en service provosoire sur une visualisation" />
+        <HistoryEntry Date="2000-02-14T15:15:37.9Z" Text="Modifications pour extension 3ème étage" />
+        <HistoryEntry Date="2001-01-11T17:52:14.01Z" Text="Intervention por Pb sur Cpt AS3, AS6, Grpe CIAT -&gt; OK - PM" />
+      </HistoryEntries>
+    </ProjectInformation>
+  </Project>
+</KNX>

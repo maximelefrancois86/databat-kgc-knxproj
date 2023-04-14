@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-003F-10-A347" ApplicationNumber="63" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TE302" LoadProcedureStyle="DefaultProcedure" PeiType="1" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="o0Uqp4+fJyd5vSoTsWoXRw==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-003F-10-A347_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAPxAMAUAAAP9gY79XtPb29gH//wD/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs4N/wfPzwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYDR4AAAAAAAAAAAAAgQAAAAAAAAAAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-003F-10-A347_PT-ecarttrans" Name="ecarttrans">
+                <TypeRestriction Base="Value" SizeInBit="16">
+                  <Enumeration Text="Pas de transmission" Value="6144" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6144" DisplayOrder="1" />
+                  <Enumeration Text="0.3 °C" Value="6148" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6148" DisplayOrder="2" />
+                  <Enumeration Text="0.4 °C" Value="6149" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6149" DisplayOrder="3" />
+                  <Enumeration Text="0.6 °C" Value="6152" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6152" DisplayOrder="4" />
+                  <Enumeration Text="0.8 °C" Value="6154" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6154" DisplayOrder="5" />
+                  <Enumeration Text="1.0 °C" Value="6157" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6157" DisplayOrder="6" />
+                  <Enumeration Text="1.2 °C" Value="6159" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6159" DisplayOrder="7" />
+                  <Enumeration Text="1.4 °C" Value="6162" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6162" DisplayOrder="8" />
+                  <Enumeration Text="1.6 °C" Value="6164" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6164" DisplayOrder="9" />
+                  <Enumeration Text="1.8 °C" Value="6167" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6167" DisplayOrder="10" />
+                  <Enumeration Text="2.0 °C" Value="6169" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6169" DisplayOrder="11" />
+                  <Enumeration Text="2.2 °C" Value="6172" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6172" DisplayOrder="12" />
+                  <Enumeration Text="2.4 °C" Value="6174" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6174" DisplayOrder="13" />
+                  <Enumeration Text="2.6 °C" Value="6177" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6177" DisplayOrder="14" />
+                  <Enumeration Text="2.8 °C" Value="6179" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6179" DisplayOrder="15" />
+                  <Enumeration Text="3.0 °C" Value="6182" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6182" DisplayOrder="16" />
+                  <Enumeration Text="3.2 °C" Value="6184" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6184" DisplayOrder="17" />
+                  <Enumeration Text="3.4 °C" Value="6187" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6187" DisplayOrder="18" />
+                  <Enumeration Text="3.6 °C" Value="6189" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6189" DisplayOrder="19" />
+                  <Enumeration Text="3.8 °C" Value="6192" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6192" DisplayOrder="20" />
+                  <Enumeration Text="4.0 °C" Value="6194" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6194" DisplayOrder="21" />
+                  <Enumeration Text="4.2 °C" Value="6197" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6197" DisplayOrder="22" />
+                  <Enumeration Text="4.4 °C" Value="6199" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6199" DisplayOrder="23" />
+                  <Enumeration Text="4.6 °C" Value="6202" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6202" DisplayOrder="24" />
+                  <Enumeration Text="4.8 °C" Value="6204" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6204" DisplayOrder="25" />
+                  <Enumeration Text="5.0 °C" Value="6207" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6207" DisplayOrder="26" />
+                  <Enumeration Text="5.2 °C" Value="6209" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6209" DisplayOrder="27" />
+                  <Enumeration Text="5.4 °C" Value="6212" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6212" DisplayOrder="28" />
+                  <Enumeration Text="5.6 °C" Value="6214" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6214" DisplayOrder="29" />
+                  <Enumeration Text="5.8 °C" Value="6217" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6217" DisplayOrder="30" />
+                  <Enumeration Text="6.0 °C" Value="6219" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6219" DisplayOrder="31" />
+                  <Enumeration Text="6.2 °C" Value="6222" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6222" DisplayOrder="32" />
+                  <Enumeration Text="6.4 °C" Value="6224" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6224" DisplayOrder="33" />
+                  <Enumeration Text="6.6 °C" Value="6227" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6227" DisplayOrder="34" />
+                  <Enumeration Text="6.8 °C" Value="6229" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6229" DisplayOrder="35" />
+                  <Enumeration Text="7.0 °C" Value="6232" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6232" DisplayOrder="36" />
+                  <Enumeration Text="7.2 °C" Value="6234" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6234" DisplayOrder="37" />
+                  <Enumeration Text="7.4 °C" Value="6237" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6237" DisplayOrder="38" />
+                  <Enumeration Text="7.6 °C" Value="6239" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6239" DisplayOrder="39" />
+                  <Enumeration Text="7.8 °C" Value="6242" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6242" DisplayOrder="40" />
+                  <Enumeration Text="8.0 °C" Value="6244" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6244" DisplayOrder="41" />
+                  <Enumeration Text="8.2 °C" Value="6247" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6247" DisplayOrder="42" />
+                  <Enumeration Text="8.4 °C" Value="6249" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6249" DisplayOrder="43" />
+                  <Enumeration Text="8.6 °C" Value="6252" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6252" DisplayOrder="44" />
+                  <Enumeration Text="8.8 °C" Value="6254" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6254" DisplayOrder="45" />
+                  <Enumeration Text="9.0 °C" Value="6257" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6257" DisplayOrder="46" />
+                  <Enumeration Text="9.2 °C" Value="6259" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6259" DisplayOrder="47" />
+                  <Enumeration Text="9.4 °C" Value="6262" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6262" DisplayOrder="48" />
+                  <Enumeration Text="9.6 °C" Value="6264" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6264" DisplayOrder="49" />
+                  <Enumeration Text="9.8 °C" Value="6267" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6267" DisplayOrder="50" />
+                  <Enumeration Text="10.0 °C" Value="6269" Id="M-0009_A-003F-10-A347_PT-ecarttrans_EN-6269" DisplayOrder="51" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-003F-10-A347_PT-tempo.5Famb" Name="tempo_amb">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text=" Pas de transmission " Value="0" Id="M-0009_A-003F-10-A347_PT-tempo.5Famb_EN-0" DisplayOrder="1" />
+                  <Enumeration Text=" 1 mn " Value="1" Id="M-0009_A-003F-10-A347_PT-tempo.5Famb_EN-1" DisplayOrder="2" />
+                  <Enumeration Text=" 15 mn " Value="15" Id="M-0009_A-003F-10-A347_PT-tempo.5Famb_EN-15" DisplayOrder="3" />
+                  <Enumeration Text=" 30 mn" Value="30" Id="M-0009_A-003F-10-A347_PT-tempo.5Famb_EN-30" DisplayOrder="4" />
+                  <Enumeration Text=" 60 mn" Value="60" Id="M-0009_A-003F-10-A347_PT-tempo.5Famb_EN-60" DisplayOrder="5" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-003F-10-A347_P-1" Name="Température" ParameterType="M-0009_A-003F-10-A347_PT-ecarttrans" Text="Température" Access="Read" Value="6144" />
+              <Parameter Id="M-0009_A-003F-10-A347_P-2" Name="Ecart_transmis" ParameterType="M-0009_A-003F-10-A347_PT-ecarttrans" Text="Ecart de transmission" Value="6157">
+                <Memory CodeSegment="M-0009_A-003F-10-A347_AS-0100" Offset="233" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-003F-10-A347_P-3" Name="Tempo_tempamb" ParameterType="M-0009_A-003F-10-A347_PT-tempo.5Famb" Text="Fréquence de transmission" Value="30">
+                <Memory CodeSegment="M-0009_A-003F-10-A347_AS-0100" Offset="235" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-003F-10-A347_P-1_R-1" RefId="M-0009_A-003F-10-A347_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-003F-10-A347_P-2_R-2" RefId="M-0009_A-003F-10-A347_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-003F-10-A347_P-3_R-3" RefId="M-0009_A-003F-10-A347_P-3" Tag="3" DisplayOrder="3" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-003F-10-A347_AS-0100" Offset="180">
+              <ComObject Id="M-0009_A-003F-10-A347_O-0" Name="   " Text="   " Number="0" FunctionText="Erreur" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-003F-10-A347_O-1" Name="Température ambiante" Text="Température ambiante" Number="1" FunctionText="Température ambiante" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-003F-10-A347_O-0_R-0" RefId="M-0009_A-003F-10-A347_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-003F-10-A347_O-1_R-1" RefId="M-0009_A-003F-10-A347_O-1" Tag="1" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-003F-10-A347_AS-0100" Offset="22" MaxEntries="31" />
+            <AssociationTable CodeSegment="M-0009_A-003F-10-A347_AS-0100" Offset="87" MaxEntries="46" />
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-003F-10-A347_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-003F-10-A347_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-003F-10-A347_O-1_R-1" />
+              <ParameterBlock Id="M-0009_A-003F-10-A347_PB-1" Name="Température" Access="Read" ParamRefId="M-0009_A-003F-10-A347_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-003F-10-A347_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-003F-10-A347_P-3_R-3" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

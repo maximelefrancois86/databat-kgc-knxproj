@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0003-10-7D03" ApplicationNumber="3" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TF301" LoadProcedureStyle="DefaultProcedure" PeiType="14" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="ff1loSivgtQRHj+qoxXlAw==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0003-10-7D03_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAAxD+DkAAAP9gY/8hKjQ7VQH//wD/AQIAAAAAAgEAAgEAAAAAAs4N7wfP1wkAADzZFN7MAfPNDIK+3KMHJBLm0rfartnNEQG+3Lba59I83IE03icLrgLm1OfPWir5INMPzhEfzhHdrgLmz+fUWir5plkgfAHddRHdttQn01+21rfRttUmQLbQoTsmOrbUsM+hAScsttSkHyZCts+kH6EXJjq2z6Tgt9u21KTgsNuhICcOttSk4KEgJiK226HgJhymAbfRIBa21LHPJhC21bDQoQEiCCYFxgEyJuVcttS3z7bVt9BdJhGmAcwNkRDdprm30qb9t9M/3IEAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0003-10-7D03_PT-t.5Fsynchro" Name="t_synchro">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="toutes les heures" Value="0" Id="M-0009_A-0003-10-7D03_PT-t.5Fsynchro_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="toutes les minutes" Value="1" Id="M-0009_A-0003-10-7D03_PT-t.5Fsynchro_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0003-10-7D03_P-1" Name="Synchronisation" ParameterType="M-0009_A-0003-10-7D03_PT-t.5Fsynchro" Text="Synchronisation" Access="Read" Value="0" />
+              <Parameter Id="M-0009_A-0003-10-7D03_P-2" Name="Synchro" ParameterType="M-0009_A-0003-10-7D03_PT-t.5Fsynchro" Text="Fréquence de transmission" Value="0">
+                <Memory CodeSegment="M-0009_A-0003-10-7D03_AS-0100" Offset="50" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0003-10-7D03_P-1_R-1" RefId="M-0009_A-0003-10-7D03_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0003-10-7D03_P-2_R-2" RefId="M-0009_A-0003-10-7D03_P-2" Tag="2" DisplayOrder="2" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0003-10-7D03_AS-0100" Offset="42">
+              <ComObject Id="M-0009_A-0003-10-7D03_O-0" Name="Erreur" Text="Erreur" Number="0" FunctionText="Erreur" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0003-10-7D03_O-1" Name="Mise à l'heure" Text="Mise à l'heure" Number="1" FunctionText="Mise à l'heure" ObjectSize="3 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0003-10-7D03_O-0_R-0" RefId="M-0009_A-0003-10-7D03_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-0003-10-7D03_O-1_R-1" RefId="M-0009_A-0003-10-7D03_O-1" Tag="1" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0003-10-7D03_AS-0100" Offset="22" MaxEntries="4" />
+            <AssociationTable CodeSegment="M-0009_A-0003-10-7D03_AS-0100" Offset="33" MaxEntries="4" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-S.5FLAstShift" CodeSegment="M-0009_A-0003-10-7D03_AS-0100">
+                <Offset>75</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-0003-10-7D03_AS-0100">
+                <Offset>60</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-0003-10-7D03_AS-0100">
+                <Offset>239</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0003-10-7D03_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0003-10-7D03_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-0003-10-7D03_O-1_R-1" />
+              <ParameterBlock Id="M-0009_A-0003-10-7D03_PB-1" Name="Synchronisation" Access="Read" ParamRefId="M-0009_A-0003-10-7D03_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0003-10-7D03_P-2_R-2" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

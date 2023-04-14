@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0026-11-138B" ApplicationNumber="38" ApplicationVersion="17" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TG301" LoadProcedureStyle="DefaultProcedure" PeiType="0" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="Ezd9mZgN7OdlN82sDkPaiw==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0026-11-138B_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAJhH7AEAAAP9gY+gtQEhMSwH//xEZAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAHQ0U8HBW0AzQFegaa+t9HNDJOtFiYGT80Nua0BgcYBRpfGAUWrMM0OK4GmA80OSYEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0026-11-138B_PT-t.5Fbase" Name="t_base">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="2.1 s" Value="4" Id="M-0009_A-0026-11-138B_PT-t.5Fbase_EN-4" DisplayOrder="1" />
+                  <Enumeration Text="33.3 s" Value="5" Id="M-0009_A-0026-11-138B_PT-t.5Fbase_EN-5" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul" Name="t_timer_mul">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="1" Value="0" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="2" Value="1" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-1" DisplayOrder="2" />
+                  <Enumeration Text="3" Value="2" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-2" DisplayOrder="3" />
+                  <Enumeration Text="4" Value="3" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-3" DisplayOrder="4" />
+                  <Enumeration Text="5" Value="4" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-4" DisplayOrder="5" />
+                  <Enumeration Text="6" Value="5" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-5" DisplayOrder="6" />
+                  <Enumeration Text="7" Value="6" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-6" DisplayOrder="7" />
+                  <Enumeration Text="8" Value="7" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-7" DisplayOrder="8" />
+                  <Enumeration Text="9" Value="8" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-8" DisplayOrder="9" />
+                  <Enumeration Text="10 " Value="9" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-9" DisplayOrder="10" />
+                  <Enumeration Text="20" Value="19" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-19" DisplayOrder="11" />
+                  <Enumeration Text="30" Value="29" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-29" DisplayOrder="12" />
+                  <Enumeration Text="40" Value="39" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-39" DisplayOrder="13" />
+                  <Enumeration Text="50" Value="49" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-49" DisplayOrder="14" />
+                  <Enumeration Text="60" Value="59" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-59" DisplayOrder="15" />
+                  <Enumeration Text="70" Value="69" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-69" DisplayOrder="16" />
+                  <Enumeration Text="110" Value="109" Id="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul_EN-109" DisplayOrder="17" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0026-11-138B_P-1" Name="Repetition rate" ParameterType="M-0009_A-0026-11-138B_PT-t.5Fbase" Text="Fréquence de transmission" Access="Read" Value="4" />
+              <Parameter Id="M-0009_A-0026-11-138B_P-2" Name="time_base" ParameterType="M-0009_A-0026-11-138B_PT-t.5Fbase" Text="Base de temps" Value="4">
+                <Memory CodeSegment="M-0009_A-0026-11-138B_AS-0100" Offset="69" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0026-11-138B_P-3" Name="time_mul" ParameterType="M-0009_A-0026-11-138B_PT-t.5Ftimer.5Fmul" Text="Multiplicateur" Value="0">
+                <Memory CodeSegment="M-0009_A-0026-11-138B_AS-0100" Offset="70" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0026-11-138B_P-1_R-1" RefId="M-0009_A-0026-11-138B_P-1" Tag="1" DisplayOrder="100" />
+              <ParameterRef Id="M-0009_A-0026-11-138B_P-2_R-2" RefId="M-0009_A-0026-11-138B_P-2" Tag="2" DisplayOrder="200" />
+              <ParameterRef Id="M-0009_A-0026-11-138B_P-3_R-3" RefId="M-0009_A-0026-11-138B_P-3" Tag="3" DisplayOrder="300" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0026-11-138B_AS-0100" Offset="64">
+              <ComObject Id="M-0009_A-0026-11-138B_O-0" Name="Erreur" Text="Erreur" Number="0" FunctionText="Reset" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Enabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0026-11-138B_O-0_R-0" RefId="M-0009_A-0026-11-138B_O-0" Tag="0" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0026-11-138B_AS-0100" Offset="22" MaxEntries="1" />
+            <AssociationTable CodeSegment="M-0009_A-0026-11-138B_AS-0100" Offset="45" MaxEntries="1" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FGetFlg" CodeSegment="M-0009_A-0026-11-138B_AS-0100">
+                <Offset>110</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FLoad" CodeSegment="M-0009_A-0026-11-138B_AS-0100">
+                <Offset>104</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-0026-11-138B_AS-0100">
+                <Offset>81</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-0026-11-138B_AS-0100">
+                <Offset>89</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0026-11-138B_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0026-11-138B_O-0_R-0" />
+              <ParameterBlock Id="M-0009_A-0026-11-138B_PB-1" Name="Repetition rate" Access="Read" ParamRefId="M-0009_A-0026-11-138B_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0026-11-138B_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-0026-11-138B_P-3_R-3" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

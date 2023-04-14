@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0024-00-A8A4" ApplicationNumber="36" ApplicationVersion="0" ProgramType="ApplicationProgram" MaskVersion="MV-0010" Name="TB300" LoadProcedureStyle="DefaultProcedure" PeiType="2" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="qNKgSpsR3bwAcizPC0xepA==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0024-00-A8A4_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAJAD/AgAAAP9gY+A3VmqQjwH//xAA/////////////////////////////////////wQBAAEBAQIBAwUABgAHAAgACQAKAAsADAANAA4ADwAE0NLfANPfANTfANXfABQUFBQUf0/NDae2UKQPt863z1+mAQBQAqYC59Y0UFyjBCXwpiHOAWTMDgyBzQyCGgJPzQ2ntlCkD84BZM0MZLdSX+bWpAPaAWW3WgBSBBFaIAsAWgQQWq0XE1ogBwJaBBJarRk0UrZa59ZcowQl04EFWiUMWhRPCVoUTCARB1oYDFoHTwtaB0wgBObSqAHn0p+3Wc0Nkb5ZgQAAAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0024-00-A8A4_PT-t.5FdebTime" Name="t_debTime">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="10  Milli secondes" Value="20" Id="M-0009_A-0024-00-A8A4_PT-t.5FdebTime_EN-20" DisplayOrder="1" />
+                  <Enumeration Text="30  Milli secondes" Value="60" Id="M-0009_A-0024-00-A8A4_PT-t.5FdebTime_EN-60" DisplayOrder="2" />
+                  <Enumeration Text="50  Milli secondes" Value="100" Id="M-0009_A-0024-00-A8A4_PT-t.5FdebTime_EN-100" DisplayOrder="3" />
+                  <Enumeration Text="100 Milli secondes" Value="200" Id="M-0009_A-0024-00-A8A4_PT-t.5FdebTime_EN-200" DisplayOrder="4" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode" Name="t_mode">
+                <TypeRestriction Base="Value" SizeInBit="6">
+                  <Enumeration Text="montant : ON" Value="5" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-5" DisplayOrder="1" />
+                  <Enumeration Text="montant : OFF" Value="1" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-1" DisplayOrder="2" />
+                  <Enumeration Text="montant : INVERSE" Value="17" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-17" DisplayOrder="3" />
+                  <Enumeration Text="descendant : ON" Value="10" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-10" DisplayOrder="4" />
+                  <Enumeration Text="descendant : OFF" Value="2" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-2" DisplayOrder="5" />
+                  <Enumeration Text="descendant : INVERSE" Value="18" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-18" DisplayOrder="6" />
+                  <Enumeration Text="montant : ON, descendant : OFF" Value="7" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-7" DisplayOrder="7" />
+                  <Enumeration Text="montant : OFF, descendant : ON" Value="11" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-11" DisplayOrder="8" />
+                  <Enumeration Text="montant et descendant : INVERSE" Value="19" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-19" DisplayOrder="9" />
+                  <Enumeration Text="sans fonction" Value="0" Id="M-0009_A-0024-00-A8A4_PT-t.5Fmode_EN-0" DisplayOrder="10" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0024-00-A8A4_PT-t.5FtelRate" Name="t_telRate">
+                <TypeRestriction Base="Value" SizeInBit="8">
+                  <Enumeration Text="30 Telegrams per 17sec." Value="30" Id="M-0009_A-0024-00-A8A4_PT-t.5FtelRate_EN-30" DisplayOrder="1" />
+                  <Enumeration Text="60 Telegrams per 17sec." Value="60" Id="M-0009_A-0024-00-A8A4_PT-t.5FtelRate_EN-60" DisplayOrder="2" />
+                  <Enumeration Text="100 Telegrams per 17sec." Value="100" Id="M-0009_A-0024-00-A8A4_PT-t.5FtelRate_EN-100" DisplayOrder="3" />
+                  <Enumeration Text="127 Telegrams per 17sec." Value="127" Id="M-0009_A-0024-00-A8A4_PT-t.5FtelRate_EN-127" DisplayOrder="4" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0024-00-A8A4_PT-t.5FconfigDes.244" Name="t_configDes$4" InternalDescription="Telegram rate limit">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="enabled" Value="0" Id="M-0009_A-0024-00-A8A4_PT-t.5FconfigDes.244_EN-0" DisplayOrder="1" />
+                  <Enumeration Text="disabled" Value="1" Id="M-0009_A-0024-00-A8A4_PT-t.5FconfigDes.244_EN-1" DisplayOrder="2" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-1" Name="Entrée 1-4" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5FdebTime" Text="Entrée 1-4" Access="Read" Value="20" />
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-5" Name="Entrée 1" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5Fmode" Text="Entrée 1" Access="Read" Value="5" />
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-7" Name="Entrée 2" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5Fmode" Text="Entrée 2" Access="Read" Value="5" />
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-9" Name="Entrée 3" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5Fmode" Text="Entrée 3" Access="Read" Value="5" />
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-11" Name="Entrée 4" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5Fmode" Text="Entrée 4" Access="Read" Value="5" />
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-4" Name="configDes.telLim" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5FconfigDes.244" Text="Nb. max. de messages" Value="0">
+                <Memory CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="16" BitOffset="4" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-2" Name="debTime" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5FdebTime" Text="Anti rebond" Value="100">
+                <Memory CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="100" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-6" Name="keyMode1" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5Fmode" Text="Front actif" Value="5">
+                <Memory CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="101" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-8" Name="keyMode2" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5Fmode" Text="Front actif" Value="5">
+                <Memory CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="102" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-10" Name="keyMode3" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5Fmode" Text="Front actif" Value="5">
+                <Memory CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="103" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-12" Name="keyMode4" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5Fmode" Text="Front actif" Value="5">
+                <Memory CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="104" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0024-00-A8A4_P-3" Name="telRate" ParameterType="M-0009_A-0024-00-A8A4_PT-t.5FtelRate" Text="Limitation d'émission " Value="127">
+                <Memory CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="105" BitOffset="0" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-1_R-1" RefId="M-0009_A-0024-00-A8A4_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-2_R-2" RefId="M-0009_A-0024-00-A8A4_P-2" Tag="2" DisplayOrder="2" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-3_R-3" RefId="M-0009_A-0024-00-A8A4_P-3" Tag="3" DisplayOrder="3" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-4_R-4" RefId="M-0009_A-0024-00-A8A4_P-4" Tag="4" DisplayOrder="4" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-5_R-5" RefId="M-0009_A-0024-00-A8A4_P-5" Tag="5" DisplayOrder="5" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-6_R-6" RefId="M-0009_A-0024-00-A8A4_P-6" Tag="6" DisplayOrder="6" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-7_R-7" RefId="M-0009_A-0024-00-A8A4_P-7" Tag="7" DisplayOrder="7" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-8_R-8" RefId="M-0009_A-0024-00-A8A4_P-8" Tag="8" DisplayOrder="8" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-9_R-9" RefId="M-0009_A-0024-00-A8A4_P-9" Tag="9" DisplayOrder="9" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-10_R-10" RefId="M-0009_A-0024-00-A8A4_P-10" Tag="10" DisplayOrder="10" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-11_R-11" RefId="M-0009_A-0024-00-A8A4_P-11" Tag="11" DisplayOrder="11" />
+              <ParameterRef Id="M-0009_A-0024-00-A8A4_P-12_R-12" RefId="M-0009_A-0024-00-A8A4_P-12" Tag="12" DisplayOrder="12" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="86">
+              <ComObject Id="M-0009_A-0024-00-A8A4_O-0" Name="E1" Text="E1" Number="0" FunctionText="Entrée 1" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0024-00-A8A4_O-1" Name="E2" Text="E2" Number="1" FunctionText="Entrée 2" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0024-00-A8A4_O-2" Name="E3" Text="E3" Number="2" FunctionText="Entrée 3" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0024-00-A8A4_O-3" Name="E4" Text="E4" Number="3" FunctionText="Entrée 4" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0024-00-A8A4_O-0_R-0" RefId="M-0009_A-0024-00-A8A4_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-0024-00-A8A4_O-1_R-1" RefId="M-0009_A-0024-00-A8A4_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-0024-00-A8A4_O-2_R-2" RefId="M-0009_A-0024-00-A8A4_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-0024-00-A8A4_O-3_R-3" RefId="M-0009_A-0024-00-A8A4_O-3" Tag="3" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="22" MaxEntries="15" />
+            <AssociationTable CodeSegment="M-0009_A-0024-00-A8A4_AS-0100" Offset="55" MaxEntries="15" />
+            <FixupList>
+              <Fixup FunctionRef="MV-0010_ME-TM.5FLoad" CodeSegment="M-0009_A-0024-00-A8A4_AS-0100">
+                <Offset>141</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5Fdebounce" CodeSegment="M-0009_A-0024-00-A8A4_AS-0100">
+                <Offset>161</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FdelMsgs" CodeSegment="M-0009_A-0024-00-A8A4_AS-0100">
+                <Offset>145</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FioAST" CodeSegment="M-0009_A-0024-00-A8A4_AS-0100">
+                <Offset>108</Offset>
+                <Offset>151</Offset>
+              </Fixup>
+              <Fixup FunctionRef="MV-0010_ME-U.5FtransRequest" CodeSegment="M-0009_A-0024-00-A8A4_AS-0100">
+                <Offset>248</Offset>
+              </Fixup>
+            </FixupList>
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0024-00-A8A4_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0024-00-A8A4_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-0024-00-A8A4_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-0024-00-A8A4_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-0024-00-A8A4_O-3_R-3" />
+              <ParameterBlock Id="M-0009_A-0024-00-A8A4_PB-1" Name="Entrée 1-4" Access="Read" ParamRefId="M-0009_A-0024-00-A8A4_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0024-00-A8A4_P-2_R-2" />
+                <ParameterRefRef RefId="M-0009_A-0024-00-A8A4_P-3_R-3" />
+                <ParameterRefRef RefId="M-0009_A-0024-00-A8A4_P-4_R-4" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0024-00-A8A4_PB-5" Name="Entrée 1" Access="Read" ParamRefId="M-0009_A-0024-00-A8A4_P-5_R-5">
+                <ParameterRefRef RefId="M-0009_A-0024-00-A8A4_P-6_R-6" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0024-00-A8A4_PB-7" Name="Entrée 2" Access="Read" ParamRefId="M-0009_A-0024-00-A8A4_P-7_R-7">
+                <ParameterRefRef RefId="M-0009_A-0024-00-A8A4_P-8_R-8" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0024-00-A8A4_PB-9" Name="Entrée 3" Access="Read" ParamRefId="M-0009_A-0024-00-A8A4_P-9_R-9">
+                <ParameterRefRef RefId="M-0009_A-0024-00-A8A4_P-10_R-10" />
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0024-00-A8A4_PB-11" Name="Entrée 4" Access="Read" ParamRefId="M-0009_A-0024-00-A8A4_P-11_R-11">
+                <ParameterRefRef RefId="M-0009_A-0024-00-A8A4_P-12_R-12" />
+              </ParameterBlock>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

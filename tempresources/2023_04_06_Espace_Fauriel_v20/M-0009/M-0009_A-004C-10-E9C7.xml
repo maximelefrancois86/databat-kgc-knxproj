@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-004C-10-E9C7" ApplicationNumber="76" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0001" Name="TJ400" LoadProcedureStyle="DefaultProcedure" PeiType="2" DefaultLanguage="fr-FR" DynamicTableManagement="false" Linkable="false" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="6ZDDostFrEp8oopzE9p6xw==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-004C-10-E9C7_AS-0000" Address="0" Size="65536">
+                <Data>/wAAAAkATBBVAkAAAP9gY+8XGFRUVAcHB87SzwjS1wfS1wnS1wnS1w7Szw7SzwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
+                <Mask>/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ComObjectTable CodeSegment="M-0009_A-004C-10-E9C7_AS-0000" Offset="280">
+              <ComObject Id="M-0009_A-004C-10-E9C7_O-0" Name="Alarme" Text="Alarme" Number="0" FunctionText="Contrôleur" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004C-10-E9C7_O-1" Name="1ère mise sous tension" Text="1ère mise sous tension" Number="1" FunctionText="Contrôleur" ObjectSize="1 Byte" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004C-10-E9C7_O-2" Name="     " Text="     " Number="2" FunctionText="Mise à la date" ObjectSize="3 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004C-10-E9C7_O-3" Name="      " Text="      " Number="3" FunctionText="Mise à l'heure" ObjectSize="3 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004C-10-E9C7_O-4" Name="Commande" Text="Commande" Number="4" FunctionText="Téléchargement" ObjectSize="14 Bytes" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004C-10-E9C7_O-5" Name="Réponse" Text="Réponse" Number="5" FunctionText="Téléchargement" ObjectSize="14 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-004C-10-E9C7_O-6" Name="Sécurité" Text="Sécurité" Number="6" FunctionText="Téléchargement" ObjectSize="1 Byte" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-004C-10-E9C7_O-0_R-0" RefId="M-0009_A-004C-10-E9C7_O-0" Tag="0" />
+              <ComObjectRef Id="M-0009_A-004C-10-E9C7_O-1_R-1" RefId="M-0009_A-004C-10-E9C7_O-1" Tag="1" />
+              <ComObjectRef Id="M-0009_A-004C-10-E9C7_O-2_R-2" RefId="M-0009_A-004C-10-E9C7_O-2" Tag="2" />
+              <ComObjectRef Id="M-0009_A-004C-10-E9C7_O-3_R-3" RefId="M-0009_A-004C-10-E9C7_O-3" Tag="3" />
+              <ComObjectRef Id="M-0009_A-004C-10-E9C7_O-4_R-4" RefId="M-0009_A-004C-10-E9C7_O-4" Tag="4" />
+              <ComObjectRef Id="M-0009_A-004C-10-E9C7_O-5_R-5" RefId="M-0009_A-004C-10-E9C7_O-5" Tag="5" />
+              <ComObjectRef Id="M-0009_A-004C-10-E9C7_O-6_R-6" RefId="M-0009_A-004C-10-E9C7_O-6" Tag="6" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-004C-10-E9C7_AS-0000" Offset="0" MaxEntries="50" />
+            <AssociationTable CodeSegment="M-0009_A-004C-10-E9C7_AS-0000" Offset="279" MaxEntries="50" />
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-004C-10-E9C7_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-004C-10-E9C7_O-0_R-0" />
+              <ComObjectRefRef RefId="M-0009_A-004C-10-E9C7_O-1_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-004C-10-E9C7_O-2_R-2" />
+              <ComObjectRefRef RefId="M-0009_A-004C-10-E9C7_O-3_R-3" />
+              <ComObjectRefRef RefId="M-0009_A-004C-10-E9C7_O-4_R-4" />
+              <ComObjectRefRef RefId="M-0009_A-004C-10-E9C7_O-5_R-5" />
+              <ComObjectRefRef RefId="M-0009_A-004C-10-E9C7_O-6_R-6" />
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

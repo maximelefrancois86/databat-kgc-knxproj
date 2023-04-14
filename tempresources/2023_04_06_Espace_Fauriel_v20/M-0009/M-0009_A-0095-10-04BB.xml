@@ -1,0 +1,2107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <ApplicationPrograms>
+        <ApplicationProgram Id="M-0009_A-0095-10-04BB" ApplicationNumber="149" ApplicationVersion="16" ProgramType="ApplicationProgram" MaskVersion="MV-0011" Name="TB351" LoadProcedureStyle="DefaultProcedure" PeiType="1" DefaultLanguage="fr-FR" DynamicTableManagement="true" Linkable="true" PreEts4Style="true" ConvertedFromPreEts4Data="true" Hash="BKMp1NiPa1YNmYjwpSnauw==">
+          <Static>
+            <Code>
+              <AbsoluteSegment Id="M-0009_A-0095-10-04BB_AS-0100" Address="256" Size="256">
+                <Data>/wAAAAkAlBAJAQAAAADgY7hpwP7+/gH//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADc7V1wDWzwDXzwDYzwDZzwDazwDbzwfhxwfd1wDexwD77wD85wD57wgAAAAAAAAAAAAAAAAAAAAAAAABAX+BAA==</Data>
+                <Mask>/wAAAP////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</Mask>
+              </AbsoluteSegment>
+            </Code>
+            <ParameterTypes>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Format.20compteur" Name="Format compteur">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="objet compteur 2 octets " Value="0" Id="M-0009_A-0095-10-04BB_PT-Format.20compteur_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="objet compteur 1 octet" Value="1" Id="M-0009_A-0095-10-04BB_PT-Format.20compteur_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E5.2DE6" Name="Type d utilisation E5-E6">
+                <TypeRestriction Base="Value" SizeInBit="3">
+                  <Enumeration Text="marche/arrêt " Value="0" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E5.2DE6_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="commande de store" Value="1" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E5.2DE6_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="commande de volet" Value="2" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E5.2DE6_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="variation continue" Value="3" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E5.2DE6_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="variation par paliers" Value="4" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E5.2DE6_EN-4" DisplayOrder="4" />
+                  <Enumeration Text="non utilisées" Value="5" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E5.2DE6_EN-5" DisplayOrder="5" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Période.20d.5C.27émission" Name="Période d\'émission">
+                <TypeRestriction Base="Value" SizeInBit="3">
+                  <Enumeration Text="24 h" Value="0" Id="M-0009_A-0095-10-04BB_PT-Période.20d.5C.27émission_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="12 h" Value="1" Id="M-0009_A-0095-10-04BB_PT-Période.20d.5C.27émission_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="6 h" Value="2" Id="M-0009_A-0095-10-04BB_PT-Période.20d.5C.27émission_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="4 h" Value="3" Id="M-0009_A-0095-10-04BB_PT-Période.20d.5C.27émission_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="2 h" Value="4" Id="M-0009_A-0095-10-04BB_PT-Période.20d.5C.27émission_EN-4" DisplayOrder="4" />
+                  <Enumeration Text="1 h" Value="5" Id="M-0009_A-0095-10-04BB_PT-Période.20d.5C.27émission_EN-5" DisplayOrder="5" />
+                  <Enumeration Text="30 mn" Value="6" Id="M-0009_A-0095-10-04BB_PT-Période.20d.5C.27émission_EN-6" DisplayOrder="6" />
+                  <Enumeration Text="15 mn" Value="7" Id="M-0009_A-0095-10-04BB_PT-Période.20d.5C.27émission_EN-7" DisplayOrder="7" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E3.2DE4" Name="Type d\'utilisation E3-E4">
+                <TypeRestriction Base="Value" SizeInBit="3">
+                  <Enumeration Text="marche/arrêt " Value="0" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E3.2DE4_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="commande de store" Value="1" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E3.2DE4_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="commande de volet" Value="2" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E3.2DE4_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="variation continue" Value="3" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E3.2DE4_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="variation par paliers" Value="4" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E3.2DE4_EN-4" DisplayOrder="4" />
+                  <Enumeration Text="non utilisées" Value="5" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E3.2DE4_EN-5" DisplayOrder="5" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.5C.27alimentation" Name="Câblage entrée/phase d\'alimentation">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="même phase que alimentation" Value="0" Id="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.5C.27alimentation_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="phase différente" Value="1" Id="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.5C.27alimentation_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20" Name="Fronts actifs ">
+                <TypeRestriction Base="Value" SizeInBit="5">
+                  <Enumeration Text="montant : inverse" Value="17" Id="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20_EN-17" DisplayOrder="0" />
+                  <Enumeration Text="descendant : inverse" Value="18" Id="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20_EN-18" DisplayOrder="1" />
+                  <Enumeration Text="montant et descendant : inverse" Value="19" Id="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20_EN-19" DisplayOrder="2" />
+                  <Enumeration Text="montant : ON, descendant : OFF" Value="7" Id="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20_EN-7" DisplayOrder="3" />
+                  <Enumeration Text="montant : OFF, descendant : ON" Value="11" Id="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20_EN-11" DisplayOrder="4" />
+                  <Enumeration Text="montant : ON" Value="5" Id="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20_EN-5" DisplayOrder="5" />
+                  <Enumeration Text="montant : OFF" Value="1" Id="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20_EN-1" DisplayOrder="6" />
+                  <Enumeration Text="non utilisé" Value="0" Id="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20_EN-0" DisplayOrder="7" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Période.20d.20émission" Name="Période d émission">
+                <TypeRestriction Base="Value" SizeInBit="3">
+                  <Enumeration Text="24 h" Value="0" Id="M-0009_A-0095-10-04BB_PT-Période.20d.20émission_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="12 h" Value="1" Id="M-0009_A-0095-10-04BB_PT-Période.20d.20émission_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="6 h" Value="2" Id="M-0009_A-0095-10-04BB_PT-Période.20d.20émission_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="4 h" Value="3" Id="M-0009_A-0095-10-04BB_PT-Période.20d.20émission_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="2 h" Value="4" Id="M-0009_A-0095-10-04BB_PT-Période.20d.20émission_EN-4" DisplayOrder="4" />
+                  <Enumeration Text="1 h" Value="5" Id="M-0009_A-0095-10-04BB_PT-Période.20d.20émission_EN-5" DisplayOrder="5" />
+                  <Enumeration Text="30 mn" Value="6" Id="M-0009_A-0095-10-04BB_PT-Période.20d.20émission_EN-6" DisplayOrder="6" />
+                  <Enumeration Text="15 mn" Value="7" Id="M-0009_A-0095-10-04BB_PT-Période.20d.20émission_EN-7" DisplayOrder="7" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Name="Version tarifaire">
+                <TypeRestriction Base="Value" SizeInBit="2">
+                  <Enumeration Text="tarif bleu" Value="0" Id="M-0009_A-0095-10-04BB_PT-Version.20tarifaire_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="tarif jaune UM ou UL sans Pte" Value="1" Id="M-0009_A-0095-10-04BB_PT-Version.20tarifaire_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="tarif jaune UL avec Pte et EJP" Value="2" Id="M-0009_A-0095-10-04BB_PT-Version.20tarifaire_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="tarif vert" Value="3" Id="M-0009_A-0095-10-04BB_PT-Version.20tarifaire_EN-3" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Câblage.20des.20contacts.2Fphase.20alim.2E" Name="Câblage des contacts/phase alim.">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="même phase que alimentation" Value="0" Id="M-0009_A-0095-10-04BB_PT-Câblage.20des.20contacts.2Fphase.20alim.2E_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="phase différente" Value="1" Id="M-0009_A-0095-10-04BB_PT-Câblage.20des.20contacts.2Fphase.20alim.2E_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Consigne" Name="Consigne">
+                <TypeNumber SizeInBit="8" Type="unsignedInt" minInclusive="0" maxInclusive="255" />
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Type.5Fdummy" Name="Type_dummy">
+                <TypeNone />
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Ete.5Fhiver.5Fjaune" Name="Ete_hiver_jaune">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="éte" Value="0" Id="M-0009_A-0095-10-04BB_PT-Ete.5Fhiver.5Fjaune_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="hiver" Value="1" Id="M-0009_A-0095-10-04BB_PT-Ete.5Fhiver.5Fjaune_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Top.5Fsynchro.5Fjaune.5Fble" Name="Top_synchro_jaune_ble">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="top_synchro" Value="1" Id="M-0009_A-0095-10-04BB_PT-Top.5Fsynchro.5Fjaune.5Fble_EN-1" DisplayOrder="0" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Limite.5Fémission" Name="Limite_émission">
+                <TypeRestriction Base="Value" SizeInBit="7">
+                  <Enumeration Text="30" Value="30" Id="M-0009_A-0095-10-04BB_PT-Limite.5Fémission_EN-30" DisplayOrder="0" />
+                  <Enumeration Text="60" Value="60" Id="M-0009_A-0095-10-04BB_PT-Limite.5Fémission_EN-60" DisplayOrder="1" />
+                  <Enumeration Text="100" Value="100" Id="M-0009_A-0095-10-04BB_PT-Limite.5Fémission_EN-100" DisplayOrder="2" />
+                  <Enumeration Text="127" Value="127" Id="M-0009_A-0095-10-04BB_PT-Limite.5Fémission_EN-127" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Telechargement" Name="Telechargement">
+                <TypeNumber SizeInBit="8" Type="unsignedInt" minInclusive="0" maxInclusive="255" />
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Tel.5Frate" Name="Tel_rate">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="enabled" Value="0" Id="M-0009_A-0095-10-04BB_PT-Tel.5Frate_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="disabled" Value="1" Id="M-0009_A-0095-10-04BB_PT-Tel.5Frate_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Anti.2Drebond" Name="Anti-rebond">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="50 ms" Value="0" Id="M-0009_A-0095-10-04BB_PT-Anti.2Drebond_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="400 ms" Value="1" Id="M-0009_A-0095-10-04BB_PT-Anti.2Drebond_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Emission.20périodique" Name="Emission périodique">
+                <TypeRestriction Base="Value" SizeInBit="2">
+                  <Enumeration Text="émission non utilisée" Value="0" Id="M-0009_A-0095-10-04BB_PT-Emission.20périodique_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="si commande ON" Value="1" Id="M-0009_A-0095-10-04BB_PT-Emission.20périodique_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="si commande OFF" Value="2" Id="M-0009_A-0095-10-04BB_PT-Emission.20périodique_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="si commande ON ou OFF" Value="3" Id="M-0009_A-0095-10-04BB_PT-Emission.20périodique_EN-3" DisplayOrder="3" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Preavis" Name="Preavis">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="actif à 0" Value="0" Id="M-0009_A-0095-10-04BB_PT-Preavis_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="actif à 1" Value="1" Id="M-0009_A-0095-10-04BB_PT-Preavis_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E3.2DE4" Name="Type d utilisation E3-E4">
+                <TypeRestriction Base="Value" SizeInBit="3">
+                  <Enumeration Text="marche/arrêt " Value="0" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E3.2DE4_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="commande de store" Value="1" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E3.2DE4_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="commande de volet" Value="2" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E3.2DE4_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="variation continue" Value="3" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E3.2DE4_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="variation par paliers" Value="4" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E3.2DE4_EN-4" DisplayOrder="4" />
+                  <Enumeration Text="non utilisées" Value="5" Id="M-0009_A-0095-10-04BB_PT-Type.20d.20utilisation.20E3.2DE4_EN-5" DisplayOrder="5" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.20alimentation" Name="Câblage entrée/phase d alimentation">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="même phase que alimentation" Value="0" Id="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.20alimentation_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="phase différente" Value="1" Id="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.20alimentation_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Etat.20du.20contact.20après.20coupure.20bus" Name="Etat du contact après coupure bus">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="émis" Value="0" Id="M-0009_A-0095-10-04BB_PT-Etat.20du.20contact.20après.20coupure.20bus_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="non émis" Value="1" Id="M-0009_A-0095-10-04BB_PT-Etat.20du.20contact.20après.20coupure.20bus_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E5.2DE6" Name="Type d\'utilisation E5-E6">
+                <TypeRestriction Base="Value" SizeInBit="3">
+                  <Enumeration Text="marche/arrêt " Value="0" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E5.2DE6_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="commande de store" Value="1" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E5.2DE6_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="commande de volet" Value="2" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E5.2DE6_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="variation continue" Value="3" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E5.2DE6_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="variation par paliers" Value="4" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E5.2DE6_EN-4" DisplayOrder="4" />
+                  <Enumeration Text="non utilisées" Value="5" Id="M-0009_A-0095-10-04BB_PT-Type.20d.5C.27utilisation.20E5.2DE6_EN-5" DisplayOrder="5" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Période.20d.27émission" Name="Période d'émission">
+                <TypeRestriction Base="Value" SizeInBit="3">
+                  <Enumeration Text="24 h" Value="0" Id="M-0009_A-0095-10-04BB_PT-Période.20d.27émission_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="12 h" Value="1" Id="M-0009_A-0095-10-04BB_PT-Période.20d.27émission_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="6 h" Value="2" Id="M-0009_A-0095-10-04BB_PT-Période.20d.27émission_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="4 h" Value="3" Id="M-0009_A-0095-10-04BB_PT-Période.20d.27émission_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="2 h" Value="4" Id="M-0009_A-0095-10-04BB_PT-Période.20d.27émission_EN-4" DisplayOrder="4" />
+                  <Enumeration Text="1 h" Value="5" Id="M-0009_A-0095-10-04BB_PT-Période.20d.27émission_EN-5" DisplayOrder="5" />
+                  <Enumeration Text="30 mn" Value="6" Id="M-0009_A-0095-10-04BB_PT-Période.20d.27émission_EN-6" DisplayOrder="6" />
+                  <Enumeration Text="15 mn" Value="7" Id="M-0009_A-0095-10-04BB_PT-Période.20d.27émission_EN-7" DisplayOrder="7" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E3.2DE4" Name="Type d'utilisation E3-E4">
+                <TypeRestriction Base="Value" SizeInBit="3">
+                  <Enumeration Text="marche/arrêt " Value="0" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E3.2DE4_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="commande de store" Value="1" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E3.2DE4_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="commande de volet" Value="2" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E3.2DE4_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="variation continue" Value="3" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E3.2DE4_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="variation par paliers" Value="4" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E3.2DE4_EN-4" DisplayOrder="4" />
+                  <Enumeration Text="non utilisées" Value="5" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E3.2DE4_EN-5" DisplayOrder="5" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.27alimentation" Name="Câblage entrée/phase d'alimentation">
+                <TypeRestriction Base="Value" SizeInBit="1">
+                  <Enumeration Text="même phase que alimentation" Value="0" Id="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.27alimentation_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="phase différente" Value="1" Id="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.27alimentation_EN-1" DisplayOrder="1" />
+                </TypeRestriction>
+              </ParameterType>
+              <ParameterType Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E5.2DE6" Name="Type d'utilisation E5-E6">
+                <TypeRestriction Base="Value" SizeInBit="3">
+                  <Enumeration Text="marche/arrêt " Value="0" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E5.2DE6_EN-0" DisplayOrder="0" />
+                  <Enumeration Text="commande de store" Value="1" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E5.2DE6_EN-1" DisplayOrder="1" />
+                  <Enumeration Text="commande de volet" Value="2" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E5.2DE6_EN-2" DisplayOrder="2" />
+                  <Enumeration Text="variation continue" Value="3" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E5.2DE6_EN-3" DisplayOrder="3" />
+                  <Enumeration Text="variation par paliers" Value="4" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E5.2DE6_EN-4" DisplayOrder="4" />
+                  <Enumeration Text="non utilisées" Value="5" Id="M-0009_A-0095-10-04BB_PT-Type.20d.27utilisation.20E5.2DE6_EN-5" DisplayOrder="5" />
+                </TypeRestriction>
+              </ParameterType>
+            </ParameterTypes>
+            <Parameters>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-1" Name="Tarification" ParameterType="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20" Text="Tarification" Value="3" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-44" Name="Calibre" ParameterType="M-0009_A-0095-10-04BB_PT-Consigne" Text="E6  Entrée calibrée" Value="0" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-58" Name="E3  Marche/arrêt" ParameterType="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Text="E3  Marche/arrêt" Value="0" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-59" Name="E4  Marche/arrêt" ParameterType="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Text="E4  Marche/arrêt" Value="0" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-60" Name="E5  Marche/arrêt" ParameterType="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Text="E5  Marche/arrêt" Value="0" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-355" Name="E4 Marche/arrêt" ParameterType="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Text="E4  Marche/arrêt" Value="0" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-439" Name="E5  Marche/arrêt" ParameterType="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Text="E5  Marche/arrêt" Value="0" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-460" Name="E4 Marche/arrêt" ParameterType="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Text="E4  Marche/arrêt" Value="0" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-481" Name="E5  Marche/arrêt" ParameterType="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Text="E5  Marche/arrêt" Value="0" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-502" Name="E5  Marche/arrêt" ParameterType="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Text="E5  Marche/arrêt" Value="0" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-528" Name="Limitation" ParameterType="M-0009_A-0095-10-04BB_PT-Limite.5Fémission" Text="E1-E6" Access="Read" Value="30" />
+              <Parameter Id="M-0009_A-0095-10-04BB_P-527" Name="Config_des_tel_rate_bit" ParameterType="M-0009_A-0095-10-04BB_PT-Tel.5Frate" Text="Limitation d'émission" Value="1">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="16" BitOffset="4" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-455" Name="E5 anti-rebond" ParameterType="M-0009_A-0095-10-04BB_PT-Anti.2Drebond" Text="Anti-rebond" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="231" BitOffset="2" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-526" Name="Telechargement" ParameterType="M-0009_A-0095-10-04BB_PT-Telechargement" Text="" Access="None" Value="255">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="233" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-53" Name="Câblage des contacts" ParameterType="M-0009_A-0095-10-04BB_PT-Câblage.20des.20contacts.2Fphase.20alim.2E" Text="Câblage des contacts" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="234" BitOffset="3" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-54" Name="Preavis" ParameterType="M-0009_A-0095-10-04BB_PT-Preavis" Text="Préavis de dépassement" Value="1">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="234" BitOffset="4" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-61" Name="format des compteurs" ParameterType="M-0009_A-0095-10-04BB_PT-Format.20compteur" Text="Mode utilisation" Value="1">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="234" BitOffset="5" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-45" Name="Tarif bleu" ParameterType="M-0009_A-0095-10-04BB_PT-Version.20tarifaire" Text="" Access="None" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="234" BitOffset="6" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-168" Name="Câblage de lentrée E3" ParameterType="M-0009_A-0095-10-04BB_PT-Câblage.20des.20contacts.2Fphase.20alim.2E" Text="Câblage du contact" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="237" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-165" Name="E3 Etat après coupure bus" ParameterType="M-0009_A-0095-10-04BB_PT-Etat.20du.20contact.20après.20coupure.20bus" Text="Etat du contact après coupure bus" Access="None" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="237" BitOffset="1" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-169" Name="E3 anti-rebond" ParameterType="M-0009_A-0095-10-04BB_PT-Anti.2Drebond" Text="Anti-rebond" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="237" BitOffset="2" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-164" Name="E3 Fronts actifs" ParameterType="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20" Text="Fronts actifs" Value="17">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="237" BitOffset="3" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-193" Name="Câblage de entrée E4" ParameterType="M-0009_A-0095-10-04BB_PT-Câblage.20entrée.2Fphase.20d.20alimentation" Text="Câblage du contact" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="238" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-186" Name="E4 Etat après coupure bus" ParameterType="M-0009_A-0095-10-04BB_PT-Etat.20du.20contact.20après.20coupure.20bus" Text="Etat du contact après coupure bus" Access="None" Value="1">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="238" BitOffset="1" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-194" Name="E4 anti-rebond" ParameterType="M-0009_A-0095-10-04BB_PT-Anti.2Drebond" Text="Anti-rebond" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="238" BitOffset="2" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-185" Name="E4 Fronts actifs" ParameterType="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20" Text="Fronts actifs" Value="17">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="238" BitOffset="3" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-252" Name="Câblage de entrée E5" ParameterType="M-0009_A-0095-10-04BB_PT-Câblage.20des.20contacts.2Fphase.20alim.2E" Text="Câblage du contact" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="239" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-254" Name="E5 Etat après coupure bus" ParameterType="M-0009_A-0095-10-04BB_PT-Etat.20du.20contact.20après.20coupure.20bus" Text="Etat du contact après coupure bus" Access="None" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="239" BitOffset="1" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-253" Name="E5 anti-rebond" ParameterType="M-0009_A-0095-10-04BB_PT-Anti.2Drebond" Text="Anti-rebond" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="239" BitOffset="2" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-251" Name="E5 Fronts actifs" ParameterType="M-0009_A-0095-10-04BB_PT-Fronts.20actifs.20" Text="Fronts actifs" Value="17">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="239" BitOffset="3" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-160" Name="E3 Emission périodique" ParameterType="M-0009_A-0095-10-04BB_PT-Emission.20périodique" Text="Emission périodique" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="243" BitOffset="3" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-161" Name="E3 Période émission" ParameterType="M-0009_A-0095-10-04BB_PT-Période.20d.20émission" Text="Période d'émission" Value="5">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="243" BitOffset="5" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-181" Name="E4 Emission périodique" ParameterType="M-0009_A-0095-10-04BB_PT-Emission.20périodique" Text="Emission périodique" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="244" BitOffset="3" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-182" Name="E4 Période émission" ParameterType="M-0009_A-0095-10-04BB_PT-Période.20d.20émission" Text="Période d'émission" Value="5">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="244" BitOffset="5" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-267" Name="E5 Emission périodique" ParameterType="M-0009_A-0095-10-04BB_PT-Emission.20périodique" Text="Emission périodique" Value="0">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="245" BitOffset="3" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-268" Name="E5 Période émission" ParameterType="M-0009_A-0095-10-04BB_PT-Période.20d.20émission" Text="Période d'émission" Value="5">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="245" BitOffset="5" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-51" Name="cons compteur" ParameterType="M-0009_A-0095-10-04BB_PT-Consigne" Text="Consigne compteur" Value="250">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="247" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-52" Name="cons impulsion compteur" ParameterType="M-0009_A-0095-10-04BB_PT-Consigne" Text="Consigne impulsion calibrée" Value="250">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="248" BitOffset="0" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-523" Name="Ete_hiver_jaune" ParameterType="M-0009_A-0095-10-04BB_PT-Ete.5Fhiver.5Fjaune" Text="&#xD;&#xA;" Access="None" Value="1">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="251" BitOffset="7" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-524" Name="Top_synchro_jaune_bleu" ParameterType="M-0009_A-0095-10-04BB_PT-Top.5Fsynchro.5Fjaune.5Fble" Text="" Access="None" Value="1">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="252" BitOffset="7" />
+              </Parameter>
+              <Parameter Id="M-0009_A-0095-10-04BB_P-525" Name="Limitation émission" ParameterType="M-0009_A-0095-10-04BB_PT-Limite.5Fémission" Text="Nb. maxi. de messages" Value="127">
+                <Memory CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="253" BitOffset="1" />
+              </Parameter>
+            </Parameters>
+            <ParameterRefs>
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-1_R-1" RefId="M-0009_A-0095-10-04BB_P-1" Tag="1" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-523_R-523" RefId="M-0009_A-0095-10-04BB_P-523" Tag="523" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-524_R-524" RefId="M-0009_A-0095-10-04BB_P-524" Tag="524" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-526_R-526" RefId="M-0009_A-0095-10-04BB_P-526" Tag="526" DisplayOrder="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-45_R-56" RefId="M-0009_A-0095-10-04BB_P-45" Name="tarif" Text="Version tarifaire" Tag="56" DisplayOrder="11" Access="ReadWrite" Value="3" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-53_R-64" RefId="M-0009_A-0095-10-04BB_P-53" Tag="64" DisplayOrder="50" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-53_R-63" RefId="M-0009_A-0095-10-04BB_P-53" Tag="63" DisplayOrder="60" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-53_R-53" RefId="M-0009_A-0095-10-04BB_P-53" Tag="53" DisplayOrder="70" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-53_R-62" RefId="M-0009_A-0095-10-04BB_P-53" Tag="62" DisplayOrder="80" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-45_R-45" RefId="M-0009_A-0095-10-04BB_P-45" Tag="45" DisplayOrder="100" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-45_R-48" RefId="M-0009_A-0095-10-04BB_P-45" Name="Vert" Tag="48" DisplayOrder="100" Value="3" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-58_R-58" RefId="M-0009_A-0095-10-04BB_P-58" Tag="58" DisplayOrder="110" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-164_R-164" RefId="M-0009_A-0095-10-04BB_P-164" Tag="164" DisplayOrder="120" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-165_R-165" RefId="M-0009_A-0095-10-04BB_P-165" Tag="165" DisplayOrder="121" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-165_R-166" RefId="M-0009_A-0095-10-04BB_P-165" Name=" E3 Etat après coupure bus" Tag="166" DisplayOrder="121" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-165_R-167" RefId="M-0009_A-0095-10-04BB_P-165" Tag="167" DisplayOrder="121" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-165_R-174" RefId="M-0009_A-0095-10-04BB_P-165" Tag="174" DisplayOrder="121" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-165_R-175" RefId="M-0009_A-0095-10-04BB_P-165" Tag="175" DisplayOrder="121" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-165_R-176" RefId="M-0009_A-0095-10-04BB_P-165" Tag="176" DisplayOrder="121" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-165_R-177" RefId="M-0009_A-0095-10-04BB_P-165" Tag="177" DisplayOrder="121" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-168_R-168" RefId="M-0009_A-0095-10-04BB_P-168" Tag="168" DisplayOrder="122" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-169_R-169" RefId="M-0009_A-0095-10-04BB_P-169" Tag="169" DisplayOrder="122" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-168_R-170" RefId="M-0009_A-0095-10-04BB_P-168" Name="Câblage de entrée E3" Tag="170" DisplayOrder="122" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-169_R-171" RefId="M-0009_A-0095-10-04BB_P-169" Tag="171" DisplayOrder="122" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-168_R-172" RefId="M-0009_A-0095-10-04BB_P-168" Name="Câblage de l'entrée E3" Tag="172" DisplayOrder="122" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-169_R-173" RefId="M-0009_A-0095-10-04BB_P-169" Tag="173" DisplayOrder="122" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-168_R-178" RefId="M-0009_A-0095-10-04BB_P-168" Name="Câblage de entrée E3" Tag="178" DisplayOrder="122" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-169_R-179" RefId="M-0009_A-0095-10-04BB_P-169" Tag="179" DisplayOrder="122" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-160_R-160" RefId="M-0009_A-0095-10-04BB_P-160" Tag="160" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-161" RefId="M-0009_A-0095-10-04BB_P-161" Tag="161" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-162" RefId="M-0009_A-0095-10-04BB_P-161" Tag="162" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-163" RefId="M-0009_A-0095-10-04BB_P-161" Tag="163" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-160_R-529" RefId="M-0009_A-0095-10-04BB_P-160" Tag="529" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-530" RefId="M-0009_A-0095-10-04BB_P-161" Tag="530" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-531" RefId="M-0009_A-0095-10-04BB_P-161" Tag="531" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-532" RefId="M-0009_A-0095-10-04BB_P-161" Tag="532" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-160_R-533" RefId="M-0009_A-0095-10-04BB_P-160" Tag="533" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-534" RefId="M-0009_A-0095-10-04BB_P-161" Tag="534" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-535" RefId="M-0009_A-0095-10-04BB_P-161" Tag="535" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-536" RefId="M-0009_A-0095-10-04BB_P-161" Tag="536" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-160_R-537" RefId="M-0009_A-0095-10-04BB_P-160" Tag="537" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-538" RefId="M-0009_A-0095-10-04BB_P-161" Tag="538" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-539" RefId="M-0009_A-0095-10-04BB_P-161" Tag="539" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-540" RefId="M-0009_A-0095-10-04BB_P-161" Tag="540" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-160_R-541" RefId="M-0009_A-0095-10-04BB_P-160" Tag="541" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-542" RefId="M-0009_A-0095-10-04BB_P-161" Tag="542" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-543" RefId="M-0009_A-0095-10-04BB_P-161" Tag="543" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-544" RefId="M-0009_A-0095-10-04BB_P-161" Tag="544" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-160_R-545" RefId="M-0009_A-0095-10-04BB_P-160" Tag="545" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-546" RefId="M-0009_A-0095-10-04BB_P-161" Tag="546" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-547" RefId="M-0009_A-0095-10-04BB_P-161" Tag="547" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-548" RefId="M-0009_A-0095-10-04BB_P-161" Tag="548" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-160_R-549" RefId="M-0009_A-0095-10-04BB_P-160" Tag="549" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-550" RefId="M-0009_A-0095-10-04BB_P-161" Tag="550" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-551" RefId="M-0009_A-0095-10-04BB_P-161" Tag="551" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-161_R-552" RefId="M-0009_A-0095-10-04BB_P-161" Tag="552" DisplayOrder="125" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-59_R-59" RefId="M-0009_A-0095-10-04BB_P-59" Tag="59" DisplayOrder="130" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-185_R-185" RefId="M-0009_A-0095-10-04BB_P-185" Tag="185" DisplayOrder="130" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-186" RefId="M-0009_A-0095-10-04BB_P-186" Tag="186" DisplayOrder="131" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-187" RefId="M-0009_A-0095-10-04BB_P-186" Tag="187" DisplayOrder="131" Access="ReadWrite" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-188" RefId="M-0009_A-0095-10-04BB_P-186" Tag="188" DisplayOrder="131" Access="ReadWrite" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-189" RefId="M-0009_A-0095-10-04BB_P-186" Tag="189" DisplayOrder="131" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-190" RefId="M-0009_A-0095-10-04BB_P-186" Tag="190" DisplayOrder="131" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-191" RefId="M-0009_A-0095-10-04BB_P-186" Tag="191" DisplayOrder="131" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-192" RefId="M-0009_A-0095-10-04BB_P-186" Tag="192" DisplayOrder="131" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-193" RefId="M-0009_A-0095-10-04BB_P-193" Tag="193" DisplayOrder="132" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-194" RefId="M-0009_A-0095-10-04BB_P-194" Tag="194" DisplayOrder="132" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-195" RefId="M-0009_A-0095-10-04BB_P-193" Tag="195" DisplayOrder="132" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-196" RefId="M-0009_A-0095-10-04BB_P-194" Tag="196" DisplayOrder="132" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-197" RefId="M-0009_A-0095-10-04BB_P-193" Tag="197" DisplayOrder="132" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-198" RefId="M-0009_A-0095-10-04BB_P-194" Tag="198" DisplayOrder="132" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-199" RefId="M-0009_A-0095-10-04BB_P-193" Tag="199" DisplayOrder="132" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-200" RefId="M-0009_A-0095-10-04BB_P-194" Tag="200" DisplayOrder="132" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-181" RefId="M-0009_A-0095-10-04BB_P-181" Tag="181" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-182" RefId="M-0009_A-0095-10-04BB_P-182" Tag="182" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-183" RefId="M-0009_A-0095-10-04BB_P-182" Tag="183" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-184" RefId="M-0009_A-0095-10-04BB_P-182" Tag="184" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-553" RefId="M-0009_A-0095-10-04BB_P-181" Tag="553" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-554" RefId="M-0009_A-0095-10-04BB_P-182" Tag="554" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-555" RefId="M-0009_A-0095-10-04BB_P-182" Tag="555" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-556" RefId="M-0009_A-0095-10-04BB_P-182" Tag="556" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-557" RefId="M-0009_A-0095-10-04BB_P-181" Tag="557" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-558" RefId="M-0009_A-0095-10-04BB_P-182" Tag="558" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-559" RefId="M-0009_A-0095-10-04BB_P-182" Tag="559" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-560" RefId="M-0009_A-0095-10-04BB_P-182" Tag="560" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-561" RefId="M-0009_A-0095-10-04BB_P-181" Tag="561" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-562" RefId="M-0009_A-0095-10-04BB_P-182" Tag="562" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-563" RefId="M-0009_A-0095-10-04BB_P-182" Tag="563" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-564" RefId="M-0009_A-0095-10-04BB_P-182" Tag="564" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-565" RefId="M-0009_A-0095-10-04BB_P-181" Tag="565" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-566" RefId="M-0009_A-0095-10-04BB_P-182" Tag="566" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-567" RefId="M-0009_A-0095-10-04BB_P-182" Tag="567" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-568" RefId="M-0009_A-0095-10-04BB_P-182" Tag="568" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-569" RefId="M-0009_A-0095-10-04BB_P-181" Tag="569" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-570" RefId="M-0009_A-0095-10-04BB_P-182" Tag="570" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-571" RefId="M-0009_A-0095-10-04BB_P-182" Tag="571" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-572" RefId="M-0009_A-0095-10-04BB_P-182" Tag="572" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-573" RefId="M-0009_A-0095-10-04BB_P-181" Tag="573" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-574" RefId="M-0009_A-0095-10-04BB_P-182" Tag="574" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-575" RefId="M-0009_A-0095-10-04BB_P-182" Tag="575" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-576" RefId="M-0009_A-0095-10-04BB_P-182" Tag="576" DisplayOrder="135" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-60_R-60" RefId="M-0009_A-0095-10-04BB_P-60" Tag="60" DisplayOrder="150" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-251_R-251" RefId="M-0009_A-0095-10-04BB_P-251" Tag="251" DisplayOrder="170" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-254" RefId="M-0009_A-0095-10-04BB_P-254" Tag="254" DisplayOrder="171" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-255" RefId="M-0009_A-0095-10-04BB_P-254" Tag="255" DisplayOrder="171" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-256" RefId="M-0009_A-0095-10-04BB_P-254" Tag="256" DisplayOrder="171" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-261" RefId="M-0009_A-0095-10-04BB_P-254" Tag="261" DisplayOrder="171" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-262" RefId="M-0009_A-0095-10-04BB_P-254" Tag="262" DisplayOrder="171" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-263" RefId="M-0009_A-0095-10-04BB_P-254" Tag="263" DisplayOrder="171" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-264" RefId="M-0009_A-0095-10-04BB_P-254" Tag="264" DisplayOrder="171" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-252" RefId="M-0009_A-0095-10-04BB_P-252" Tag="252" DisplayOrder="172" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-253" RefId="M-0009_A-0095-10-04BB_P-253" Tag="253" DisplayOrder="172" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-257" RefId="M-0009_A-0095-10-04BB_P-252" Tag="257" DisplayOrder="172" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-258" RefId="M-0009_A-0095-10-04BB_P-253" Tag="258" DisplayOrder="172" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-259" RefId="M-0009_A-0095-10-04BB_P-252" Tag="259" DisplayOrder="172" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-260" RefId="M-0009_A-0095-10-04BB_P-253" Tag="260" DisplayOrder="172" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-265" RefId="M-0009_A-0095-10-04BB_P-252" Tag="265" DisplayOrder="172" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-266" RefId="M-0009_A-0095-10-04BB_P-253" Tag="266" DisplayOrder="172" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-267" RefId="M-0009_A-0095-10-04BB_P-267" Tag="267" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-268" RefId="M-0009_A-0095-10-04BB_P-268" Tag="268" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-269" RefId="M-0009_A-0095-10-04BB_P-268" Tag="269" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-270" RefId="M-0009_A-0095-10-04BB_P-268" Tag="270" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-577" RefId="M-0009_A-0095-10-04BB_P-267" Tag="577" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-578" RefId="M-0009_A-0095-10-04BB_P-268" Tag="578" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-579" RefId="M-0009_A-0095-10-04BB_P-268" Tag="579" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-580" RefId="M-0009_A-0095-10-04BB_P-268" Tag="580" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-581" RefId="M-0009_A-0095-10-04BB_P-267" Tag="581" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-582" RefId="M-0009_A-0095-10-04BB_P-268" Tag="582" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-583" RefId="M-0009_A-0095-10-04BB_P-268" Tag="583" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-584" RefId="M-0009_A-0095-10-04BB_P-268" Tag="584" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-585" RefId="M-0009_A-0095-10-04BB_P-267" Tag="585" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-586" RefId="M-0009_A-0095-10-04BB_P-268" Tag="586" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-587" RefId="M-0009_A-0095-10-04BB_P-268" Tag="587" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-588" RefId="M-0009_A-0095-10-04BB_P-268" Tag="588" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-589" RefId="M-0009_A-0095-10-04BB_P-267" Tag="589" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-590" RefId="M-0009_A-0095-10-04BB_P-268" Tag="590" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-591" RefId="M-0009_A-0095-10-04BB_P-268" Tag="591" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-592" RefId="M-0009_A-0095-10-04BB_P-268" Tag="592" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-593" RefId="M-0009_A-0095-10-04BB_P-267" Tag="593" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-594" RefId="M-0009_A-0095-10-04BB_P-268" Tag="594" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-595" RefId="M-0009_A-0095-10-04BB_P-268" Tag="595" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-596" RefId="M-0009_A-0095-10-04BB_P-268" Tag="596" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-597" RefId="M-0009_A-0095-10-04BB_P-267" Tag="597" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-598" RefId="M-0009_A-0095-10-04BB_P-268" Tag="598" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-599" RefId="M-0009_A-0095-10-04BB_P-268" Tag="599" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-600" RefId="M-0009_A-0095-10-04BB_P-268" Tag="600" DisplayOrder="175" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-45_R-46" RefId="M-0009_A-0095-10-04BB_P-45" Name="Tarif jaune Pte" Tag="46" DisplayOrder="200" Value="2" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-45_R-47" RefId="M-0009_A-0095-10-04BB_P-45" Name="Jaune sans Pte" Tag="47" DisplayOrder="200" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-54_R-54" RefId="M-0009_A-0095-10-04BB_P-54" Tag="54" DisplayOrder="205" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-54_R-57" RefId="M-0009_A-0095-10-04BB_P-54" Name="Copy of preavis" Tag="57" DisplayOrder="205" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-355_R-355" RefId="M-0009_A-0095-10-04BB_P-355" Tag="355" DisplayOrder="240" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-460_R-460" RefId="M-0009_A-0095-10-04BB_P-460" Tag="460" DisplayOrder="240" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-185_R-360" RefId="M-0009_A-0095-10-04BB_P-185" Tag="360" DisplayOrder="280" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-185_R-465" RefId="M-0009_A-0095-10-04BB_P-185" Tag="465" DisplayOrder="280" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-361" RefId="M-0009_A-0095-10-04BB_P-186" Tag="361" DisplayOrder="281" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-362" RefId="M-0009_A-0095-10-04BB_P-186" Tag="362" DisplayOrder="281" Access="ReadWrite" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-363" RefId="M-0009_A-0095-10-04BB_P-186" Tag="363" DisplayOrder="281" Access="ReadWrite" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-370" RefId="M-0009_A-0095-10-04BB_P-186" Tag="370" DisplayOrder="281" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-371" RefId="M-0009_A-0095-10-04BB_P-186" Tag="371" DisplayOrder="281" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-372" RefId="M-0009_A-0095-10-04BB_P-186" Tag="372" DisplayOrder="281" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-373" RefId="M-0009_A-0095-10-04BB_P-186" Tag="373" DisplayOrder="281" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-466" RefId="M-0009_A-0095-10-04BB_P-186" Tag="466" DisplayOrder="281" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-467" RefId="M-0009_A-0095-10-04BB_P-186" Name=" E4 Etat après coupure bus" Tag="467" DisplayOrder="281" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-468" RefId="M-0009_A-0095-10-04BB_P-186" Tag="468" DisplayOrder="281" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-471" RefId="M-0009_A-0095-10-04BB_P-186" Tag="471" DisplayOrder="281" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-472" RefId="M-0009_A-0095-10-04BB_P-186" Tag="472" DisplayOrder="281" Access="ReadWrite" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-479" RefId="M-0009_A-0095-10-04BB_P-186" Tag="479" DisplayOrder="281" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-186_R-480" RefId="M-0009_A-0095-10-04BB_P-186" Tag="480" DisplayOrder="281" Access="ReadWrite" Value="0" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-364" RefId="M-0009_A-0095-10-04BB_P-193" Name="Câblage de l''entrée E4" Tag="364" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-365" RefId="M-0009_A-0095-10-04BB_P-194" Tag="365" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-366" RefId="M-0009_A-0095-10-04BB_P-193" Name="Câblage de l''entrée E4" Tag="366" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-367" RefId="M-0009_A-0095-10-04BB_P-194" Tag="367" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-368" RefId="M-0009_A-0095-10-04BB_P-193" Name="Câblage de l'entrée E4" Tag="368" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-369" RefId="M-0009_A-0095-10-04BB_P-194" Tag="369" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-374" RefId="M-0009_A-0095-10-04BB_P-193" Name="Câblage de l''entrée E4" Tag="374" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-375" RefId="M-0009_A-0095-10-04BB_P-194" Tag="375" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-469" RefId="M-0009_A-0095-10-04BB_P-193" Name="Câblage de l''entrée E4" Tag="469" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-470" RefId="M-0009_A-0095-10-04BB_P-194" Tag="470" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-473" RefId="M-0009_A-0095-10-04BB_P-193" Name="Câblage de l''entrée E4" Tag="473" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-474" RefId="M-0009_A-0095-10-04BB_P-194" Tag="474" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-475" RefId="M-0009_A-0095-10-04BB_P-193" Name="Câblage de l''entrée E4" Tag="475" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-476" RefId="M-0009_A-0095-10-04BB_P-194" Tag="476" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-193_R-477" RefId="M-0009_A-0095-10-04BB_P-193" Name="Câblage de l'entrée E4" Tag="477" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-194_R-478" RefId="M-0009_A-0095-10-04BB_P-194" Tag="478" DisplayOrder="282" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-356" RefId="M-0009_A-0095-10-04BB_P-181" Tag="356" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-357" RefId="M-0009_A-0095-10-04BB_P-182" Tag="357" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-358" RefId="M-0009_A-0095-10-04BB_P-182" Tag="358" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-359" RefId="M-0009_A-0095-10-04BB_P-182" Tag="359" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-461" RefId="M-0009_A-0095-10-04BB_P-181" Tag="461" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-462" RefId="M-0009_A-0095-10-04BB_P-182" Tag="462" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-463" RefId="M-0009_A-0095-10-04BB_P-182" Tag="463" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-464" RefId="M-0009_A-0095-10-04BB_P-182" Tag="464" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-625" RefId="M-0009_A-0095-10-04BB_P-181" Tag="625" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-626" RefId="M-0009_A-0095-10-04BB_P-182" Tag="626" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-627" RefId="M-0009_A-0095-10-04BB_P-182" Tag="627" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-628" RefId="M-0009_A-0095-10-04BB_P-182" Tag="628" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-629" RefId="M-0009_A-0095-10-04BB_P-181" Tag="629" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-630" RefId="M-0009_A-0095-10-04BB_P-182" Tag="630" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-631" RefId="M-0009_A-0095-10-04BB_P-182" Tag="631" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-632" RefId="M-0009_A-0095-10-04BB_P-182" Tag="632" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-633" RefId="M-0009_A-0095-10-04BB_P-181" Tag="633" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-634" RefId="M-0009_A-0095-10-04BB_P-182" Tag="634" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-635" RefId="M-0009_A-0095-10-04BB_P-182" Tag="635" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-636" RefId="M-0009_A-0095-10-04BB_P-182" Tag="636" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-637" RefId="M-0009_A-0095-10-04BB_P-181" Tag="637" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-638" RefId="M-0009_A-0095-10-04BB_P-182" Tag="638" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-639" RefId="M-0009_A-0095-10-04BB_P-182" Tag="639" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-640" RefId="M-0009_A-0095-10-04BB_P-182" Tag="640" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-641" RefId="M-0009_A-0095-10-04BB_P-181" Tag="641" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-642" RefId="M-0009_A-0095-10-04BB_P-182" Tag="642" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-643" RefId="M-0009_A-0095-10-04BB_P-182" Tag="643" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-644" RefId="M-0009_A-0095-10-04BB_P-182" Tag="644" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-645" RefId="M-0009_A-0095-10-04BB_P-181" Tag="645" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-646" RefId="M-0009_A-0095-10-04BB_P-182" Tag="646" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-647" RefId="M-0009_A-0095-10-04BB_P-182" Tag="647" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-648" RefId="M-0009_A-0095-10-04BB_P-182" Tag="648" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-673" RefId="M-0009_A-0095-10-04BB_P-181" Tag="673" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-674" RefId="M-0009_A-0095-10-04BB_P-182" Tag="674" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-675" RefId="M-0009_A-0095-10-04BB_P-182" Tag="675" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-676" RefId="M-0009_A-0095-10-04BB_P-182" Tag="676" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-677" RefId="M-0009_A-0095-10-04BB_P-181" Tag="677" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-678" RefId="M-0009_A-0095-10-04BB_P-182" Tag="678" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-679" RefId="M-0009_A-0095-10-04BB_P-182" Tag="679" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-680" RefId="M-0009_A-0095-10-04BB_P-182" Tag="680" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-681" RefId="M-0009_A-0095-10-04BB_P-181" Tag="681" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-682" RefId="M-0009_A-0095-10-04BB_P-182" Tag="682" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-683" RefId="M-0009_A-0095-10-04BB_P-182" Tag="683" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-684" RefId="M-0009_A-0095-10-04BB_P-182" Tag="684" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-685" RefId="M-0009_A-0095-10-04BB_P-181" Tag="685" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-686" RefId="M-0009_A-0095-10-04BB_P-182" Tag="686" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-687" RefId="M-0009_A-0095-10-04BB_P-182" Tag="687" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-688" RefId="M-0009_A-0095-10-04BB_P-182" Tag="688" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-689" RefId="M-0009_A-0095-10-04BB_P-181" Tag="689" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-690" RefId="M-0009_A-0095-10-04BB_P-182" Tag="690" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-691" RefId="M-0009_A-0095-10-04BB_P-182" Tag="691" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-692" RefId="M-0009_A-0095-10-04BB_P-182" Tag="692" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-181_R-693" RefId="M-0009_A-0095-10-04BB_P-181" Tag="693" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-694" RefId="M-0009_A-0095-10-04BB_P-182" Tag="694" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-695" RefId="M-0009_A-0095-10-04BB_P-182" Tag="695" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-182_R-696" RefId="M-0009_A-0095-10-04BB_P-182" Tag="696" DisplayOrder="285" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-439_R-439" RefId="M-0009_A-0095-10-04BB_P-439" Tag="439" DisplayOrder="300" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-481_R-481" RefId="M-0009_A-0095-10-04BB_P-481" Tag="481" DisplayOrder="300" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-502_R-502" RefId="M-0009_A-0095-10-04BB_P-502" Tag="502" DisplayOrder="300" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-251_R-440" RefId="M-0009_A-0095-10-04BB_P-251" Tag="440" DisplayOrder="320" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-251_R-486" RefId="M-0009_A-0095-10-04BB_P-251" Tag="486" DisplayOrder="320" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-251_R-507" RefId="M-0009_A-0095-10-04BB_P-251" Tag="507" DisplayOrder="320" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-441" RefId="M-0009_A-0095-10-04BB_P-254" Tag="441" DisplayOrder="321" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-442" RefId="M-0009_A-0095-10-04BB_P-254" Tag="442" DisplayOrder="321" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-447" RefId="M-0009_A-0095-10-04BB_P-254" Tag="447" DisplayOrder="321" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-448" RefId="M-0009_A-0095-10-04BB_P-254" Tag="448" DisplayOrder="321" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-449" RefId="M-0009_A-0095-10-04BB_P-254" Tag="449" DisplayOrder="321" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-452" RefId="M-0009_A-0095-10-04BB_P-254" Tag="452" DisplayOrder="321" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-453" RefId="M-0009_A-0095-10-04BB_P-254" Tag="453" DisplayOrder="321" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-487" RefId="M-0009_A-0095-10-04BB_P-254" Tag="487" DisplayOrder="321" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-488" RefId="M-0009_A-0095-10-04BB_P-254" Tag="488" DisplayOrder="321" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-489" RefId="M-0009_A-0095-10-04BB_P-254" Tag="489" DisplayOrder="321" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-492" RefId="M-0009_A-0095-10-04BB_P-254" Tag="492" DisplayOrder="321" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-493" RefId="M-0009_A-0095-10-04BB_P-254" Tag="493" DisplayOrder="321" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-496" RefId="M-0009_A-0095-10-04BB_P-254" Tag="496" DisplayOrder="321" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-497" RefId="M-0009_A-0095-10-04BB_P-254" Tag="497" DisplayOrder="321" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-508" RefId="M-0009_A-0095-10-04BB_P-254" Text="Etat du contact&#xA;après coupure bus" Tag="508" DisplayOrder="321" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-509" RefId="M-0009_A-0095-10-04BB_P-254" Tag="509" DisplayOrder="321" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-510" RefId="M-0009_A-0095-10-04BB_P-254" Tag="510" DisplayOrder="321" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-513" RefId="M-0009_A-0095-10-04BB_P-254" Tag="513" DisplayOrder="321" Value="1" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-514" RefId="M-0009_A-0095-10-04BB_P-254" Tag="514" DisplayOrder="321" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-517" RefId="M-0009_A-0095-10-04BB_P-254" Tag="517" DisplayOrder="321" Access="ReadWrite" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-254_R-518" RefId="M-0009_A-0095-10-04BB_P-254" Tag="518" DisplayOrder="321" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-443" RefId="M-0009_A-0095-10-04BB_P-252" Tag="443" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-444" RefId="M-0009_A-0095-10-04BB_P-253" Tag="444" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-445" RefId="M-0009_A-0095-10-04BB_P-252" Tag="445" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-446" RefId="M-0009_A-0095-10-04BB_P-253" Tag="446" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-450" RefId="M-0009_A-0095-10-04BB_P-252" Tag="450" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-451" RefId="M-0009_A-0095-10-04BB_P-253" Tag="451" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-454" RefId="M-0009_A-0095-10-04BB_P-252" Tag="454" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-455_R-455" RefId="M-0009_A-0095-10-04BB_P-455" Tag="455" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-490" RefId="M-0009_A-0095-10-04BB_P-252" Tag="490" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-491" RefId="M-0009_A-0095-10-04BB_P-253" Tag="491" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-494" RefId="M-0009_A-0095-10-04BB_P-252" Tag="494" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-455_R-495" RefId="M-0009_A-0095-10-04BB_P-455" Tag="495" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-498" RefId="M-0009_A-0095-10-04BB_P-252" Tag="498" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-499" RefId="M-0009_A-0095-10-04BB_P-253" Tag="499" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-500" RefId="M-0009_A-0095-10-04BB_P-252" Tag="500" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-501" RefId="M-0009_A-0095-10-04BB_P-253" Tag="501" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-511" RefId="M-0009_A-0095-10-04BB_P-252" Tag="511" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-512" RefId="M-0009_A-0095-10-04BB_P-253" Tag="512" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-515" RefId="M-0009_A-0095-10-04BB_P-252" Tag="515" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-455_R-516" RefId="M-0009_A-0095-10-04BB_P-455" Tag="516" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-519" RefId="M-0009_A-0095-10-04BB_P-252" Tag="519" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-520" RefId="M-0009_A-0095-10-04BB_P-253" Tag="520" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-252_R-521" RefId="M-0009_A-0095-10-04BB_P-252" Tag="521" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-253_R-522" RefId="M-0009_A-0095-10-04BB_P-253" Tag="522" DisplayOrder="322" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-456" RefId="M-0009_A-0095-10-04BB_P-267" Tag="456" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-457" RefId="M-0009_A-0095-10-04BB_P-268" Tag="457" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-458" RefId="M-0009_A-0095-10-04BB_P-268" Tag="458" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-459" RefId="M-0009_A-0095-10-04BB_P-268" Tag="459" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-482" RefId="M-0009_A-0095-10-04BB_P-267" Tag="482" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-483" RefId="M-0009_A-0095-10-04BB_P-268" Tag="483" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-484" RefId="M-0009_A-0095-10-04BB_P-268" Tag="484" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-485" RefId="M-0009_A-0095-10-04BB_P-268" Tag="485" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-503" RefId="M-0009_A-0095-10-04BB_P-267" Tag="503" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-504" RefId="M-0009_A-0095-10-04BB_P-268" Tag="504" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-505" RefId="M-0009_A-0095-10-04BB_P-268" Tag="505" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-506" RefId="M-0009_A-0095-10-04BB_P-268" Tag="506" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-601" RefId="M-0009_A-0095-10-04BB_P-267" Tag="601" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-602" RefId="M-0009_A-0095-10-04BB_P-268" Tag="602" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-603" RefId="M-0009_A-0095-10-04BB_P-268" Tag="603" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-604" RefId="M-0009_A-0095-10-04BB_P-268" Tag="604" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-605" RefId="M-0009_A-0095-10-04BB_P-267" Tag="605" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-606" RefId="M-0009_A-0095-10-04BB_P-268" Tag="606" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-607" RefId="M-0009_A-0095-10-04BB_P-268" Tag="607" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-608" RefId="M-0009_A-0095-10-04BB_P-268" Tag="608" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-609" RefId="M-0009_A-0095-10-04BB_P-267" Tag="609" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-610" RefId="M-0009_A-0095-10-04BB_P-268" Tag="610" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-611" RefId="M-0009_A-0095-10-04BB_P-268" Tag="611" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-612" RefId="M-0009_A-0095-10-04BB_P-268" Tag="612" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-613" RefId="M-0009_A-0095-10-04BB_P-267" Tag="613" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-614" RefId="M-0009_A-0095-10-04BB_P-268" Tag="614" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-615" RefId="M-0009_A-0095-10-04BB_P-268" Tag="615" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-616" RefId="M-0009_A-0095-10-04BB_P-268" Tag="616" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-617" RefId="M-0009_A-0095-10-04BB_P-267" Tag="617" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-618" RefId="M-0009_A-0095-10-04BB_P-268" Tag="618" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-619" RefId="M-0009_A-0095-10-04BB_P-268" Tag="619" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-620" RefId="M-0009_A-0095-10-04BB_P-268" Tag="620" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-621" RefId="M-0009_A-0095-10-04BB_P-267" Tag="621" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-622" RefId="M-0009_A-0095-10-04BB_P-268" Tag="622" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-623" RefId="M-0009_A-0095-10-04BB_P-268" Tag="623" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-624" RefId="M-0009_A-0095-10-04BB_P-268" Tag="624" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-649" RefId="M-0009_A-0095-10-04BB_P-267" Tag="649" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-650" RefId="M-0009_A-0095-10-04BB_P-268" Tag="650" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-651" RefId="M-0009_A-0095-10-04BB_P-268" Tag="651" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-652" RefId="M-0009_A-0095-10-04BB_P-268" Tag="652" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-653" RefId="M-0009_A-0095-10-04BB_P-267" Tag="653" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-654" RefId="M-0009_A-0095-10-04BB_P-268" Tag="654" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-655" RefId="M-0009_A-0095-10-04BB_P-268" Tag="655" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-656" RefId="M-0009_A-0095-10-04BB_P-268" Tag="656" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-657" RefId="M-0009_A-0095-10-04BB_P-267" Tag="657" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-658" RefId="M-0009_A-0095-10-04BB_P-268" Tag="658" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-659" RefId="M-0009_A-0095-10-04BB_P-268" Tag="659" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-660" RefId="M-0009_A-0095-10-04BB_P-268" Tag="660" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-661" RefId="M-0009_A-0095-10-04BB_P-267" Tag="661" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-662" RefId="M-0009_A-0095-10-04BB_P-268" Tag="662" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-663" RefId="M-0009_A-0095-10-04BB_P-268" Tag="663" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-664" RefId="M-0009_A-0095-10-04BB_P-268" Tag="664" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-665" RefId="M-0009_A-0095-10-04BB_P-267" Tag="665" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-666" RefId="M-0009_A-0095-10-04BB_P-268" Tag="666" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-667" RefId="M-0009_A-0095-10-04BB_P-268" Tag="667" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-668" RefId="M-0009_A-0095-10-04BB_P-268" Tag="668" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-669" RefId="M-0009_A-0095-10-04BB_P-267" Tag="669" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-670" RefId="M-0009_A-0095-10-04BB_P-268" Tag="670" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-671" RefId="M-0009_A-0095-10-04BB_P-268" Tag="671" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-672" RefId="M-0009_A-0095-10-04BB_P-268" Tag="672" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-697" RefId="M-0009_A-0095-10-04BB_P-267" Tag="697" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-698" RefId="M-0009_A-0095-10-04BB_P-268" Tag="698" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-699" RefId="M-0009_A-0095-10-04BB_P-268" Tag="699" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-700" RefId="M-0009_A-0095-10-04BB_P-268" Tag="700" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-701" RefId="M-0009_A-0095-10-04BB_P-267" Tag="701" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-702" RefId="M-0009_A-0095-10-04BB_P-268" Tag="702" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-703" RefId="M-0009_A-0095-10-04BB_P-268" Tag="703" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-704" RefId="M-0009_A-0095-10-04BB_P-268" Tag="704" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-705" RefId="M-0009_A-0095-10-04BB_P-267" Tag="705" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-706" RefId="M-0009_A-0095-10-04BB_P-268" Tag="706" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-707" RefId="M-0009_A-0095-10-04BB_P-268" Tag="707" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-708" RefId="M-0009_A-0095-10-04BB_P-268" Tag="708" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-709" RefId="M-0009_A-0095-10-04BB_P-267" Tag="709" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-710" RefId="M-0009_A-0095-10-04BB_P-268" Tag="710" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-711" RefId="M-0009_A-0095-10-04BB_P-268" Tag="711" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-712" RefId="M-0009_A-0095-10-04BB_P-268" Tag="712" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-713" RefId="M-0009_A-0095-10-04BB_P-267" Tag="713" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-714" RefId="M-0009_A-0095-10-04BB_P-268" Tag="714" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-715" RefId="M-0009_A-0095-10-04BB_P-268" Tag="715" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-716" RefId="M-0009_A-0095-10-04BB_P-268" Tag="716" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-267_R-717" RefId="M-0009_A-0095-10-04BB_P-267" Tag="717" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-718" RefId="M-0009_A-0095-10-04BB_P-268" Tag="718" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-719" RefId="M-0009_A-0095-10-04BB_P-268" Tag="719" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-268_R-720" RefId="M-0009_A-0095-10-04BB_P-268" Tag="720" DisplayOrder="325" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-44_R-44" RefId="M-0009_A-0095-10-04BB_P-44" Tag="44" DisplayOrder="1000" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-51_R-51" RefId="M-0009_A-0095-10-04BB_P-51" Tag="51" DisplayOrder="1010" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-52_R-52" RefId="M-0009_A-0095-10-04BB_P-52" Tag="52" DisplayOrder="1010" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-61_R-61" RefId="M-0009_A-0095-10-04BB_P-61" Tag="61" DisplayOrder="1020" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-528_R-528" RefId="M-0009_A-0095-10-04BB_P-528" Tag="528" DisplayOrder="6000" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-525_R-525" RefId="M-0009_A-0095-10-04BB_P-525" Tag="525" DisplayOrder="6001" />
+              <ParameterRef Id="M-0009_A-0095-10-04BB_P-527_R-527" RefId="M-0009_A-0095-10-04BB_P-527" Tag="527" DisplayOrder="6001" />
+            </ParameterRefs>
+            <ComObjectTable CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="192">
+              <ComObject Id="M-0009_A-0095-10-04BB_O-0" Name="Envoi ordres tarifaires" Text="Envoi ordres tarifaires" Number="0" FunctionText="Synchro délesteur " ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-1" Name="HC / HP (E1)" Text="HC / HP (E1)" Number="1" FunctionText="Ordre tarifaire " ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-2" Name="Pte / Hors Pte  (E2)" Text="Pte / Hors Pte  (E2)" Number="2" FunctionText="Ordre tarifaire " ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-3" Name="Eté / Hiver (E3)" Text="Eté / Hiver (E3)" Number="3" FunctionText="Ordre tarifaire " ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-4" Name="E4" Text="E4" Number="4" FunctionText="Entrée 4 " ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-5" Name="E5" Text="E5" Number="5" FunctionText="Entrée 5" ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-6" Name="E6" Text="E6" Number="6" FunctionText="Compteur" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-7" Name="E6" Text="E6" Number="7" FunctionText="Sauvegarde " ObjectSize="2 Bytes" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-8" Name="E6" Text="E6" Number="8" FunctionText="Demande d'émission" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Enabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-9" Name="E6" Text="E6" Number="9" FunctionText="Impulsion calibrée " ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-10" Name="Eté / Hiver (E2)" Text="Eté / Hiver (E2)" Number="10" FunctionText="Ordre tarifaire " ObjectSize="1 Bit" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-11" Name="Top de synchronisation" Text="Top de synchronisation" Number="11" FunctionText="Top de synchronisation" ObjectSize="1 Bit" ReadFlag="Disabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+              <ComObject Id="M-0009_A-0095-10-04BB_O-12" Name=" " Text=" " Number="12" FunctionText="Maintenance" ObjectSize="2 Bytes" ReadFlag="Enabled" WriteFlag="Disabled" CommunicationFlag="Enabled" TransmitFlag="Enabled" UpdateFlag="Disabled" ReadOnInitFlag="Disabled" />
+            </ComObjectTable>
+            <ComObjectRefs>
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-0_R-1" RefId="M-0009_A-0095-10-04BB_O-0" Tag="1" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-1_R-2" RefId="M-0009_A-0095-10-04BB_O-1" Tag="2" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-1_R-14" RefId="M-0009_A-0095-10-04BB_O-1" Tag="14" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-1_R-15" RefId="M-0009_A-0095-10-04BB_O-1" Tag="15" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-1_R-16" RefId="M-0009_A-0095-10-04BB_O-1" Tag="16" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-2_R-3" RefId="M-0009_A-0095-10-04BB_O-2" Tag="3" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-2_R-17" RefId="M-0009_A-0095-10-04BB_O-2" Text="Pte / Hors Pte  " Tag="17" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-2_R-18" RefId="M-0009_A-0095-10-04BB_O-2" Tag="18" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-2_R-19" RefId="M-0009_A-0095-10-04BB_O-2" Text="Autorisation de chauffage (E2)" Tag="19" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-4" RefId="M-0009_A-0095-10-04BB_O-3" Tag="4" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-20" RefId="M-0009_A-0095-10-04BB_O-3" Text="Préavis de dépassement (E3)" Tag="20" FunctionText="Préavis de dépassement" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-21" RefId="M-0009_A-0095-10-04BB_O-3" Text="Préavis de dépassement (E3)" Tag="21" FunctionText="Préavis de dépassement " />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-22" RefId="M-0009_A-0095-10-04BB_O-3" Text="E3" Tag="22" FunctionText="Entrée 3 " WriteFlag="Enabled" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-34" RefId="M-0009_A-0095-10-04BB_O-3" Text="E3" Tag="34" FunctionText="Entrée 3 " WriteFlag="Enabled" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-35" RefId="M-0009_A-0095-10-04BB_O-3" Text="E3" Tag="35" FunctionText="Entrée 3 " WriteFlag="Enabled" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-36" RefId="M-0009_A-0095-10-04BB_O-3" Text="E3" Tag="36" FunctionText="Entrée 3 " WriteFlag="Enabled" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-37" RefId="M-0009_A-0095-10-04BB_O-3" Text="E3" Tag="37" FunctionText="Entrée 3 " WriteFlag="Enabled" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-38" RefId="M-0009_A-0095-10-04BB_O-3" Text="E3" Tag="38" FunctionText="Entrée 3 " WriteFlag="Enabled" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-3_R-39" RefId="M-0009_A-0095-10-04BB_O-3" Text="E3" Tag="39" FunctionText="Entrée 3 " WriteFlag="Enabled" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-5" RefId="M-0009_A-0095-10-04BB_O-4" Tag="5" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-23" RefId="M-0009_A-0095-10-04BB_O-4" Tag="23" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-24" RefId="M-0009_A-0095-10-04BB_O-4" Tag="24" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-25" RefId="M-0009_A-0095-10-04BB_O-4" Text="Top de synchronisation 10'" Tag="25" FunctionText="Top de synchronisation" WriteFlag="Disabled" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-40" RefId="M-0009_A-0095-10-04BB_O-4" Tag="40" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-41" RefId="M-0009_A-0095-10-04BB_O-4" Tag="41" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-42" RefId="M-0009_A-0095-10-04BB_O-4" Tag="42" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-43" RefId="M-0009_A-0095-10-04BB_O-4" Tag="43" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-44" RefId="M-0009_A-0095-10-04BB_O-4" Tag="44" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-45" RefId="M-0009_A-0095-10-04BB_O-4" Tag="45" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-52" RefId="M-0009_A-0095-10-04BB_O-4" Tag="52" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-53" RefId="M-0009_A-0095-10-04BB_O-4" Tag="53" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-54" RefId="M-0009_A-0095-10-04BB_O-4" Tag="54" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-55" RefId="M-0009_A-0095-10-04BB_O-4" Tag="55" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-56" RefId="M-0009_A-0095-10-04BB_O-4" Tag="56" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-57" RefId="M-0009_A-0095-10-04BB_O-4" Tag="57" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-64" RefId="M-0009_A-0095-10-04BB_O-4" Tag="64" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-65" RefId="M-0009_A-0095-10-04BB_O-4" Tag="65" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-66" RefId="M-0009_A-0095-10-04BB_O-4" Tag="66" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-67" RefId="M-0009_A-0095-10-04BB_O-4" Tag="67" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-68" RefId="M-0009_A-0095-10-04BB_O-4" Tag="68" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-4_R-69" RefId="M-0009_A-0095-10-04BB_O-4" Tag="69" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-6" RefId="M-0009_A-0095-10-04BB_O-5" Tag="6" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-26" RefId="M-0009_A-0095-10-04BB_O-5" Tag="26" FunctionText="Entrée 5 " />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-27" RefId="M-0009_A-0095-10-04BB_O-5" Tag="27" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-28" RefId="M-0009_A-0095-10-04BB_O-5" Tag="28" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-46" RefId="M-0009_A-0095-10-04BB_O-5" Tag="46" FunctionText="Entrée 5 " />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-47" RefId="M-0009_A-0095-10-04BB_O-5" Tag="47" FunctionText="Entrée 5 " />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-48" RefId="M-0009_A-0095-10-04BB_O-5" Tag="48" FunctionText="Entrée 5 " />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-49" RefId="M-0009_A-0095-10-04BB_O-5" Tag="49" FunctionText="Entrée 5 " />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-50" RefId="M-0009_A-0095-10-04BB_O-5" Tag="50" FunctionText="Entrée 5 " />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-51" RefId="M-0009_A-0095-10-04BB_O-5" Tag="51" FunctionText="Entrée 5 " />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-58" RefId="M-0009_A-0095-10-04BB_O-5" Tag="58" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-59" RefId="M-0009_A-0095-10-04BB_O-5" Tag="59" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-60" RefId="M-0009_A-0095-10-04BB_O-5" Tag="60" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-61" RefId="M-0009_A-0095-10-04BB_O-5" Tag="61" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-62" RefId="M-0009_A-0095-10-04BB_O-5" Tag="62" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-63" RefId="M-0009_A-0095-10-04BB_O-5" Tag="63" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-70" RefId="M-0009_A-0095-10-04BB_O-5" Tag="70" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-71" RefId="M-0009_A-0095-10-04BB_O-5" Tag="71" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-72" RefId="M-0009_A-0095-10-04BB_O-5" Tag="72" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-73" RefId="M-0009_A-0095-10-04BB_O-5" Tag="73" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-74" RefId="M-0009_A-0095-10-04BB_O-5" Tag="74" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-75" RefId="M-0009_A-0095-10-04BB_O-5" Tag="75" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-76" RefId="M-0009_A-0095-10-04BB_O-5" Tag="76" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-77" RefId="M-0009_A-0095-10-04BB_O-5" Tag="77" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-78" RefId="M-0009_A-0095-10-04BB_O-5" Tag="78" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-79" RefId="M-0009_A-0095-10-04BB_O-5" Tag="79" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-80" RefId="M-0009_A-0095-10-04BB_O-5" Tag="80" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-5_R-81" RefId="M-0009_A-0095-10-04BB_O-5" Tag="81" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-6_R-7" RefId="M-0009_A-0095-10-04BB_O-6" Tag="7" ObjectSize="1 Byte" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-6_R-31" RefId="M-0009_A-0095-10-04BB_O-6" Tag="31" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-7_R-8" RefId="M-0009_A-0095-10-04BB_O-7" Tag="8" ObjectSize="1 Byte" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-7_R-32" RefId="M-0009_A-0095-10-04BB_O-7" Tag="32" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-8_R-9" RefId="M-0009_A-0095-10-04BB_O-8" Tag="9" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-9_R-10" RefId="M-0009_A-0095-10-04BB_O-9" Tag="10" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-10_R-11" RefId="M-0009_A-0095-10-04BB_O-10" Tag="11" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-10_R-29" RefId="M-0009_A-0095-10-04BB_O-10" Text="Eté / Hiver " Tag="29" WriteFlag="Enabled" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-11_R-12" RefId="M-0009_A-0095-10-04BB_O-11" Tag="12" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-11_R-30" RefId="M-0009_A-0095-10-04BB_O-11" Tag="30" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-11_R-33" RefId="M-0009_A-0095-10-04BB_O-11" Tag="33" />
+              <ComObjectRef Id="M-0009_A-0095-10-04BB_O-12_R-13" RefId="M-0009_A-0095-10-04BB_O-12" Tag="13" />
+            </ComObjectRefs>
+            <AddressTable CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="22" MaxEntries="40" />
+            <AssociationTable CodeSegment="M-0009_A-0095-10-04BB_AS-0100" Offset="105" MaxEntries="43" />
+            <Options />
+          </Static>
+          <Dynamic>
+            <Channel Name="Generic" Text="" Number="0" Id="M-0009_A-0095-10-04BB_CH-0">
+              <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-0_R-1" />
+              <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-8_R-9" />
+              <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-9_R-10" />
+              <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-12_R-13" />
+              <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-1" Name="Tarification" ParamRefId="M-0009_A-0095-10-04BB_P-1_R-1">
+                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-523_R-523" />
+                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-524_R-524" />
+                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-526_R-526" />
+                <choose ParamRefId="M-0009_A-0095-10-04BB_P-1_R-1">
+                  <when default="true">
+                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-45_R-56" />
+                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-56">
+                      <when test="3">
+                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-53_R-64" />
+                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-45_R-48" />
+                        <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-48">
+                          <when default="true">
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-1_R-2" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-2_R-3" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-4" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-25" />
+                          </when>
+                        </choose>
+                      </when>
+                      <when test="1">
+                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-53_R-63" />
+                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-45_R-47" />
+                        <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-47">
+                          <when default="true">
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-1_R-14" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-2_R-17" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-20" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-10_R-11" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-11_R-12" />
+                            <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-54_R-57" />
+                          </when>
+                        </choose>
+                      </when>
+                      <when test="0">
+                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-53_R-53" />
+                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-45_R-45" />
+                        <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-45">
+                          <when default="true">
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-1_R-16" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-2_R-19" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-11_R-33" />
+                          </when>
+                        </choose>
+                      </when>
+                      <when test="2">
+                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-53_R-62" />
+                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-45_R-46" />
+                        <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-46">
+                          <when default="true">
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-1_R-15" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-2_R-18" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-21" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-10_R-29" />
+                            <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-11_R-30" />
+                            <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-54_R-54" />
+                          </when>
+                        </choose>
+                      </when>
+                    </choose>
+                  </when>
+                </choose>
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-44" Name="Calibre" ParamRefId="M-0009_A-0095-10-04BB_P-44_R-44">
+                <choose ParamRefId="M-0009_A-0095-10-04BB_P-44_R-44">
+                  <when default="true">
+                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-51_R-51" />
+                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-52_R-52" />
+                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-61_R-61" />
+                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-61_R-61">
+                      <when test="1">
+                        <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-6_R-7" />
+                        <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-7_R-8" />
+                      </when>
+                      <when test="0">
+                        <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-6_R-31" />
+                        <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-7_R-32" />
+                      </when>
+                    </choose>
+                  </when>
+                </choose>
+              </ParameterBlock>
+              <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-528" Name="Limitation" Access="Read" ParamRefId="M-0009_A-0095-10-04BB_P-528_R-528">
+                <choose ParamRefId="M-0009_A-0095-10-04BB_P-528_R-528">
+                  <when default="true">
+                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-525_R-525" />
+                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-527_R-527" />
+                  </when>
+                </choose>
+              </ParameterBlock>
+              <choose ParamRefId="M-0009_A-0095-10-04BB_P-1_R-1">
+                <when default="true">
+                  <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-56">
+                    <when test="0">
+                      <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-45">
+                        <when test="0">
+                          <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-58" Name="E3  Marche/arrêt" ParamRefId="M-0009_A-0095-10-04BB_P-58_R-58">
+                            <choose ParamRefId="M-0009_A-0095-10-04BB_P-58_R-58">
+                              <when default="true">
+                                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-164_R-164" />
+                                <choose ParamRefId="M-0009_A-0095-10-04BB_P-164_R-164">
+                                  <when test="1">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-22" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-165_R-176" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-168_R-168" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-168_R-168">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-169_R-169" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-160_R-549" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-160_R-549">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-550" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-551" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-552" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="5">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-34" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-165_R-175" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-168_R-170" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-168_R-170">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-169_R-171" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-160_R-545" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-160_R-545">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-546" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-547" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-548" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="11">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-35" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-165_R-177" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-168_R-172" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-168_R-172">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-169_R-173" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-160_R-541" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-160_R-541">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-542" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-543" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-544" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="7">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-36" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-168_R-178" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-168_R-178">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-169_R-179" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-160_R-537" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-160_R-537">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-538" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-539" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-540" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="19">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-37" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-165_R-166" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-160_R-533" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-160_R-533">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-534" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-535" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-536" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="18">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-38" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-165_R-167" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-160_R-529" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-160_R-529">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-530" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-531" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-532" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="17">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-3_R-39" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-165_R-174" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-160_R-160" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-160_R-160">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-161" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-162" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-161_R-163" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                </choose>
+                                <choose ParamRefId="M-0009_A-0095-10-04BB_P-164_R-164">
+                                  <when default="true">
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-165_R-165" />
+                                  </when>
+                                </choose>
+                              </when>
+                            </choose>
+                          </ParameterBlock>
+                          <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-59" Name="E4  Marche/arrêt" ParamRefId="M-0009_A-0095-10-04BB_P-59_R-59">
+                            <choose ParamRefId="M-0009_A-0095-10-04BB_P-59_R-59">
+                              <when default="true">
+                                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-185_R-185" />
+                                <choose ParamRefId="M-0009_A-0095-10-04BB_P-185_R-185">
+                                  <when test="1">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-5" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-188" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-193" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-193">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-194" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-573" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-573">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-574" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-575" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-576" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="5">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-40" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-187" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-195" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-195">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-196" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-569" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-569">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-570" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-571" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-572" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="11">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-41" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-189" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-197" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-197">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-198" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-565" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-565">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-566" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-567" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-568" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="7">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-42" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-190" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-199" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-199">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-200" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-561" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-561">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-562" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-563" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-564" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="19">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-43" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-191" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-557" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-557">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-558" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-559" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-560" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="18">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-44" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-192" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-553" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-553">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-554" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-555" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-556" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="17">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-45" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-186" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-181" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-181">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-182" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-183" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-184" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                </choose>
+                              </when>
+                            </choose>
+                          </ParameterBlock>
+                          <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-60" Name="E5  Marche/arrêt" ParamRefId="M-0009_A-0095-10-04BB_P-60_R-60">
+                            <choose ParamRefId="M-0009_A-0095-10-04BB_P-60_R-60">
+                              <when default="true">
+                                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-251_R-251" />
+                                <choose ParamRefId="M-0009_A-0095-10-04BB_P-251_R-251">
+                                  <when test="1">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-26" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-263" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-257" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-257">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-258" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-597" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-597">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-598" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-599" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-600" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="5">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-46" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-262" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-259" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-259">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-260" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-593" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-593">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-594" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-595" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-596" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="11">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-47" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-264" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-252" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-252">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-253" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-589" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-589">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-590" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-591" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-592" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="7">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-48" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-254" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-265" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-265">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-266" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-585" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-585">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-586" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-587" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-588" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="19">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-49" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-255" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-581" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-581">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-582" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-583" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-584" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="18">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-50" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-256" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-577" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-577">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-578" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-579" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-580" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="17">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-51" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-261" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-267" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-267">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-268" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-269" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-270" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                </choose>
+                              </when>
+                            </choose>
+                          </ParameterBlock>
+                        </when>
+                      </choose>
+                    </when>
+                    <when test="2">
+                      <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-46">
+                        <when test="2">
+                          <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-355" Name="E4 Marche/arrêt" ParamRefId="M-0009_A-0095-10-04BB_P-355_R-355">
+                            <choose ParamRefId="M-0009_A-0095-10-04BB_P-355_R-355">
+                              <when default="true">
+                                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-185_R-360" />
+                                <choose ParamRefId="M-0009_A-0095-10-04BB_P-185_R-360">
+                                  <when test="1">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-23" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-363" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-374" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-374">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-375" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-645" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-645">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-646" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-647" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-648" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="5">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-52" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-362" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-364" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-364">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-365" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-641" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-641">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-642" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-643" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-644" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="11">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-53" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-370" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-366" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-366">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-367" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-637" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-637">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-638" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-639" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-640" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="7">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-54" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-371" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-368" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-368">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-369" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-633" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-633">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-634" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-635" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-636" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="19">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-55" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-372" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-629" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-629">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-630" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-631" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-632" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="18">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-56" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-373" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-625" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-625">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-626" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-627" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-628" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="17">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-57" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-361" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-356" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-356">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-357" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-358" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-359" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                </choose>
+                              </when>
+                            </choose>
+                          </ParameterBlock>
+                          <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-439" Name="E5  Marche/arrêt" ParamRefId="M-0009_A-0095-10-04BB_P-439_R-439">
+                            <choose ParamRefId="M-0009_A-0095-10-04BB_P-439_R-439">
+                              <when default="true">
+                                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-251_R-440" />
+                                <choose ParamRefId="M-0009_A-0095-10-04BB_P-251_R-440">
+                                  <when test="1">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-27" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-441" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-454" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-454">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-455_R-455" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-669" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-669">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-670" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-671" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-672" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="5">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-58" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-453" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-450" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-450">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-451" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-665" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-665">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-666" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-667" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-668" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="11">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-59" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-442" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-445" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-445">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-446" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-661" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-661">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-662" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-663" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-664" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="7">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-60" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-447" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-443" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-443">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-444" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-657" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-657">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-658" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-659" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-660" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="19">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-61" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-448" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-653" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-653">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-654" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-655" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-656" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="18">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-62" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-449" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-649" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-649">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-650" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-651" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-652" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="17">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-63" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-452" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-456" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-456">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-457" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-458" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-459" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                </choose>
+                              </when>
+                            </choose>
+                          </ParameterBlock>
+                        </when>
+                      </choose>
+                    </when>
+                    <when test="1">
+                      <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-47">
+                        <when test="1">
+                          <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-460" Name="E4 Marche/arrêt" ParamRefId="M-0009_A-0095-10-04BB_P-460_R-460">
+                            <choose ParamRefId="M-0009_A-0095-10-04BB_P-460_R-460">
+                              <when default="true">
+                                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-185_R-465" />
+                                <choose ParamRefId="M-0009_A-0095-10-04BB_P-185_R-465">
+                                  <when test="1">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-24" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-472" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-469" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-469">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-470" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-693" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-693">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-694" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-695" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-696" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="5">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-64" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-480" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-473" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-473">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-474" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-689" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-689">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-690" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-691" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-692" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="11">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-65" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-471" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-475" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-475">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-476" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-685" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-685">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-686" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-687" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-688" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="7">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-66" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-466" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-193_R-477" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-193_R-477">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-194_R-478" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-681" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-681">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-682" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-683" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-684" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="19">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-67" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-467" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-677" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-677">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-678" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-679" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-680" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="18">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-68" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-468" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-673" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-673">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-674" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-675" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-676" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="17">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-4_R-69" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-186_R-479" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-181_R-461" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-181_R-461">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-462" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-463" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-182_R-464" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                </choose>
+                              </when>
+                            </choose>
+                          </ParameterBlock>
+                          <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-481" Name="E5  Marche/arrêt" ParamRefId="M-0009_A-0095-10-04BB_P-481_R-481">
+                            <choose ParamRefId="M-0009_A-0095-10-04BB_P-481_R-481">
+                              <when default="true">
+                                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-251_R-486" />
+                                <choose ParamRefId="M-0009_A-0095-10-04BB_P-251_R-486">
+                                  <when test="1">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-28" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-496" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-494" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-494">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-455_R-495" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-717" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-717">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-718" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-719" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-720" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="5">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-70" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-493" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-490" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-490">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-491" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-713" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-713">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-714" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-715" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-716" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="11">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-71" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-497" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-500" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-500">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-501" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-709" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-709">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-710" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-711" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-712" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="7">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-72" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-487" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-498" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-498">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-499" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-705" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-705">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-706" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-707" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-708" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="19">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-73" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-488" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-701" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-701">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-702" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-703" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-704" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="18">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-74" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-489" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-697" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-697">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-698" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-699" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-700" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="17">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-75" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-492" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-482" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-482">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-483" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-484" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-485" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                </choose>
+                              </when>
+                            </choose>
+                          </ParameterBlock>
+                        </when>
+                      </choose>
+                    </when>
+                    <when test="3">
+                      <choose ParamRefId="M-0009_A-0095-10-04BB_P-45_R-48">
+                        <when test="3">
+                          <ParameterBlock Id="M-0009_A-0095-10-04BB_PB-502" Name="E5  Marche/arrêt" ParamRefId="M-0009_A-0095-10-04BB_P-502_R-502">
+                            <choose ParamRefId="M-0009_A-0095-10-04BB_P-502_R-502">
+                              <when default="true">
+                                <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-251_R-507" />
+                                <choose ParamRefId="M-0009_A-0095-10-04BB_P-251_R-507">
+                                  <when test="1">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-6" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-517" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-515" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-515">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-455_R-516" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-621" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-621">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-622" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-623" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-624" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="5">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-76" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-514" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-511" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-511">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-512" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-617" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-617">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-618" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-619" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-620" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="11">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-77" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-518" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-521" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-521">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-522" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-613" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-613">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-614" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-615" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-616" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="7">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-78" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-508" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-252_R-519" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-252_R-519">
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-253_R-520" />
+                                      </when>
+                                    </choose>
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-609" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-609">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-610" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-611" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-612" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="19">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-79" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-509" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-605" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-605">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-606" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-607" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-608" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="18">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-80" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-510" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-601" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-601">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-602" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-603" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-604" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                  <when test="17">
+                                    <ComObjectRefRef RefId="M-0009_A-0095-10-04BB_O-5_R-81" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-254_R-513" />
+                                    <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-267_R-503" />
+                                    <choose ParamRefId="M-0009_A-0095-10-04BB_P-267_R-503">
+                                      <when test="3">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-504" />
+                                      </when>
+                                      <when test="1">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-505" />
+                                      </when>
+                                      <when test="2">
+                                        <ParameterRefRef RefId="M-0009_A-0095-10-04BB_P-268_R-506" />
+                                      </when>
+                                    </choose>
+                                  </when>
+                                </choose>
+                              </when>
+                            </choose>
+                          </ParameterBlock>
+                        </when>
+                      </choose>
+                    </when>
+                  </choose>
+                </when>
+              </choose>
+            </Channel>
+          </Dynamic>
+        </ApplicationProgram>
+      </ApplicationPrograms>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>

@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KNX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedBy="ETS5" ToolVersion="5.7.1428.39779" xmlns="http://knx.org/xml/project/20">
+  <ManufacturerData>
+    <Manufacturer RefId="M-0009">
+      <Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TA003-1" Name="Coupleur de lignes" SerialNumber="9 // TA003" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" IsCoupler="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TA003-1_P-TA003" Text="Coupleur de lignes" OrderNumber="TA003" IsRailMounted="false" WidthInMillimeter="71.93" DefaultLanguage="fr-FR" Hash="kzeDf70G6VmqMZwkTnPzxaspuRM=">
+              <RegistrationInfo RegistrationStatus="Unregistered" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TA003-1_HP-0037-10-22AB" MediumTypes="MT-0" Hash="PdshDr9yPhCCHWqYGMitVsMmucQ=">
+              <ApplicationProgramRef RefId="M-0009_A-0037-10-22AB" />
+              <RegistrationInfo RegistrationStatus="Unregistered" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20Convecteur-1" Name="Régulateur pour convecteur" SerialNumber="9 // Convecteur" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20Convecteur-1_P-Convecteur" Text="Régulateur pour convecteur" OrderNumber="Convecteur" IsRailMounted="false" WidthInMillimeter="0" DefaultLanguage="fr-FR" Hash="2nYOZGXxTXha/gVbc7FQu9VDjSg=">
+              <RegistrationInfo RegistrationStatus="Unregistered" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20Convecteur-1_HP-0009-40-2B44" MediumTypes="MT-0" Hash="r/gaOtHr4QGTaV2eMZj+wLxh804=">
+              <ApplicationProgramRef RefId="M-0009_A-0009-40-2B44" />
+              <RegistrationInfo RegistrationStatus="Unregistered" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2039-1" Name="Programmateur annuel 100 voies" SerialNumber="9 / 39" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2039-1_P-TJ100" Text="Programmateur annuel 100 voies" OrderNumber="TJ100" IsRailMounted="false" WidthInMillimeter="0" DefaultLanguage="fr-FR" Hash="2Ar2BSmArhFAzGjskRE1uVjXkug=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="g27K5AZixkpqmStP7qeYGokzM7/VomVewA1SYNpHXRxX0t6kdwjdo9YP92AjsppR8Ai8sRv6gLu7fKGT9rmxhQ0mAzRroebEBxKtrvYR3Ck8GRPulsp6yfw61CTaxk66EaJElWJhbCa98B6pBAPC6eICACjB2o2y7P1epifrBNM=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2039-1_HP-004D-10-18EA" MediumTypes="MT-0" Hash="jjTrbg/bEuoU6+pL89NORt04knQ=">
+              <ApplicationProgramRef RefId="M-0009_A-004D-10-18EA" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="vvDV6CKXu9vR+aLxLB+6W4V+sfTW3jEij6YupEnNNkO98LUwqv+4uBF9T0mQczbmI9ht8qUV4bs7rSmVimY6igF2YHIKCiUBTeNgghkq8Mr3xPpZhS8oDts2/yh0WTXFSHYKDuso8UcKgHZ0aW5rkQHIj4IeAVe9/MMh/lsM+c8=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2039-1_HP-004C-10-E9C7" MediumTypes="MT-0" Hash="MR4LwqgQHrIfku9AuNraZFbAWwA=">
+              <ApplicationProgramRef RefId="M-0009_A-004C-10-E9C7" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="iOqC4fPV0m4GBbmQsoT6pwUZiY5oZW8AVCsJCintq3qquz5j0KAvVvpbx0p5f4XP6MFpBl2A/qdBPvhVrUaoFED6deRaglb3YnxUAG+6E+wGWx82mo7kci6U/zKqqkKS2vhDmm3aEp6fylXRrWRO30g/aPMZK0TuJ7Dgp/VcVys=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TF004-1" Name="Régulateur de T° ambiante" SerialNumber="9 // TF004" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TF004-1_P-TF004" Text="Régulateur de T° ambiante" OrderNumber="TF004" IsRailMounted="false" WidthInMillimeter="0" DefaultLanguage="fr-FR" Hash="rbimAecui1oOTonP7PL4U4ijVsw=">
+              <RegistrationInfo RegistrationStatus="Unregistered" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TF004-1_HP-0017-20-91D4" MediumTypes="MT-0" Hash="/nKFwwHg2U+TlgSQFMRRaoY+mSM=">
+              <ApplicationProgramRef RefId="M-0009_A-0017-20-91D4" />
+              <RegistrationInfo RegistrationStatus="Unregistered" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TK002-1" Name="BP simple avec BCU" SerialNumber="9 // TK002" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TK002-1_P-TK002" Text="BP simple" OrderNumber="TK002" IsRailMounted="false" WidthInMillimeter="0" DefaultLanguage="fr-FR" Hash="MnRe2yDq5AKVlkch7xYPvcoxmig=">
+              <RegistrationInfo RegistrationStatus="Unregistered" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TK002-1_HP-002F-10-467A" MediumTypes="MT-0" Hash="hk+66WTrVQb2sUYFz33Wl/tdvmA=">
+              <ApplicationProgramRef RefId="M-0009_A-002F-10-467A" />
+              <RegistrationInfo RegistrationStatus="Unregistered" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2046-1" Name="Transmetteur T° amb sans dérog." SerialNumber="9 / 46" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2046-1_P-TE007" Text="Transmetteur T° amb sans derog" OrderNumber="TE007" IsRailMounted="false" WidthInMillimeter="0" DefaultLanguage="fr-FR" Hash="vRn0xoSpQQK+PsjqmMwmiyWeLKc=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="yPX3AdJ1aCGbwvsVpZ7fPtppSPd9WMIXvJHrdadKTux8qrhmsyfR77/lxCNZi003FjxWifopQre+Jne/FkcTn6OyBKmTTX5bftsVMttsHkCrD0Q/MGC76duLJNGyug4s3LzLKjnPMtFWtYFlqS1e0yPY6FeLkJPac3byZVMgpEU=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2046-1_HP-003F-10-A347" MediumTypes="MT-0" Hash="p6ohFIdYUrjHF0Aru5lK0gZOyEA=">
+              <ApplicationProgramRef RefId="M-0009_A-003F-10-A347" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="mirqnWpdfS0k0fqOR5otF9mfUyq4MxtJ2MrLxrTEkV2QiVMQ0J/4xbpNM9CD9JvRKcHJBYtbAInwg2WhOUpPN71yOSTQioIGZSlY0/gWQzd/7DS3Xr6cI8OmmVGOzqPEy8sbVfwQENGoCHlpxzPYSsA83aBdnkHbvN+MbjoNrTg=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2021-1" Name="4 sorties 6A modulaire" SerialNumber="9 / 21" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2021-1_P-TB007" Text="4 sorties 6A modulaire" OrderNumber="TB007" IsRailMounted="false" WidthInMillimeter="0" DefaultLanguage="fr-FR" Hash="DxR341WwQVBF3NfnIxPGQtYdLTk=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="g67cq1CwiKxags31ORwbYF6D5eCR9YtimhQRhcb1lD/k9njIXWsNqA+okjkSf6lyS4Hq+C4RatPTyZWBwIJjGThrExLyv5o4YqtnGzIjgVMpS8l30N4D/uFonDA+1C3NeGQT0bq+mblBjtOx1rSNJ/N2oG/gGxifk1KxTw192NQ=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2021-1_HP-0039-10-0779" MediumTypes="MT-0" Hash="kiuKCQJeL2WMOyBSEuFCD/ADBTY=">
+              <ApplicationProgramRef RefId="M-0009_A-0039-10-0779" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="ofMPFlzq3Z9NBuW/D+IwSehOMBsrrcD54ua1uJk9N50Upp2XMDKdGpXwcCUQtRBLO26fctqE9cwwqR2JoUdCW0dHq/cws/WDOjs3SsAhwN7udLoWPIn2H6jwf6a9FEAr1rJtSm5OLTgsNhKPpV5l3JO+0oq4A90U9xX2CZhgSUA=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2021-1_HP-0063-10-AB7B" MediumTypes="MT-0" Hash="7I9pyStU/gnsP9x49x6BOwwiIaY=">
+              <ApplicationProgramRef RefId="M-0009_A-0063-10-AB7B" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="q7YYum6aqSTRVrse/j+Xaj+JffVO2W7AAI1ZsiJwfVuXI7aJzBSnXRec9+gjA+7qwR+jQLp2f8bNFyXR4UU4uTPRtg5nNDNgk+ZG6o2gO24+6QK1KKmopXK2q37UhhT8kZTOf+IRsl61o1wkTUPC9O8TQxtChuREoG7SnNqx0ng=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2039-2" Name="TJ100B Simulation programmateur annuel " SerialNumber="9 / 39" VersionNumber="2" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2039-2_P-TJ100B" Text="Programmateur annuel 100 voies" OrderNumber="TJ100B" IsRailMounted="false" WidthInMillimeter="0" DefaultLanguage="fr-FR" Hash="ss59HmZkscWUiW6hWEh3qRTcBDo=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="OjiC2i0xcoKcAKV1MWF3/VYYWKey2Gqt/L/b1pXSrm21oP8oyRC8sIyrJWroEufQMUgsl+y31efIXKKzHLE0jQLXDsQ5xFdx3iUN0pFYmLVubynbkUr9ww9op1Z5GU0HHoWFj1S0rbXt9SG72EWMPC9SifnLv8AHzEUt8F3TR+Y=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2039-2_HP-004D-10-18EA" MediumTypes="MT-0" Hash="C66X1H8HaAFOqbwD4b0r4qNi5vA=">
+              <ApplicationProgramRef RefId="M-0009_A-004D-10-18EA" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1997/2528" OriginalRegistrationNumber="1900/0" RegistrationSignature="uB0j4ip5k5zo/PcQESSY8jcGqxnxTqKp/CIsthsCogZWrk3FXaUGxU7+3a8hNYYBpMnDQ1tBq28TcmisM6TasrYVxiLyMTxwuDgIziOfLUMtGjZ098yKhVQXCTcfdRVlI6ryOWiXolZnkLR4smu8+wDl41fI0Y13h6M/TUEv1ng=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2039-2_HP-004C-10-E9C7" MediumTypes="MT-0" Hash="ZNNycOPZLRmA41nF93TzFXTR7es=">
+              <ApplicationProgramRef RefId="M-0009_A-004C-10-E9C7" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1997/2528" OriginalRegistrationNumber="1900/0" RegistrationSignature="cm4WLgbpKelx645MlC6DyqZ/ZMgLd4Ef08lhvtoD+qgQy8KNRFtfdtYMz4CFV5Xzr9qXwhtH4nMCFmeE4RRtsaIHXT+6lnQ7l7S7tYRBpILqJyGzPPMFZqLep8MwWNpYTdpH/00ar6HjUYjH7wLaWHeYAdmWQzRyVWpJO2Prryk=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2030-1" Name="TA005 Alimentation 640mA avec filtre" SerialNumber="9 / 30" VersionNumber="1" BusCurrent="0" HasIndividualAddress="false" HasApplicationProgram="false" IsPowerSupply="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2030-1_P-TA005" Text="Alimentation 640mA avec filtre" OrderNumber="TA005" IsRailMounted="false" WidthInMillimeter="122.5" DefaultLanguage="fr-FR" Hash="n6yM3avdbZtSNo0CjRxeoqvJPq8=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="I5S9U8ptXlovuJ9KQyCR/vgA3XPC2I9Ycz9QDCSM57KO+DkeyklAD7omJO9Awndhh4O/XSnibMda0rVw+wKicIVXNfNuw+u1HVhHB/oUjolqqlkNem6MfFt33qdo5oWklUjTM7nx/OqrUJgUPAcOsWej4JWrTJKoF6uFH/S+6hY=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2030-1_HP" MediumTypes="MT-0" Hash="fRLwuzVaC1bfNMY+klfy0jxRz60=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="HnXfu55M5YMh04hzY4SN3XLD/K4/IoLMySeZsg9A4meLZtG/ozSSsVXFE8BrXVgVctjee9POC6r60ozUH2Tn6Dj+A56UfOYkcCjDCLVL3CO5vxxNM4/tljNRJ5DL3PAdYCCWDcacA0D8mn9MI9a27+2ORlSNSXzDihFTzyc3Qqg=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2056-1" Name="TA006 Coupleur de lignes" SerialNumber="9 / 56" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" IsCoupler="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2056-1_P-TA006" Text="Coupleur de lignes" OrderNumber="TA006" IsRailMounted="false" WidthInMillimeter="52.5" DefaultLanguage="fr-FR" Hash="fH4ZW+tdYbn6P+wDdO7n392Uen8=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="Tim8YIcg6UNzddOkS6widX0fEmYIeQneIYgdmeie6jRgbE0Fd/V82EhFNuHQPD7duZIHgcxG4m2HqMUguISmTBH5yQFneyIThfpCitKVmImBtCoupTXfB3izj8LIZx2BptsmxYjoeT2/HfR8bkXikz1PQqbFI4La1JrAh0ghbZU=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2056-1_HP-0072-10-1D34" MediumTypes="MT-0" Hash="BPhKAp+vw2aOX17Yk3wEIA65auw=">
+              <ApplicationProgramRef RefId="M-0009_A-0072-10-1D34" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="yFKzQDGSZsINdCYMqRSTAh1+xObQxE4zlxO2GqV57/6aeQT096bACeNCTQ2AOeCEy4qPhMXmcbd3j9PdXunJbeZaWtk7La7u+O+MjrulxSHJwp0/Y9V2oRpava8z2YlGXOyRPiwyG7+51Lezx6+XkfIv3c3cFMizh0lqYudob+c=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.204-1" Name="TB002 2 sorties 6A modulaire" SerialNumber="9 / 4" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.204-1_P-TB002" Text="2 sorties 6A modulaire" OrderNumber="TB002" IsRailMounted="false" WidthInMillimeter="35" DefaultLanguage="fr-FR" Hash="+K9Hy/1S3KEdeT1q2ngEBJmTVuA=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="lh2ab0QBBlupIdvjcz1htni0Obi5GwsK4nXblhGHmkDUBsnIWgeOIsRGyalprKDKi1OV++Ydv5TIM76LhGGzGiiv3c7GwJcjv2jYVSVMVcy+i3TwJdqh9n4yzz2Xwt38cTmbOBYKjV1pys7SR6pOu7JlOixHkdbscWJGuJnYjsI=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.204-1_HP-0025-00-F2A7" MediumTypes="MT-0" Hash="qmP6usEAlPZJgnGfsaLu2ym1HpY=">
+              <ApplicationProgramRef RefId="M-0009_A-0025-00-F2A7" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="zP8+Rzt2yglwUGnWGIDZf8d99IpGxEvBzFsv64q7f6LvI+InlWIUZM8WVR9uiHsjH7h8VW9z8qom4TMLmIq8iMmhZko/d5V77zMz6gHkyuWuLx86P4NoXrrQgmw1Yy8F0N2C8wtHfACf7r5agHrSvooMlBKgo0l6FPHGBmswvds=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.204-1_HP-0013-10-4143" MediumTypes="MT-0" Hash="VsVkCb32Zwwy/In7meOWTYal2+0=">
+              <ApplicationProgramRef RefId="M-0009_A-0013-10-4143" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="O6MsFV4f0MVoF9Fnil4SXd0+1QKamb+ovYb0KFKLp/pDb1IsdQbl5Uoqbbj7CezVWNIlKrBlGQn8y01evuCejm92qZxrFa31uK49FO2y7MhLhtbWgCBE7IYf6CRF+6hzUWJk3odtRPZdVU47VFZPWpGWQjg74zHjpCExKtNvP0U=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.204-1_HP-000F-10-EB08" MediumTypes="MT-0" Hash="0mK4rEomGVbDe3kgdFj3hDqenFw=">
+              <ApplicationProgramRef RefId="M-0009_A-000F-10-EB08" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="onF3l3tFGqEod8h6cuSmz/ccsPechUNi3+WphMysfcKK/VGIma3h+D0Y6zU1VD2G8kJQfuBAl7UMrBj7c6mo17cB2R5wvaQHFX4RWxSKFcbMrxisFlg+QsZJvd3XLVahIzlRCvTBQ1N2aZkEAWE8cPVlUCUBy9Lw5B/AxH4MRaQ=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.204-1_HP-005E-10-D445" MediumTypes="MT-0" Hash="HTBn72+JjlZhvq7uyidZ2YW2bPc=">
+              <ApplicationProgramRef RefId="M-0009_A-005E-10-D445" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="n+zsgQQ5fwdJKNNKl3K533BHEDbKEQyVxgQ217QuTHyccvvlSPUC3JlENHV8QUsMzzVNzcAWVm7gzgvJp/lHMa1D3OxpKIl0YzK0dulw9X98DKeOIDMXWfOMx7xnLBNOVDy0E+wAtPIH1dsKBWs3eiaUyGWt0gtRwotJKA65iZM=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2047-1" Name="TB004 4 entrées impulsionnelles mod." SerialNumber="9 / 47" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2047-1_P-TB004" Text="4 entrées impulsionnelles mod." OrderNumber="TB004" IsRailMounted="false" WidthInMillimeter="70" DefaultLanguage="fr-FR" Hash="B5s99C1Rf0tYnvwphXuGPjjfCV0=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="MUft2iTjG444b+DWoHafFr31GPvQjrfG1PN3dL7wL/pfx1f95yopVvAX1f9DkZCL712h225qLBvFCxEPEvplZVyICLWS5WQDq+UsuWIIYr6v3gIqAy8jZCZxqTnV2TMDLrZ7aCQC26g3K2tmeekOuSApZHXq/GaL8UsYXNlDnV4=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2047-1_HP-004B-20-1AED" MediumTypes="MT-0" Hash="BUSsGH6nG4IsI9zts6mGbKkDdhc=">
+              <ApplicationProgramRef RefId="M-0009_A-004B-20-1AED" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="A7fll5RNRCIg5UBgG+2OaC0cVag0JrvvqnfgYl8sq7A5PVF6tVloIV72BT1h8+NGXQ1Js7GwOIvTjUwOPv9kCDyetsN98OWUfwBRwu1bjDnk9C3zZLVy50n7aNxZVVL9uMW0OwW9512KQjerTUVafiA1R39VAOs3fVRLyV+qFIU=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.205-1" Name="TE001 Transmetteur universel" SerialNumber="9 / 5" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.205-1_P-TE001" Text="Transmetteur universel" OrderNumber="TE001" IsRailMounted="false" WidthInMillimeter="52.5" DefaultLanguage="fr-FR" Hash="iMJpjsP+A0V93NMtH4/5FsFA/uo=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="H8z9qq6srshqh+JNYV2v58vlrCvv3ebL/KyI6c3kbRFqyyVpgYcs6X8rx5MW4UFkxGhrIwPVMLn+EScPG538TvDGhDov4s8wrY/u8n2qc3iuKxdh8YZd4hwK+88adzpGsYxdW+gHpKK70zasVWQe8A8+F/+ZpCyGUlc8jJy5zVw=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.205-1_HP-000B-10-3D88" MediumTypes="MT-0" Hash="lxtAC0Pda1wEZG2n7m+rntOMjgI=">
+              <ApplicationProgramRef RefId="M-0009_A-000B-10-3D88" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="QfFkw9UXVs3+hQcqTZakb8KnHVV0xH7E0LksPudfduZc1PNS0JRKcJAYmXMtqAC8MVa1F+KapR9gHqUIXnSunzUiuwVF2uzsXGvD5/mDwwS2T7b+vprfZRdN4zwuYxNzG5RTAti58NxU9P1zrTNZdEodoDQhMlY9iuiqH0d6LK4=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.208-1" Name="TF002 Programmateur hebdo. 2 voies" SerialNumber="9 / 8" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.208-1_P-TF002" Text="Programmateur hebdo. 2 voies" OrderNumber="TF002" IsRailMounted="false" WidthInMillimeter="52.5" DefaultLanguage="fr-FR" Hash="FQMoajoYl0dcuAkXVXajyX9XRZw=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="ScfH3ZRhu3X03rESbwbrYy0fauA0+/s/sYI8Fk96AtlXWx6pklRXEqRdgW21eZOmK8E1Viva6X+qMXUBS3vnl8xqdk3C7jLf1IEDuVy5eEqAJgWLoVO9U26SvlivGrHLsacxKF/9U2Ss93RgunZwYJXXBjDn2v3JSXle/n/bEPc=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.208-1_HP-0001-10-BAC2" MediumTypes="MT-0" Hash="fpJ7P27qnl6mB9pM4lQQRO3U9Ws=">
+              <ApplicationProgramRef RefId="M-0009_A-0001-10-BAC2" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="yVUsr8+b2kwh1MaUy3KTFJZvtki1up+ExouPPjuVfndHl3Yrx9uMBBD+ILycgTj3rFjlA05h26OCbiTyfp1CVgR5II/evvRWemegV0QUX+7FP4jOKzWOBHaAVY5pjHxjIfREbq7bnKis1SS8L8efcHSInV/vJPPsjKQdmafBx2g=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.208-1_HP-0001-20-0BA9" MediumTypes="MT-0" Hash="oeH/sKkqh5Youh7JX0ZJtuk/NL0=">
+              <ApplicationProgramRef RefId="M-0009_A-0001-20-0BA9" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="bjrcayEY5Bg7RMfOW4dvtf7uLDlPlxwhjZRWMdg4K4CXhGUIo0OANmR9shAkqxGyMOdsUOa0XeAQptW6T8Iz6ZXArVU/sHzL2sldMpWbZa3eapcxO5tBkbqSV9orW617i52AKw3vbbovSD3URy74GkCm1yyj4Tdkd6PttfcIl5Y=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.209-1" Name="TF003 Synchroniseur" SerialNumber="9 / 9" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.209-1_P-TF003" Text="Synchroniseur" OrderNumber="TF003" IsRailMounted="false" WidthInMillimeter="52.5" DefaultLanguage="fr-FR" Hash="Rra/23C+1zh1zECEsmLpmfTLzTE=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="lw81OF4Zy1iKM9RfkrimBvs13Egm1GA7lKyrh12PXpSza0EGuos7XIz7CEuO+tLtQ3QyqaNGT6Pghl6S7GTjV+UioRnvUrz5P/ZUu6pTomzovyoPKbSwgzTBkzOBhKIppXVgDfSE3dyM3ZCOLFMmyOpTHeqedC9n+feyxsi1grY=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.209-1_HP-0003-10-7D03" MediumTypes="MT-0" Hash="t9UZM7e5cryurrosEOubSsHORu8=">
+              <ApplicationProgramRef RefId="M-0009_A-0003-10-7D03" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="ynkOiqFdeMDRGbRdGvpa9rEQxhBrBAfuc+CaYRssxKjniFczOD7Tl+lf5vahmkFWiXWkdiLExP7X7tio6LxJt8ocuKvHGrXkyp3h5KPviggR+L8kumr477SVpoN7MW+1n+Vh7HsxAJKqrIjDut0xIeB4OKl7Bz+pwBt3prYfpCA=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.209-1_HP-0003-20-41B3" MediumTypes="MT-0" Hash="9cdNnagTApmEzsff0Voe65UOrQI=">
+              <ApplicationProgramRef RefId="M-0009_A-0003-20-41B3" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="KVDSUyNTpdswWR5HZWtKNSNGUp6QhHvRVi5tcfu+rT0EvcVyXwijE6lLK3nTh6m6A8YnIe1SBN2aQmaSEut7/m+d3et1h6AXosB4lXmwD5z4TwCFOPl7Tr53NyQb9QMoMZpysBHStQb1e2+IWDcv2E45O4/MXges1SfglazdRGk=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2037-1" Name="TG017 Module de surveillance" SerialNumber="9 / 37" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2037-1_P-TG017" Text="Module de surveillance" OrderNumber="TG017" IsRailMounted="false" WidthInMillimeter="17.5" DefaultLanguage="fr-FR" Hash="LdaTmPsXwxMurQpTZTASxRYLQUU=">
+              <RegistrationInfo RegistrationStatus="Certified" RegistrationSignature="UdEPhHtD2W236Kv6p8y8yeUrEPIg3sGhq/p9YLlNQsNpd58cJY7LYKni+45WqmtpM9TCx9MaFpOuRPB7XsORmGdYFsAPb+vxq9gF/niyaEI1NiK5KmwOtCM0iPxMBM3+Nunt9MaltknjQ1i30PS1JfiMQBJ1EmPOtUaCU1mQYeU=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2037-1_HP-0026-10-8911" MediumTypes="MT-0" Hash="aMDi2vMW3JMCVEIcH9plgHUqsow=">
+              <ApplicationProgramRef RefId="M-0009_A-0026-10-8911" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="maBJS6Zs0AewANAjFbH227JUycUriJ7SBvlYr2Sl3hPGLH4XMwzzJwh5epUJ48XrAh6frZVGbgtYGt/jlKrxrH6k/MkU/siouJ62gmge0D96HKpITQU3wumfrwG+0O80OJPXCICHlwFpO1nYoK8YLfkoslLIkVgKN/K2dEsXNFk=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2037-1_HP-0026-11-138B" MediumTypes="MT-0" Hash="eE1XcLIjkDScZ7tV+LG51+b872M=">
+              <ApplicationProgramRef RefId="M-0009_A-0026-11-138B" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1997/2413" OriginalRegistrationNumber="1900/0" RegistrationSignature="A7V3PSy9v0gViP8lg9zZk1sBJfYkxQDz929EQN1WoByJkKmsIzoDgn1iQBS1u4FGk8PmM9kMQUkowRXZrdSuEzWzst0VG+6LYv2G8/Zt84nLbI1joWLUvegF0t7cw4L6sJHVdJxNKKDSCwxQqX/c9wLOjdDkRf9r7JUeK1vF3qw=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2048-2" Name="TJ110 Simulation délesteur" SerialNumber="9 / 48" VersionNumber="2" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2048-2_P-TJ110.20" Text="Délesteur 1000 voies" OrderNumber="TJ110 " IsRailMounted="false" WidthInMillimeter="105" DefaultLanguage="fr-FR" Hash="IjZEQLei6hwupLrB8xX6y/BU3UI=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="nOnhVbopeBFaPBm7uQN+hwoKbLRIEOXzyde3UM+qOtvIbFr3JpgS5xpy5rsP4Oq8pCp/RvE8sp6NyhDcCIDmZP5FIfxqluxbSB+dHsB/tWCQA1Bn40dA7pjhlmheMF/BuDJfynVrR9xSaIxvRCkWnJoRqCpvSmcLHqxCa4k95dA=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2048-2_HP-004C-10-E9C7" MediumTypes="MT-0" Hash="OfZnNy6XCbUZ9UrQA59QVd4oVt0=">
+              <ApplicationProgramRef RefId="M-0009_A-004C-10-E9C7" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1997/2527" OriginalRegistrationNumber="1900/0" RegistrationSignature="Cr5NL3It+3Q/8Wrnv1x92suAKjlrUi22JLDjTvIBmb7mUMlA7c4qHmd4s7JZOpdkbWOTBlgv06a8DWw2jJjDvkNQscjsYDbvwx2o9TAX210mmv6DFu/i+Dw4xkPJjgCMzMT6Vev3mP4JCE30WNnB4YRJnpDR/FMjsm0qJpwhD+s=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2048-2_HP-005B-10-EA61" MediumTypes="MT-0" Hash="Cro4J6O1rk7jVx0OdD8W99kaTdY=">
+              <ApplicationProgramRef RefId="M-0009_A-005B-10-EA61" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1997/2527" OriginalRegistrationNumber="1900/0" RegistrationSignature="V40cHinletSSspq1xIS1I4rHaXgMf1W6Rxv5DY9C9dxD963SgsTKjpeA6hoh6WGwcNuiiMcl9ITT+92vs9GfIhYGS3/6BNU1OkM2C+7f7TlN7W1vyu7nDS7e8J3HotYLVeqeeqnMIWB51HifAgqH2JRvK7y0WIFzLgK21OGaECQ=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2048-2_HP-005C-10-F8B4" MediumTypes="MT-0" Hash="DeH02j/4/hgpG5IjTSNiDMF7+Jk=">
+              <ApplicationProgramRef RefId="M-0009_A-005C-10-F8B4" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1997/2527" OriginalRegistrationNumber="1900/0" RegistrationSignature="D5hCegtIyfX2Xi2Cif6q8evu2uDSShtxmcOQmamvd+a4aOT47HP0/03nRQUXkWTpW7syvU7LwO5R3ncE/u0BIyWr+bMCqDOxVfUkJ0ZijL6w5UR/zYl1U3t9wryushe38BZ3BxKF4Bru4NHpb1q05Wtqp3JdLEFohApxantC6d8=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TF013-1" Name="Régulateur T° amb. avec dérog." SerialNumber="9 // TF013" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TF013-1_P-TF013" Text="Régulateur T° amb. avec dérog." OrderNumber="TF013" IsRailMounted="false" WidthInMillimeter="0" DefaultLanguage="fr-FR" Hash="KTEbLTDizoNgnYiCYXZZchNGWiI=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="jNxuQYI3RhSwvEYbTjlRxv5Uzwkc18qEQWHDV7UUfh+1eyHvwo1mlC6FQjq8sWeMZHYpVIXA20yLOHQ40p0MebISvMuHK4UOjmzBpCSaaqxb31LON5xlegP8ooVB8KCLp3juicOlAlIV2wLHJBE8DuLeAVca9RA8bh4gJ2EKvQY=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TF013-1_HP-006F-10-DD19" MediumTypes="MT-0" Hash="FGpAz3D7EUtDrg+1HFIvBdbRBfs=">
+              <ApplicationProgramRef RefId="M-0009_A-006F-10-DD19" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="sUIW97ORQe5jPaIi/Zax0EHiZZYAUFH3SSwN7zf9tsFAuQla/uX2Labkp0kjq0fGRJbgTR6nB3hDJXrYZ/OBwMqnKbsGlSShSGMbvZw1tyOOzQyJElIvMEDqZ3BfJNtPEWUYog92fjPes+Ae2Cqp2BEbSEQio8iQ0jOoQ+Sd2tc=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TB030-1" Name="TB030 6 entrées 230V modulaire" SerialNumber="9 // TB030" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TB030-1_P-TB030" Text="6 entrées 230V modulaire" OrderNumber="TB030" IsRailMounted="false" DefaultLanguage="fr-FR" Hash="UHGhSwGi6QBUlBXicVUXyenTkGU=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="x/wD425ZwZ8FfNqfevJM7fM0KX7IgCWHciGbMg9USlaArljvlzJ/mTsTVf8Kla8UD0DlhzlCRQtNtrDk4sdQtx52gaxcz2Cs9bqfqcsgXWG5Ebiue3EqyCIUZ6H0y6egVhA2ukjHnOeAzejsxmJJcc9UAv0eacxqwNcxy7ieBDk=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TB030-1_HP-0094-10-DE10" MediumTypes="MT-0" Hash="heLRBy2Sy3BRYni9/Q59jXGkVpU=">
+              <ApplicationProgramRef RefId="M-0009_A-0094-10-DE10" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1998/3075" OriginalRegistrationNumber="1900/0" RegistrationSignature="huRhSyiawKOjl7HIVwBbECnXc1hn6TMClLy40ylleNO2QNc8YxhECJL+lbhSEAU+i7rfRpp1sb5piUecUnuxbcUY998o3zYLw6h+oeIg5dwNWq2Z6KB7PEMBsO7mAQHeOwRJgesMxIN4MTuJkSQ/xRSIxJjnjUX9j7q5w4Uqh5U=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TB030-1_HP-0095-10-04BB" MediumTypes="MT-0" Hash="oUVD0os8VvTnbav67IaSuRAbA1Q=">
+              <ApplicationProgramRef RefId="M-0009_A-0095-10-04BB" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1998/3074" OriginalRegistrationNumber="1900/0" RegistrationSignature="o8OG/fza1TA9V3mY1FG0izJ2uTvZjBalyUGiKcEJlhuy0g39kMQDNgksTpsfHHMwkZ1Oo9Vex0TT5IBMJnMHngDiYhNc84ZQdc+Wgk6oXW2JzrL1xqrQIxcDgwe9L3s94D0ngvbeqUxN5WwsYf7pZRrJ5DYAxMxjpKyaX9RQk7E=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2011-1" Name="TH001 RS 232 modulaire" SerialNumber="9 / 11" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2011-1_P-TH001" Text="RS 232 modulaire" OrderNumber="TH001" IsRailMounted="false" WidthInMillimeter="52.5" DefaultLanguage="fr-FR" Hash="tng//7bnpaFa/eJDZGpCjG5c8ME=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="Rc843dWPhjo5h4OGiRDflNwVnbr7uVoxVMZnBnsGW9lZMvXUFd1/tNL58C/pjgqsj/xbTsBpTroPZtQNUVE4Ro90B0MWHre8R/oXgRLzcZ+X8TVjRTW28VF1vDQxdKIDcA580O8aUTx3p9MWqPO/sHCLRIbyLAXF6OxqIiZiEDY=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2011-1_HP" MediumTypes="MT-0" Hash="G28jyojBgOV2w6kmO8EDfwPKdRc=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="w4rS2RV43KT9hQ2mvPh8HIkKe+ff1sEtiq0c7Euyauqj0Kwcb7SPpHZWNIcy1Jn+oQ7WAwG1ySa03z6nf8IFb3ASBNdszLQiN6Lj4hQqNyAkbbO4isMk1m3JmhhQMQM+WJGeqAnVZG6YwERfPgQ7ayfEGNSMW++AmjMNMejbHRo=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TF012-1" Name="TF012 Régulateur T° amb. avec dérog." SerialNumber="9 // TF012" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TF012-1_P-TF012" Text="Régulateur T° amb. avec dérog." OrderNumber="TF012" IsRailMounted="false" WidthInMillimeter="0" DefaultLanguage="fr-FR" Hash="QQwxvm9XKEQucqPANYywmkREwno=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="o0FJzsQRTVcXSnQpEfBmbXQnK04KcQh6NtbZJ66iIXFnV148X2KX6mJRxyHErK/VmMzb1UCcLc25rVf20Kfw7ldtX6DPTNRjaFSr7XFLsasPfRn8HFLLB4QRu3OgKCNxmcxrGqgAPdKpMMVYNha06G8wrDIL0S/gTgg8WBTFq5E=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TF012-1_HP-006F-10-DD19" MediumTypes="MT-0" Hash="ZqRFklPfMcvi8lvnBqLGYVTs1+Q=">
+              <ApplicationProgramRef RefId="M-0009_A-006F-10-DD19" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="n3oRCfJuJF/WI72BqenkmkOKoI++FOtcC3zAfZL+BNZWxbZGKGmAxeB9HuLNWJTFdw7eBchWw/zUhDe5VJ2ONlgCYir2y4pB3Ortq5Tw31hB95CIOKtQtbNaymbKXMNZ7hWJ/ZRfW883yu6Ia1lB0WEePcC66Gz9lVlD7r6tU7c=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TB040-1" Name="TB040 4 sorties 8A modulaire" SerialNumber="9 // TB040" VersionNumber="1" HasIndividualAddress="true" HasApplicationProgram="true" IsPowerSupply="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TB040-1_P-TB040" Text="4 sorties 8A modulaire" OrderNumber="TB040" IsRailMounted="false" DefaultLanguage="fr-FR" Hash="p/gzC1jXtHBhEoNNlr4w1CaHstY=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="HlUoAq5Q5lL3cmfmZuf0xIYh8E5/p54LuMlvCoWaZMnSSXvcq5HNnB1rVHDlP0XsJvMSYFYW1QFiVlNkST4AJKHkE3SVIJ198u2NF+MPVg5QO0XyhV5355j5rEpusYBHEdc+l/IOoQsGM20GeYLoSMmo8yWW39NVu4HPG3zZyrI=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TB040-1_HP-008E-10-2174" MediumTypes="MT-0" Hash="dLCGiTOfivb0RRWQ2mYOZeqW1KU=">
+              <ApplicationProgramRef RefId="M-0009_A-008E-10-2174" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1997/2549" OriginalRegistrationNumber="1900/0" RegistrationSignature="k/DdDNYMbaAOwXhqZmu+k4IgkjzktnixaOUgRX5ik+oaxqMeU/tfCYMVaoG99LD9dh0hnVa4/9jXO7GhTRw7rqnHYVyb1leBJlLTUYY1hMGW7gnNeeK4H/yfgiwf6ZlWe53mmr9bG/aLrKCEQH/crsWXS/czndFPLmfAhFjmswI=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TB040-1_HP-008D-10-5891" MediumTypes="MT-0" Hash="3uSTqtTXoO2mlhftqoVJFh5tL8E=">
+              <ApplicationProgramRef RefId="M-0009_A-008D-10-5891" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="1997/2550" OriginalRegistrationNumber="1900/0" RegistrationSignature="R3jftx5jQSzlC7JG6E1KdHUjCOcOHmjliijLtET0qsDTNcsu0NhwCYlhoiMrgBsMb1mJi01PDCXO4+dQDYpeU1+nL6Mjr2HWAMc0dOHa13m0UtCQP14VG/pYTgFTKMyzbikDRNgwtHuf6djvaeAow2wu6VpGqTYzRJk5VVSMfrI=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TB040-1_HP-008D-11-7620" MediumTypes="MT-0" Hash="kzuFR3q4qrq5fsoSKO0Gbwiaun0=">
+              <ApplicationProgramRef RefId="M-0009_A-008D-11-7620" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="2000/2550" OriginalRegistrationNumber="1900/0" RegistrationSignature="ySXtDi58ZLX16hBB+pYgbyPCdU1ZckxQAj10qDAhXNxZ9Fa5GQWSUxFbtTT9z8zzIszERkKNW/UHjAZZpvioyZvVel/LJ0qnlB4M0+u+TbYvSbRpZsrT3T3ZcQ/6oFiQ/xM8bdZ/J3jusAB+2NNKkwtJE+QNbalR3tjVz13FFPM=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.203-1" Name="TB001 4 entrées 230V modulaire" SerialNumber="9 / 3" VersionNumber="1" BusCurrent="0" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.203-1_P-TB001" Text="4 entrées 230V modulaire" OrderNumber="TB001" IsRailMounted="false" WidthInMillimeter="35" DefaultLanguage="fr-FR" Hash="3T8RFW3zSHANvklq5Ra05+rB6R8=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="wOJNWJPxpUAFWlgKblJkvAOpaYLk4pBWAIaBDcQvvDFDCBgBRoWODlfLgHTs3KIqpSEBufhpfCdusTTgCKnvaGJQonSsOICqQEf3pMinoJCmb9szmuHiCcj64pr5l+vjFInX31NtwVCzSopWREWAdxr/NHoW2CPMV0pqFjujsrc=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.203-1_HP-0024-00-A8A4" MediumTypes="MT-0" Hash="tkRFzIw4X5+FQPK25tyeJW02sxY=">
+              <ApplicationProgramRef RefId="M-0009_A-0024-00-A8A4" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="r3sPN1kPaAP+LnPqjTacmFANP4HZVA8CieLW4v1fTNw3K7+DjOAtVLWuVFIMfOVZTXbauxjkWJrQS9Z/z9N19QKyj4KUjkLNIchGCmlVbWeuJEIASpHBC+RmQ60PCpESDWiA/C19jbCrvJ2ExzY/3H/mJihj/XhFGkJPgomLEa8=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.203-1_HP-0038-10-818F" MediumTypes="MT-0" Hash="I6mKAJTSh1c6E8CzQwLUeraYSoc=">
+              <ApplicationProgramRef RefId="M-0009_A-0038-10-818F" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="xXKKZ9lacb/RUGXsOam7/rWt5TUDSMN2UC3aTHUuZSkRup/OCdjyuygIVRtYEbvSS47FNvc6BvbD/9iG9lZRPqtEmDQTL99ydylug5x+sMtqulEXOjE4ZaPCaMtpM2EoynjVJByjqkq+3gWNJPwQErgwLKNXjHmwr2uM433FBHg=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.203-1_HP-0033-10-61C6" MediumTypes="MT-0" Hash="qpjMH7q5WvCYCDZmY58cu0DmYk0=">
+              <ApplicationProgramRef RefId="M-0009_A-0033-10-61C6" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="MLh3vmfIDAuOBoTLEmGxKSQCPXt1SNH5VXRDxZEldzQCy0GdX6cMqJGiiJdIiQoYNLLxAjqF+VtiRG7+1vhBdLfySdQv1TNdFf/3mQtjGfXFf8XqTiGMA0fFsvsTmSiVyCpdQ3R6NsGUu8MQLngCFHFyPnACEsZqjr+AGIWRIwg=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.203-1_HP-0032-10-D6E0" MediumTypes="MT-0" Hash="cQgbXMOrQBowpMExiYk6YgvAp4k=">
+              <ApplicationProgramRef RefId="M-0009_A-0032-10-D6E0" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="hl+uzYzSwiRa89J9jkNNzZocBCgfNEo/0MPwXjE99u77lVDN2aHmnlxjxrPHweyRb2w/CPOuV59IGG8oggnFmzV41RnAp6MovM89I0S48RyD8YnR3zlOvgbKiNVWfpNXVBy56Ex3rj9LcOtXjHRU68RjGnY8V801C4L/qBr0urs=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.203-1_HP-0005-10-E06A" MediumTypes="MT-0" Hash="kXQCmIO2O4qbnFeHkhiUAhawNJs=">
+              <ApplicationProgramRef RefId="M-0009_A-0005-10-E06A" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="H1Te3hl0wFXYI5br8i1bWtf74Nm6BM0f9B6vH6H5jFTNSnHCkG55OoCZ9QtptwrKXaCP/gMdgxA+Tbnzdkuq9x878o8uR1fojyeHKYUYu3XuxahnCLIjHOaiGdTHr/w5ZWkCtIuQgneIqRApl4bb2anSMcCKBP/yRfZBm59SS4k=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.203-1_HP-0062-20-A556" MediumTypes="MT-0" Hash="m7xptE18G4civfJKQJn+kp93fVc=">
+              <ApplicationProgramRef RefId="M-0009_A-0062-20-A556" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="jJzHRRVK+FK1eyBApO1SOhHiDM0JPC6+k3iaaeytquQaTQkO2bhZrieiKdl2hdigrfGfHOyx6AYzzoM6qSx3HkdUwE+EhzGoHKzqNM0Vkbk9PKJBualL01poW2+wuzr4loLUVKJhdTehcVpIxVOOFQdXiF4rnumExYUq+c9ltC4=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TX320-1" Name="TX320 Thermostat" SerialNumber="9 // TX320" VersionNumber="1" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TX320-1_P-TX320" Text="Thermostat" OrderNumber="TX320" IsRailMounted="false" DefaultLanguage="fr-FR" Hash="mtyU/BPVDMNetocn23Q3ReoZmt4=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="qXwgmTP30WHb6tMt4CZSi5KYvh+ihQy6FswjLjaTEzJ9BCVPZbNaO1YHGR/L0g+jKIQb47LhR1iLNeVf6kS1VkEI8vvtvqREACiKfHlvNBhx+pJL6Glg7PUDdfOGofKo4E4CpHpuSVwW6JVLUywhYclsjOvmRtr13D25BG9m4Vg=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TX320-1_HP-2051-11-B82E" MediumTypes="MT-0" Hash="ERS5d4YdFwpXjA6ggmJKd6lvlvI=">
+              <ApplicationProgramRef RefId="M-0009_A-2051-11-B82E" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="2006/7756" OriginalRegistrationNumber="1900/0" RegistrationSignature="yQMyyWwR0nLj/BIdRNjWE74YaGGK2zQ7fBgc6IFXasf306Pji150wAHxw5Hkw2SSTTvBBD7t+ZuA2JKpLt7tPaAS0UAPQpk0B8XvIGgjxHeLVkKP87hzD+G/fgaWWbeWR6LLfb/wAFHMtlFNwUfw2PDSjphUM+YILsCoTSmVfYM=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TX320-1_HP-2051-12-143C" MediumTypes="MT-0" Hash="KA9ZBo1viapKSJ7wYyVAQGyVbqw=">
+              <ApplicationProgramRef RefId="M-0009_A-2051-12-143C" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="2007/8106" OriginalRegistrationNumber="1900/0" RegistrationSignature="irARxJua8O40untSFvi6SZ+94p8Elv08htWXoIfnM8mduiXvqnTrdPoh9s4wX8RVswPssd5/b2eh3tRObAW3xpcPoz6F6ht3h/JzPmXeJBjNtB5ByYjR5LevYdTG1E5P5tLj7EAKARyOxgEHZ/IhWIbw+U88kF4hU46BCSlc0fQ=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TXA204C-1" Name="TXA204C Module 4 sorties 16A" SerialNumber="9 // TXA204C" VersionNumber="1" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TXA204C-1_P-TXA204C.20.2D.20a2" Text="4 sorties 16A éclairage chauffage" OrderNumber="TXA204C - a2" IsRailMounted="true" DefaultLanguage="fr-FR" Hash="7ZKPiUZp7jGA00dX1WLGrL5bmn8=">
+              <RegistrationInfo RegistrationStatus="Unregistered" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TXA204C-1_HP-2073-30-F333" MediumTypes="MT-0" Hash="eI4AEPxOESoRr30a//5ZGtg1vVU=">
+              <ApplicationProgramRef RefId="M-0009_A-2073-30-F333" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="2008/8522" RegistrationSignature="T7mQCJpfEE7fnkRbUwEBQTDVjTr+1grmdTvpr9ba6GLHwz1X3QMCI6johBpTG1Jww7NptLw5ZMYrXOxkDOrJ6ko7N45T2lOsf+bG9ZEmt52NmOLxDeRWcTGtzZ12QCiBekRYjuXbTSp0gpUI1vDy/+UhwXPn4w5sNXlciX9X9N8=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TXA204C-1_HP-2044-21-EF1F" MediumTypes="MT-0" Hash="ojVrAOBY03Zja/pbvCX/JzJDum4=">
+              <ApplicationProgramRef RefId="M-0009_A-2044-21-EF1F" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="2006/7422" OriginalRegistrationNumber="1900/0" RegistrationSignature="b0EM65tIPlm8STM/kDXSVTwJiYLRDswo/A6n/Y7bHFh8rYzw04G0PtVf+Yt5pElaNIYCZeRJQlFEh/SsI3AONgrY+t8kDoWSYXYaZS3LMoKDVrHi9bu3A6O/oFrzdrhZmsLCS50Vad/jYndXlqSQM70A5Bk/47RYE+avOIfb8g8=" />
+            </Hardware2Program>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TXA204C-1_HP-2044-20-51DF" MediumTypes="MT-0" Hash="DCxFffhYzNLKsSwdlCYQm5+2Orc=">
+              <ApplicationProgramRef RefId="M-0009_A-2044-20-51DF" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="2005/7159" OriginalRegistrationNumber="1900/0" RegistrationSignature="OrXqzxnIZUYk6y5SoTk0OyRPbUYAwCnUPBBU5+AlFbo3izH/Rxj/Dcy4Y5Ht0x9KNL1Itkvb+SDv3qzP6GMQ+P39/CVrj4eehS9zO5mzowNjLMrpDAHfj3TpgOHtWfAipyvKMpyhKBvPXSHB53XZRoJD2rVUd9JwrtbKnaEPEgE=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+        <Hardware Id="M-0009_H-9.20.2F.2F.20TYA608C-1" Name="TYA608C" SerialNumber="9 // TYA608C" VersionNumber="1" BusCurrent="16" HasIndividualAddress="true" HasApplicationProgram="true" RFRxCapabilities="Ready" RFTxCapabilities="Ready">
+          <Products>
+            <Product Id="M-0009_H-9.20.2F.2F.20TYA608C-1_P-TYA608C" Text="8 sorties ON/OFF 16A 230V AC" OrderNumber="TYA608C" IsRailMounted="true" DefaultLanguage="fr-FR" Hash="Gjft/HqPz/lAk/IAAKr0I8d1eiQ=">
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationSignature="fmvD3VVa6TT0F4HKZdWZCrROoswcp5eDJUMr79t8SoJTypHAiymF9osTc/haUmyrGVGiIOiussDOyXO3lLBsKUZsTduhN5PocTUhkQ92i8ivVGsymqo87OUhSmDvbEN4t3Ed4kDFFrF67PNRbz5LleLEDG1iH8MezfWQzuW/g38=" />
+            </Product>
+          </Products>
+          <Hardware2Programs>
+            <Hardware2Program Id="M-0009_H-9.20.2F.2F.20TYA608C-1_HP-500B-01-D868" MediumTypes="MT-0" Hash="cEdQgPK9toTQZE6o7SLNM+s61Y0=" CheckSums="AQABAAMAAAABAAAABQAAAAAANQAAAAAABAAAALYhtYA=" LoadedImage="3ZSHbxxFFIdnZndvxrtrnxObUGIZMCUSoZPExqFIYFqCANFFLyd6kehNEHrvEEgoC/wnpknUA4QAUSV6EyCqRAvfzqzji+5uvNbphOTLfvee38z9dva370UKKc4Wgu/iMyGEDvh7Ugs9mQn9LDwHz9eFfoH4YtajX8q0fpn8FXgVXoPXoQ5vsO/NTOq3iG/XjX6H2rvk72VGv0/+AXwIH1H7mPgJep+i9xn55/AFfAlfwdfwDfu+Re874vfo/UDtR/Kf0PuZ/Bf4FX6j9jvxD/T+RO8v8r/hH/gX1mXCCJB1YVQmTUAM68ZUqGlykxkTkyeQQi+1PmI16zHzM20GyAdhI1gAG8MmsCn7NkNvIXEIvWFqm5Nvgd4I+VawNWxDbVviIvS2Q28x+fawA+wIO8HOsAv7dkVvN+IS9JZRGyUfQ2+cfDnsAXtS24u4N3r7oLcv+QTsB/vDAXAgHMS+FeitJB6M3iHUDiU/DL3DyY+AI+EoakcTj0HvOPSOJz8BToST4GQ4BU5l32nonU6soXcGtTPJz0LvHPJz4Tw4n9oFxAvRuwi9i8kvgUvhMrgcroAr2XcVelcTr0HvWmrXka9C7wbyG8lvIt4Mt8CtcBvcTv0O4p1wF9wN98C91O8j3k98gPgg8SHiw7AaHoFHYQ31tcTH4HF4Ap6EjPpTxKfhmXoSMRJVscyOhrTklV6xxFaSvCLFMEHl325tqV3T+VqPiAmDru5Ueq3Klv1yZESsE4FUyq2Oelarxf3sauwGlXrEh6xPjNnKgP1tmqfs4Tgy4pra06AgGk5crLozDxVPmS8PbvBd1Nxm9yDzGo5atTdT6282OsOOanHDcOo4ebGnOGP+gPJ6xQHVsWJ16pbc/sl8SbH7f/3X8cc+kXNxvnVgJHeBS9XyS9RqbouzcaHdInMLizaMxQZHsXvHprvObSjqu9v64rzePy9/i+6airZHGq/GI47b3/a5I0pT/Eq6ZVm8LjsWq1xlacMPhAjyyz2YW3aPnHeoHLLLYhgx6Rbdw07YNyztHTr6OFHnyoIpk7lZ/qWmM7fNmTTQyuj1UuMNuXsDebZ8+pHUon5Rk/Z/BLuomgxSfoOUzyDVDYNUOYNUCYNUS4OUz6C4/cDHc27g45kHPp7FwMdtBj7uYOBj/8AHTf0c+Ps58PVz0I1+Dsr1c1Cin4OW/Rz4+jlsMij0GxT6DAq7YVBYzqCwhEFhS4NCn0FJ+4FP5tzAJzMPfDKLgU/aDHzSwcAn/oGPmvo58vdz5OvnqBv9HJXr56hEP0ct+zny9XOlyaCK36CKz6BKNwyqlDOoUsKgSkuDKj6D0vYDn865gU9nHvh0FgOfthn4tIOBT/0Dr5v6Wfv7Wfv6WXejn3W5ftYl+lm37Gft62fTZJDxG2R8BpluGGTKGWRKGGRaGmTaGfQf">
+              <ApplicationProgramRef RefId="M-0009_A-500B-01-D868" />
+              <RegistrationInfo RegistrationStatus="Registered" RegistrationNumber="2013/10878" RegistrationSignature="T4JiNKa8GM01vzWddJGg9mi2JzLmZj3h6GT9T2LlsIPJpvGO/pLHtCVT0q9Ofrt4/PM6eRI0k9PC6B3DqysDwJ0YcXAYLUl+9Zukg6DTLBe/75TOrH0H7U5rwRh/rKc6wKYacJ7Y9XldrZeSi7VTjKHgYOwhnAlxiAqJ9zOofw8=" />
+            </Hardware2Program>
+          </Hardware2Programs>
+        </Hardware>
+      </Hardware>
+      <Languages>
+        <Language Identifier="fr-FR">
+          <TranslationUnit RefId="M-0009_H-9.20.2F.2F.20TX320-1_P-TX320">
+            <TranslationElement RefId="M-0009_H-9.20.2F.2F.20TX320-1_P-TX320">
+              <Translation AttributeName="Text" Text="Thermostat" />
+            </TranslationElement>
+          </TranslationUnit>
+          <TranslationUnit RefId="M-0009_H-9.20.2F.2F.20TYA608C-1_P-TYA608C">
+            <TranslationElement RefId="M-0009_H-9.20.2F.2F.20TYA608C-1_P-TYA608C">
+              <Translation AttributeName="Text" Text="8 sorties ON/OFF 16A 230V AC" />
+            </TranslationElement>
+          </TranslationUnit>
+        </Language>
+      </Languages>
+    </Manufacturer>
+  </ManufacturerData>
+</KNX>
