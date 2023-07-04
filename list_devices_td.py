@@ -10,12 +10,19 @@ import csv
 from collections import namedtuple
 from app.namespaces import *
 
-def decimalToAddress3(decimal):
+def decimalToIndividualAddress3(decimal):
     decimal = int(decimal)
-    area = decimal >> 11
-    line = decimal >> 8 & 7
+    area = decimal >> 12
+    line = decimal >> 8 & 15
     device = decimal & 255
     return f"{area}/{line}/{device}"
+
+def decimalToGroupAddress3(decimal):
+    decimal = int(decimal)
+    main = decimal >> 11
+    middle = decimal >> 8 & 7
+    subgroup = decimal & 255
+    return f"{main}/{middle}/{subgroup}"
 
 
 
@@ -123,7 +130,7 @@ def parse_knxproj(project:str, graph:Graph):
     Hardwaretree = ET.parse(Hardwarefile)
     for area in tree.findall(".//{http://knx.org/xml/project/20}Area"):
         a = area.attrib["Address"]
-        a_uri = URIRef(a)
+        a_uri = URIRef(f"{a}")
         a_label = area.attrib["Name"].replace("\r","").replace("\n","")
         graph.add((a_uri, RDF.type, COSWOT.KNXArea))
         graph.add((a_uri, RDFS.label, Literal(a_label)))
@@ -212,20 +219,20 @@ def parse_knxproj(project:str, graph:Graph):
                         GroupAddress = tree.find(".//{http://knx.org/xml/project/20}GroupAddress[@Id='"+LinkId+"']")
                         address = GroupAddress.attrib["Address"]
                         
-                        ga = URIRef(decimalToAddress3(address))
+                        ga = URIRef(f"ga/{decimalToGroupAddress3(address)}")
                         graph.add((system, TD.hasPropertyAffordance, ga))
                         graph.add((ga, RDF.type, COSWOT.KNXGroupAddress))
                         graph.add((ga, RDF.type, TD.PropertyAffordance))
                         graph.add((co_uri, COSWOT.sharesFormsWith, ga))
                         graph.add((ga, COSWOT.sharesFormsWith, co_uri))
                         graph.add((ga, RDFS.label, Literal(GroupAddress.attrib["Name"])))
-                        graph.add((ga, SKOS.hiddenLabel, Literal(decimalToAddress3(address))))
+                        graph.add((ga, SKOS.hiddenLabel, Literal(decimalToGroupAddress3(address))))
                         
-                        knxForm = BNode(decimalToAddress3(address)+"knx")
+                        knxForm = BNode("ga" + decimalToGroupAddress3(address))
                         graph.add((ga, TD.hasForm, knxForm))
                         graph.add((knxForm, COSWOT.KNXMethodName, Literal("read")))
                         graph.add((knxForm, HCTL.hasOperationType, TD.readProperty))
-                        graph.add((knxForm, HCTL.hasTarget, URIRef(f"knxip://195.83.140.67:3761/{decimalToAddress3(address)}")))
+                        graph.add((knxForm, HCTL.hasTarget, URIRef(f"knxip://195.83.140.67:3761/{decimalToGroupAddress3(address)}")))
 
 
 def parse_source_devices(file, graph):
@@ -236,7 +243,7 @@ def parse_source_devices(file, graph):
         columns = list(next(reader))
         for row in reader:
             data = { columns[i]: row[i] for i in range(len(columns))}
-            ga = URIRef(data["Address"])
+            ga = URIRef(f"ga/{data['Address']}")
             topic = data["topic"]
             if "temperature" not in topic:
                 continue
@@ -256,7 +263,7 @@ def parse_source_devices(file, graph):
             graph.add((mqttForm, MQV.filter, Literal(topic)))
             graph.add((mqttForm, HCTL.hasTarget, URIRef(f"mqtt://193.49.165.40:1883")))
 
-            ga_history = URIRef(data["Address"] + "#history")
+            ga_history = URIRef(f"ga/{data['Address']}#history")
             graph.add((ga_history, RDF.type, TD.PropertyAffordance))
             graph.add((system, TD.hasPropertyAffordance, ga_history))
             graph.add((ga_history, RDF.type, JS.ArraySchema))
@@ -286,7 +293,7 @@ def parse_source_devices(file, graph):
             graph.add((httpForm, HCTL.hasTarget, URIRef(f"https://ci.mines-stetienne.fr/mqtt/{topic}/log.csv")))
 
 
-knxproj = "tempresources/knxproj/2023_04_06_Espace_Fauriel_v20"
+knxproj = "tempresources/2023_04_06_Espace_Fauriel_v20"
 parse_knxproj(knxproj, graph)
 
 csvfile = "tempresources/source-devices.csv"
